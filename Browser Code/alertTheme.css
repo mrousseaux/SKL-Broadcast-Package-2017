@@ -1,0 +1,41 @@
+/*SKL Alert Animations */
+/*Developed by: Matthew Rousseaux*/
+
+#reminderContainer {
+	width: 655px;
+	height: 40px;
+	background: #293134;
+	position: absolute;
+	top: 25px;
+	left: 0px;
+	overflow: hidden;
+	color: white;
+	font-family: 'Arial';
+	border-style: solid;
+    border-width: 5px 0px 0px 0px;
+	border-color: grey;
+	box-shadow: 0px -5px 29px 0px rgba(224,221,224,1);
+	animation-name: animateReminder;
+    animation-duration: 10s;
+
+}
+#reminderContent {
+	text-align: center;
+	padding-top: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+
+/*---------------------------Animation---------------------------*/
+
+@keyframes animateReminder {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+	
+	}
+
