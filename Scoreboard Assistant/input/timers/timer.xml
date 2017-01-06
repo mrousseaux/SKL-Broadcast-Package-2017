@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<timer>
+	<clockFormat>hh:mm:ss tt</clockFormat>
+	<watchFormat>hh\:mm\:ss</watchFormat>
+	<cdownFormat>mm\:ss</cdownFormat>
+	<cdownPreset>00:30:00</cdownPreset>
+</timer>
