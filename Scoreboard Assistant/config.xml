@@ -18,5 +18,8 @@
 		<item type="timer" name="timers" auto="true">
 			<head>timers</head>
 		</item>
+		<item type="music" name="music" auto="true">
+			<head>Music</head>
+		</item>
 	</tabs>
 </config>
