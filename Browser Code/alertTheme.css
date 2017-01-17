@@ -1,6 +1,9 @@
 /*SKL Alert Animations */
 /*Developed by: Matthew Rousseaux*/
 
+
+/*Ticker*/
+
 #renderArea{
 	position:relative;
 	height: 65px;
@@ -29,6 +32,42 @@
 }
 
 
+/*power play*/
+.barronIcon{
+	width: 74px;
+	height: 61px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	/*float: left;*/
+	z-index: 2;
+	visibility: hidden;
+}
+.barronTitle {
+	/*float: left;*/ 
+	padding: 10px 0 0 80px;
+	text-align: left;
+	width: 192px;
+	height: 41px;
+	position: absolute;
+	top: 12px;
+	left: 4px;
+	background-image: url("images/barronBarBG.png");
+	background-repeat: no-repeat;
+	font-family: 'Arial';
+	font-weight: bold;
+	font-size: 1em;
+	font-style: italic;
+	color: white;
+	text-transform: uppercase;
+	overflow: hidden;
+	z-index: -1;
+	white-space:nowrap;
+	visibility: hidden;
+}
+.barronTitle span {
+	opacity: 0;
+}
 /*---------------------------Animation---------------------------*/
 
 @keyframes animateText1{
@@ -41,6 +80,34 @@
     30%, 60% {height: 40px;}
 	
 	}
+
+@keyframes animateBarronIcon{
+	0%, 100% {visibility: visible; top: -62px;opacity: 0;}
+	.5%, 99.5% {top: 0px;opacity: 1;}
+}	
+@keyframes animateBarronTitle{
+	0%,100% {padding-left: 0px; width: 0px;visibility: visible;}
+	0.5%,99.5% {padding: 10px 0 0 72px; width: 192px;}
+}
+@keyframes animatePPSpan{
+	0%,100% {visibility: visible;opacity:0;}
+	0.5%,99.5% {opacity: 1;}
+}
+
+.barronIcon {
+	animation-name: animateBarronIcon ;
+	animation-duration: 240s;
+}
+.barronTitle {
+	animation-name: animateBarronTitle ;
+	animation-delay: 0.75s;
+	animation-duration: 239.25s;
+}
+.barronTitle span {
+	animation-name: animatePPSpan ;
+	animation-delay: 1s;
+	animation-duration: 239s;
+}
 
 #text1 {
 	animation-name: animateText1	;
