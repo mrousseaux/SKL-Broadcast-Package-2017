@@ -1,0 +1,8 @@
+{
+    "settings": {
+        "key": "  \nre_82068_fa09ec975ec2dc64bb92",
+        "server": "rtmp://us-seattle.restream.io/live",
+        "service": "Restream.io"
+    },
+    "type": "rtmp_common"
+}

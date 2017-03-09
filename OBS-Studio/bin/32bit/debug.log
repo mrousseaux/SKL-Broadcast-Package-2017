@@ -1,0 +1,1523 @@
+[0309/105301.104:VERBOSE1:pref_proxy_config_tracker_impl.cc(151)] 180619B8: set chrome proxy config service to 18063BF8
+[0309/105301.104:VERBOSE1:pref_proxy_config_tracker_impl.cc(278)] 180619B8: Done pushing proxy to UpdateProxyConfig
+[0309/105301.135:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Google 'Pilot' log
+[0309/105301.136:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Google 'Aviator' log
+[0309/105301.136:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: DigiCert Log Server
+[0309/105301.136:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Google 'Rocketeer' log
+[0309/105301.136:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Symantec log
+[0309/105301.136:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Venafi log
+[0309/105301.145:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Symantec 'Vega' log
+[0309/105301.145:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: CNNIC CT log
+[0309/105301.145:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: WoSign log
+[0309/105301.145:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: StartCom CT log
+[0309/105301.145:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Google 'Skydiver' log
+[0309/105301.145:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Google 'Icarus' log
+[0309/105301.145:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Izenpe log
+[0309/105301.145:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Certly.IO log
+[0309/105304.676:VERBOSE1:statistics_recorder.cc(498)] Collections of all histograms
+Histogram: AsyncDNS.ConfigChange recorded 1 samples, mean = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: AsyncDNS.ConfigParseDuration recorded 1 samples, mean = 2.0 (flags = 0x1)
+0  ... 
+2  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+3  ... 
+
+Histogram: AsyncDNS.ConfigParseResult recorded 1 samples, mean = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: AsyncDNS.ConfigParseWin recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: AsyncDNS.HostParseResult recorded 1 samples, mean = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: AsyncDNS.HostsChange recorded 1 samples, mean = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: AsyncDNS.HostsParseDuration recorded 1 samples, mean = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  ... 
+
+Histogram: AsyncDNS.HostsParseWin recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: AsyncDNS.HostsSize recorded 1 samples, mean = 959.0 (flags = 0x1)
+0    ... 
+777  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+1023 ... 
+
+Histogram: AsyncDNS.WatchStatus recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Cookie.CookieDeleteEquivalent recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Cookie.CookieSourceScheme recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Cookie.Count recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Cookie.DeletionCause recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Cookie.EvictedLastAccessMinutes recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Cookie.ExpirationDurationMinutes recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Cookie.TimeBlockedOnLoad recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Cookie.Type recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Extensions.ExtensionCreationTime.BrowserProcess recorded 1 samples, mean = 2482.0 (flags = 0x1)
+0     ... 
+2357  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2751  ... 
+
+Histogram: Extensions.FeatureProviderStaticInitTime recorded 1 samples, mean = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  ... 
+
+Histogram: GPU.BlacklistFeatureTestResults.Accelerated2dCanvas recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: GPU.BlacklistFeatureTestResults.GpuCompositing recorded 1 samples, mean = 2.0 (flags = 0x1)
+0  ... 
+2  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+3  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: GPU.BlacklistFeatureTestResults.GpuRasterization recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: GPU.BlacklistFeatureTestResults.Webgl recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: GPU.BlacklistFeatureTestResults.Webgl2 recorded 1 samples, mean = 2.0 (flags = 0x1)
+0  ... 
+2  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+3  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: GPU.BlacklistFeatureTestResultsWindows.Accelerated2dCanvas recorded 1 samples, mean = 12.0 (flags = 0x1)
+0   ... 
+12  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+13  ... 
+
+Histogram: GPU.BlacklistFeatureTestResultsWindows.GpuCompositing recorded 1 samples, mean = 14.0 (flags = 0x1)
+0   ... 
+14  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+15  ... 
+
+Histogram: GPU.BlacklistFeatureTestResultsWindows.GpuRasterization recorded 1 samples, mean = 12.0 (flags = 0x1)
+0   ... 
+12  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+13  ... 
+
+Histogram: GPU.BlacklistFeatureTestResultsWindows.Webgl recorded 1 samples, mean = 12.0 (flags = 0x1)
+0   ... 
+12  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+13  ... 
+
+Histogram: GPU.BlacklistFeatureTestResultsWindows.Webgl2 recorded 1 samples, mean = 14.0 (flags = 0x1)
+0   ... 
+14  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+15  ... 
+
+Histogram: GPU.BlacklistTestResultsPerEntry recorded 2 samples, mean = 60.0 (flags = 0x1)
+0    ------------------------------------------------------------------------O (1 = 50.0%)
+1    ... 
+120  ------------------------------------------------------------------------O (1 = 50.0%) {50.0%}
+121  ... 
+
+Histogram: GPU.DisplayLinkInstallationStatus recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Media.Midi.ResultOnShutdown recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Media.Midi.Usage recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Mojo.System.MessagesAcceptedPerEvent recorded 252 samples, mean = 1.3 (flags = 0x1)
+0   ------------------------------------------------------------------------O (90 = 35.7%)
+1   ----------------------------------------------------------O               (72 = 28.6%) {35.7%}
+2   ---------------------------------------------------O                      (64 = 25.4%) {64.3%}
+3   ---O                                                                      (4 = 1.6%) {89.7%}
+4   ------------O                                                             (15 = 6.0%) {91.3%}
+5   -O                                                                        (1 = 0.4%) {97.2%}
+6   -O                                                                        (1 = 0.4%) {97.6%}
+7   O                                                                         (0 = 0.0%) {98.0%}
+8   --O                                                                       (3 = 1.2%) {98.0%}
+9   -O                                                                        (1 = 0.4%) {99.2%}
+10  ... 
+18  O                                                                         (1 = 0.4%) {99.6%}
+20  ... 
+
+Histogram: Net.NotifyAddrChangeFailures recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Net.QuicSession.CloseAllSessionsError recorded 1 samples (flags = 0x1)
+3  ------------------------------------------------------------------------O (1 = 100.0%)
+
+Histogram: Net.QuicSession.PreferAesGcm recorded 1 samples, mean = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: PluginFinder.BuiltInPluginList.ErrorCode recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ServiceWorkerCache.BackgroundSyncManager.Scheduler.IsOperationSlow recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ServiceWorkerCache.BackgroundSyncManager.Scheduler.OperationDuration recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ServiceWorkerCache.BackgroundSyncManager.Scheduler.QueueDuration recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ServiceWorkerCache.BackgroundSyncManager.Scheduler.QueueLength recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: SharedMemory.CreateError recorded 2 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (2 = 100.0%)
+1  ... 
+
+Histogram: Startup.BrowserMainRunnerImplInitializeLongTime recorded 1 samples, mean = 49.0 (flags = 0x1)
+0   ... 
+43  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+50  ... 
+
+Histogram: Startup.BrowserMainRunnerImplInitializeStep1Time recorded 1 samples, mean = 16.0 (flags = 0x1)
+0   ... 
+14  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+17  ... 
+
+Histogram: Startup.BrowserMainRunnerImplInitializeStep2Time recorded 1 samples, mean = 33.0 (flags = 0x1)
+0   ... 
+29  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+34  ... 
+
+Histogram: Storage.Blob.MaxDiskSpace recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: TaskScheduler.DetachDuration.BackgroundFileIOPool recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TaskScheduler.DetachDuration.BackgroundPool recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TaskScheduler.DetachDuration.ForegroundFileIOPool recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TaskScheduler.DetachDuration.ForegroundPool recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TaskScheduler.NumTasksBeforeDetach.BackgroundFileIOPool recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TaskScheduler.NumTasksBeforeDetach.BackgroundPool recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TaskScheduler.NumTasksBeforeDetach.ForegroundFileIOPool recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TaskScheduler.NumTasksBeforeDetach.ForegroundPool recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TaskScheduler.NumTasksBetweenWaits.BackgroundFileIOPool recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TaskScheduler.NumTasksBetweenWaits.BackgroundPool recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TaskScheduler.NumTasksBetweenWaits.ForegroundFileIOPool recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TaskScheduler.NumTasksBetweenWaits.ForegroundPool recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TaskScheduler.TaskLatency.BackgroundTaskPriority recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TaskScheduler.TaskLatency.BackgroundTaskPriority.MayBlock recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TaskScheduler.TaskLatency.UserBlockingTaskPriority recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TaskScheduler.TaskLatency.UserBlockingTaskPriority.MayBlock recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TaskScheduler.TaskLatency.UserVisibleTaskPriority recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TaskScheduler.TaskLatency.UserVisibleTaskPriority.MayBlock recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TrackedObjects.GetRetiredOrCreateThreadData recorded 23 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (23 = 100.0%)
+1  ... 
+
+Histogram: UI.DeviceScale recorded 1 samples (flags = 0x1)
+100  ------------------------------------------------------------------------O (1 = 100.0%)
+
+Histogram: UMA.Histograms.Activity recorded 218 samples, mean = 4.2 (flags = 0x1)
+0  -O                                                                        (1 = 0.5%)
+1  ------------------------------------------------------------------------O (72 = 33.0%) {0.5%}
+2  -O                                                                        (1 = 0.5%) {33.5%}
+3  -----------------------------------------O                                (41 = 18.8%) {33.9%}
+4  -----------------------O                                                  (23 = 10.6%) {52.8%}
+5  ------O                                                                   (6 = 2.8%) {63.3%}
+6  O                                                                         (0 = 0.0%) {66.1%}
+7  --O                                                                       (2 = 0.9%) {66.1%}
+8  ------------------------------------------------------------------------O (72 = 33.0%) {67.0%}
+9  ... 
+
+Histogram: V8.Initializer.LoadV8Snapshot.Result recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: V8.Initializer.OpenV8File.Result recorded 2 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (2 = 100.0%)
+1  ... 
+
+Histogram: appcache.CompletionQueueTime recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: appcache.CompletionRunTime recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: appcache.TaskQueueTime recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: appcache.TaskRunTime recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+
+[0309/105341.806:VERBOSE1:pref_proxy_config_tracker_impl.cc(151)] 17115A80: set chrome proxy config service to 17118C40
+[0309/105341.806:VERBOSE1:pref_proxy_config_tracker_impl.cc(278)] 17115A80: Done pushing proxy to UpdateProxyConfig
+[0309/105341.808:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Google 'Pilot' log
+[0309/105341.808:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Google 'Aviator' log
+[0309/105341.808:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: DigiCert Log Server
+[0309/105341.808:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Google 'Rocketeer' log
+[0309/105341.808:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Symantec log
+[0309/105341.808:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Venafi log
+[0309/105341.808:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Symantec 'Vega' log
+[0309/105341.808:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: CNNIC CT log
+[0309/105341.808:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: WoSign log
+[0309/105341.808:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: StartCom CT log
+[0309/105341.808:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Google 'Skydiver' log
+[0309/105341.808:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Google 'Icarus' log
+[0309/105341.808:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Izenpe log
+[0309/105341.808:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Certly.IO log
+[0309/105427.283:VERBOSE1:webrtc_internals.cc(99)] Could not get the download directory.
+[0309/105745.077:VERBOSE1:statistics_recorder.cc(498)] Collections of all histograms
+Histogram: Accessibility.InvertedColors recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Accessibility.ManuallyEnabled recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Accessibility.State recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Accessibility.WinAudioDescription recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Accessibility.WinJAWS recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Accessibility.WinNVDA recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Accessibility.WinSAToGo recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Accessibility.WinScreenReader recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Accessibility.WinStickyKeys recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Accessibility.WinZoomText recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: AsyncDNS.ConfigChange recorded 2 samples, mean = 0.5 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 50.0%)
+1  ------------------------------------------------------------------------O (1 = 50.0%) {50.0%}
+2  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: AsyncDNS.ConfigNotifyInterval recorded 9 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (9 = 100.0%)
+1  ... 
+
+Histogram: AsyncDNS.ConfigParseDuration recorded 3 samples, mean = 5.3 (flags = 0x1)
+0   ... 
+2   ------------------------------------------------------------------------O (1 = 33.3%) {0.0%}
+3   ------------------------------------------------------------------------O (1 = 33.3%) {33.3%}
+4   ... 
+10  ------------------------------------O                                     (1 = 33.3%) {66.7%}
+12  ... 
+
+Histogram: AsyncDNS.ConfigParseResult recorded 3 samples, mean = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (3 = 100.0%) {0.0%}
+2  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: AsyncDNS.ConfigParseWin recorded 3 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (3 = 100.0%)
+1  ... 
+
+Histogram: AsyncDNS.HostParseResult recorded 1 samples, mean = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: AsyncDNS.HostsChange recorded 1 samples, mean = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: AsyncDNS.HostsParseDuration recorded 1 samples, mean = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  ... 
+
+Histogram: AsyncDNS.HostsParseWin recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: AsyncDNS.HostsSize recorded 1 samples, mean = 959.0 (flags = 0x1)
+0    ... 
+777  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+1023 ... 
+
+Histogram: AsyncDNS.WatchStatus recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ChildProcessSecurityPolicy.PerChildFilePermissions recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.DefaultAutoplaySetting recorded 1 samples, mean = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  ... 
+
+Histogram: ContentSettings.DefaultCookiesSetting recorded 1 samples, mean = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  ... 
+
+Histogram: ContentSettings.DefaultImagesSetting recorded 1 samples, mean = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  ... 
+
+Histogram: ContentSettings.DefaultJavaScriptSetting recorded 1 samples, mean = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  ... 
+
+Histogram: ContentSettings.DefaultLocationSetting recorded 1 samples, mean = 3.0 (flags = 0x1)
+0  ... 
+3  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+4  ... 
+
+Histogram: ContentSettings.DefaultMIDISysExSetting recorded 1 samples, mean = 3.0 (flags = 0x1)
+0  ... 
+3  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+4  ... 
+
+Histogram: ContentSettings.DefaultMediaStreamCameraSetting recorded 1 samples, mean = 3.0 (flags = 0x1)
+0  ... 
+3  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+4  ... 
+
+Histogram: ContentSettings.DefaultMediaStreamMicSetting recorded 1 samples, mean = 3.0 (flags = 0x1)
+0  ... 
+3  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+4  ... 
+
+Histogram: ContentSettings.DefaultNotificationsSetting recorded 1 samples, mean = 3.0 (flags = 0x1)
+0  ... 
+3  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+4  ... 
+
+Histogram: ContentSettings.DefaultPluginsSetting recorded 1 samples, mean = 5.0 (flags = 0x1)
+0  ... 
+5  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+6  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: ContentSettings.DefaultPopupsSetting recorded 1 samples, mean = 2.0 (flags = 0x1)
+0  ... 
+2  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+3  ... 
+
+Histogram: ContentSettings.DefaultWebBluetoothGuardSetting recorded 1 samples, mean = 3.0 (flags = 0x1)
+0  ... 
+3  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+4  ... 
+
+Histogram: ContentSettings.Exceptions.app-banner recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.auto-select-certificate recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.automatic-downloads recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.autoplay recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.background-sync recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.bluetooth-guard recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.cookies recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.durable-storage recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.geolocation recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.images recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.important-site-info recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.javascript recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.media-stream-camera recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.media-stream-mic recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.midi-sysex recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.mixed-script recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.notifications recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.plugins recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.popups recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.ppapi-broker recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.prompt-no-decision-count recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.protocol-handler recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.site-engagement recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.ssl-cert-decisions recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.usb-chooser-data recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.NumberOfAllowCookiesExceptions recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.NumberOfBlockCookiesExceptions recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.NumberOfExceptions recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.NumberOfSessionOnlyCookiesExceptions recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Cookie.CookieDeleteEquivalent recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Cookie.CookieSourceScheme recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Cookie.Count recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Cookie.DeletionCause recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Cookie.EvictedLastAccessMinutes recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Cookie.ExpirationDurationMinutes recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Cookie.TimeBlockedOnLoad recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Cookie.Type recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Extensions.ExtensionCreationTime.BrowserProcess recorded 1 samples, mean = 1580.0 (flags = 0x1)
+0     ... 
+1482  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+1730  ... 
+
+Histogram: Extensions.FeatureProviderStaticInitTime recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: GPU.BlacklistFeatureTestResults.Accelerated2dCanvas recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: GPU.BlacklistFeatureTestResults.GpuCompositing recorded 1 samples, mean = 2.0 (flags = 0x1)
+0  ... 
+2  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+3  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: GPU.BlacklistFeatureTestResults.GpuRasterization recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: GPU.BlacklistFeatureTestResults.Webgl recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: GPU.BlacklistFeatureTestResults.Webgl2 recorded 1 samples, mean = 2.0 (flags = 0x1)
+0  ... 
+2  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+3  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: GPU.BlacklistFeatureTestResultsWindows.Accelerated2dCanvas recorded 1 samples, mean = 12.0 (flags = 0x1)
+0   ... 
+12  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+13  ... 
+
+Histogram: GPU.BlacklistFeatureTestResultsWindows.GpuCompositing recorded 1 samples, mean = 14.0 (flags = 0x1)
+0   ... 
+14  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+15  ... 
+
+Histogram: GPU.BlacklistFeatureTestResultsWindows.GpuRasterization recorded 1 samples, mean = 12.0 (flags = 0x1)
+0   ... 
+12  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+13  ... 
+
+Histogram: GPU.BlacklistFeatureTestResultsWindows.Webgl recorded 1 samples, mean = 12.0 (flags = 0x1)
+0   ... 
+12  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+13  ... 
+
+Histogram: GPU.BlacklistFeatureTestResultsWindows.Webgl2 recorded 1 samples, mean = 14.0 (flags = 0x1)
+0   ... 
+14  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+15  ... 
+
+Histogram: GPU.BlacklistTestResultsPerEntry recorded 2 samples, mean = 60.0 (flags = 0x1)
+0    ------------------------------------------------------------------------O (1 = 50.0%)
+1    ... 
+120  ------------------------------------------------------------------------O (1 = 50.0%) {50.0%}
+121  ... 
+
+Histogram: GPU.CreateBrowserCompositor recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: GPU.DisplayLinkInstallationStatus recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: MPArch.ChildProcessLaunchFirst recorded 1 samples, mean = 4.0 (flags = 0x1)
+0  ... 
+4  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+5  ... 
+
+Histogram: Media.AudioThreadStatus recorded 1 samples, mean = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  ... 
+
+Histogram: Media.Midi.ResultOnShutdown recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Media.Midi.Usage recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Memory.PressureLevel recorded 48 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (48 = 100.0%)
+1  ... 
+
+Histogram: Mojo.System.MessagesAcceptedPerEvent recorded 378 samples, mean = 1.4 (flags = 0x1)
+0   ------------------------------------------------------------------------O (159 = 42.1%)
+1   -----------------------------------------O                                (91 = 24.1%) {42.1%}
+2   -----------------------------------------O                                (90 = 23.8%) {66.1%}
+3   --O                                                                       (5 = 1.3%) {89.9%}
+4   --------O                                                                 (17 = 4.5%) {91.3%}
+5   -O                                                                        (3 = 0.8%) {95.8%}
+6   O                                                                         (0 = 0.0%) {96.6%}
+7   O                                                                         (1 = 0.3%) {96.6%}
+8   ---O                                                                      (7 = 1.9%) {96.8%}
+9   -O                                                                        (2 = 0.5%) {98.7%}
+10  ... 
+16  O                                                                         (1 = 0.3%) {99.2%}
+18  O                                                                         (1 = 0.3%) {99.5%}
+20  ... 
+30  O                                                                         (1 = 0.3%) {99.7%}
+33  ... 
+
+Histogram: Mojo.System.Node.ConnectedPeers recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Mojo.System.Node.PendingChildren recorded 2 samples, mean = 0.5 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 50.0%)
+1  ------------------------------------------------------------------------O (1 = 50.0%) {50.0%}
+2  ... 
+
+Histogram: Net.NotifyAddrChangeFailures recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Net.QuicSession.CloseAllSessionsError recorded 1 samples (flags = 0x1)
+3  ------------------------------------------------------------------------O (1 = 100.0%)
+
+Histogram: Net.QuicSession.PreferAesGcm recorded 1 samples, mean = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: PluginFinder.BuiltInPluginList.ErrorCode recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ServiceWorkerCache.BackgroundSyncManager.Scheduler.IsOperationSlow recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ServiceWorkerCache.BackgroundSyncManager.Scheduler.OperationDuration recorded 1 samples, mean = 2.0 (flags = 0x1)
+0  ... 
+2  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+3  ... 
+
+Histogram: ServiceWorkerCache.BackgroundSyncManager.Scheduler.QueueDuration recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ServiceWorkerCache.BackgroundSyncManager.Scheduler.QueueLength recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: SessionRestore.FrameUniqueNameLength recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: SharedMemory.CreateError recorded 2 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (2 = 100.0%)
+1  ... 
+
+Histogram: Startup.BrowserMainRunnerImplInitializeLongTime recorded 1 samples, mean = 49.0 (flags = 0x1)
+0   ... 
+43  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+50  ... 
+
+Histogram: Startup.BrowserMainRunnerImplInitializeStep1Time recorded 1 samples, mean = 15.0 (flags = 0x1)
+0   ... 
+14  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+17  ... 
+
+Histogram: Startup.BrowserMainRunnerImplInitializeStep2Time recorded 1 samples, mean = 33.0 (flags = 0x1)
+0   ... 
+29  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+34  ... 
+
+Histogram: Storage.Blob.MaxDiskSpace recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: TaskScheduler.DetachDuration.BackgroundFileIOPool recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TaskScheduler.DetachDuration.BackgroundPool recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TaskScheduler.DetachDuration.ForegroundFileIOPool recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TaskScheduler.DetachDuration.ForegroundPool recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TaskScheduler.NumTasksBeforeDetach.BackgroundFileIOPool recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TaskScheduler.NumTasksBeforeDetach.BackgroundPool recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TaskScheduler.NumTasksBeforeDetach.ForegroundFileIOPool recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TaskScheduler.NumTasksBeforeDetach.ForegroundPool recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TaskScheduler.NumTasksBetweenWaits.BackgroundFileIOPool recorded 7 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (7 = 100.0%)
+1  ... 
+
+Histogram: TaskScheduler.NumTasksBetweenWaits.BackgroundPool recorded 7 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (7 = 100.0%)
+1  ... 
+
+Histogram: TaskScheduler.NumTasksBetweenWaits.ForegroundFileIOPool recorded 7 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (7 = 100.0%)
+1  ... 
+
+Histogram: TaskScheduler.NumTasksBetweenWaits.ForegroundPool recorded 7 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (7 = 100.0%)
+1  ... 
+
+Histogram: TaskScheduler.TaskLatency.BackgroundTaskPriority recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TaskScheduler.TaskLatency.BackgroundTaskPriority.MayBlock recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TaskScheduler.TaskLatency.UserBlockingTaskPriority recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TaskScheduler.TaskLatency.UserBlockingTaskPriority.MayBlock recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TaskScheduler.TaskLatency.UserVisibleTaskPriority recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TaskScheduler.TaskLatency.UserVisibleTaskPriority.MayBlock recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TrackedObjects.GetRetiredOrCreateThreadData recorded 24 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (24 = 100.0%)
+1  ... 
+
+Histogram: UI.DeviceScale recorded 1 samples (flags = 0x1)
+100  ------------------------------------------------------------------------O (1 = 100.0%)
+
+Histogram: UMA.Histograms.Activity recorded 398 samples, mean = 4.2 (flags = 0x1)
+0  -O                                                                        (1 = 0.3%)
+1  ------------------------------------------------------------------------O (132 = 33.2%) {0.3%}
+2  -O                                                                        (1 = 0.3%) {33.4%}
+3  ------------------------------------------O                               (77 = 19.3%) {33.7%}
+4  --------------------O                                                     (37 = 9.3%) {53.0%}
+5  ---------O                                                                (16 = 4.0%) {62.3%}
+6  O                                                                         (0 = 0.0%) {66.3%}
+7  -O                                                                        (2 = 0.5%) {66.3%}
+8  ------------------------------------------------------------------------O (132 = 33.2%) {66.8%}
+9  ... 
+
+Histogram: V8.Initializer.LoadV8Snapshot.Result recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: V8.Initializer.OpenV8File.Result recorded 2 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (2 = 100.0%)
+1  ... 
+
+Histogram: appcache.CompletionQueueTime recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: appcache.CompletionRunTime recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: appcache.TaskQueueTime recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: appcache.TaskRunTime recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+
+[0309/105902.583:VERBOSE1:pref_proxy_config_tracker_impl.cc(151)] 0E2419A0: set chrome proxy config service to 0E24D648
+[0309/105902.584:VERBOSE1:pref_proxy_config_tracker_impl.cc(278)] 0E2419A0: Done pushing proxy to UpdateProxyConfig
+[0309/105902.585:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Google 'Pilot' log
+[0309/105902.585:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Google 'Aviator' log
+[0309/105902.585:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: DigiCert Log Server
+[0309/105902.585:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Google 'Rocketeer' log
+[0309/105902.585:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Symantec log
+[0309/105902.585:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Venafi log
+[0309/105902.585:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Symantec 'Vega' log
+[0309/105902.585:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: CNNIC CT log
+[0309/105902.585:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: WoSign log
+[0309/105902.585:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: StartCom CT log
+[0309/105902.585:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Google 'Skydiver' log
+[0309/105902.585:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Google 'Icarus' log
+[0309/105902.585:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Izenpe log
+[0309/105902.585:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Certly.IO log
+[0309/105902.710:VERBOSE1:webrtc_internals.cc(99)] Could not get the download directory.
+[0309/110118.506:VERBOSE1:statistics_recorder.cc(498)] Collections of all histograms
+Histogram: Accessibility.InvertedColors recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Accessibility.ManuallyEnabled recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Accessibility.State recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Accessibility.WinAudioDescription recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Accessibility.WinJAWS recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Accessibility.WinNVDA recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Accessibility.WinSAToGo recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Accessibility.WinScreenReader recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Accessibility.WinStickyKeys recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Accessibility.WinZoomText recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: AsyncDNS.ConfigChange recorded 1 samples, mean = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: AsyncDNS.ConfigParseDuration recorded 1 samples, mean = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  ... 
+
+Histogram: AsyncDNS.ConfigParseResult recorded 1 samples, mean = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: AsyncDNS.ConfigParseWin recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: AsyncDNS.HostParseResult recorded 1 samples, mean = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: AsyncDNS.HostsChange recorded 1 samples, mean = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: AsyncDNS.HostsParseDuration recorded 1 samples, mean = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  ... 
+
+Histogram: AsyncDNS.HostsParseWin recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: AsyncDNS.HostsSize recorded 1 samples, mean = 959.0 (flags = 0x1)
+0    ... 
+777  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+1023 ... 
+
+Histogram: AsyncDNS.WatchStatus recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ChildProcessSecurityPolicy.PerChildFilePermissions recorded 2 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (2 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.DefaultAutoplaySetting recorded 1 samples, mean = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  ... 
+
+Histogram: ContentSettings.DefaultCookiesSetting recorded 1 samples, mean = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  ... 
+
+Histogram: ContentSettings.DefaultImagesSetting recorded 1 samples, mean = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  ... 
+
+Histogram: ContentSettings.DefaultJavaScriptSetting recorded 1 samples, mean = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  ... 
+
+Histogram: ContentSettings.DefaultLocationSetting recorded 1 samples, mean = 3.0 (flags = 0x1)
+0  ... 
+3  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+4  ... 
+
+Histogram: ContentSettings.DefaultMIDISysExSetting recorded 1 samples, mean = 3.0 (flags = 0x1)
+0  ... 
+3  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+4  ... 
+
+Histogram: ContentSettings.DefaultMediaStreamCameraSetting recorded 1 samples, mean = 3.0 (flags = 0x1)
+0  ... 
+3  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+4  ... 
+
+Histogram: ContentSettings.DefaultMediaStreamMicSetting recorded 1 samples, mean = 3.0 (flags = 0x1)
+0  ... 
+3  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+4  ... 
+
+Histogram: ContentSettings.DefaultNotificationsSetting recorded 1 samples, mean = 3.0 (flags = 0x1)
+0  ... 
+3  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+4  ... 
+
+Histogram: ContentSettings.DefaultPluginsSetting recorded 1 samples, mean = 5.0 (flags = 0x1)
+0  ... 
+5  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+6  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: ContentSettings.DefaultPopupsSetting recorded 1 samples, mean = 2.0 (flags = 0x1)
+0  ... 
+2  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+3  ... 
+
+Histogram: ContentSettings.DefaultWebBluetoothGuardSetting recorded 1 samples, mean = 3.0 (flags = 0x1)
+0  ... 
+3  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+4  ... 
+
+Histogram: ContentSettings.Exceptions.app-banner recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.auto-select-certificate recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.automatic-downloads recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.autoplay recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.background-sync recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.bluetooth-guard recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.cookies recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.durable-storage recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.geolocation recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.images recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.important-site-info recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.javascript recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.media-stream-camera recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.media-stream-mic recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.midi-sysex recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.mixed-script recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.notifications recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.plugins recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.popups recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.ppapi-broker recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.prompt-no-decision-count recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.protocol-handler recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.site-engagement recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.ssl-cert-decisions recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.Exceptions.usb-chooser-data recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.NumberOfAllowCookiesExceptions recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.NumberOfBlockCookiesExceptions recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.NumberOfExceptions recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ContentSettings.NumberOfSessionOnlyCookiesExceptions recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Cookie.CookieDeleteEquivalent recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Cookie.CookieSourceScheme recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Cookie.Count recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Cookie.DeletionCause recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Cookie.EvictedLastAccessMinutes recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Cookie.ExpirationDurationMinutes recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Cookie.TimeBlockedOnLoad recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Cookie.Type recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: Extensions.ExtensionCreationTime.BrowserProcess recorded 1 samples, mean = 1558.0 (flags = 0x1)
+0     ... 
+1482  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+1730  ... 
+
+Histogram: Extensions.FeatureProviderStaticInitTime recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: GPU.BlacklistFeatureTestResults.Accelerated2dCanvas recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: GPU.BlacklistFeatureTestResults.GpuCompositing recorded 1 samples, mean = 2.0 (flags = 0x1)
+0  ... 
+2  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+3  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: GPU.BlacklistFeatureTestResults.GpuRasterization recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: GPU.BlacklistFeatureTestResults.Webgl recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: GPU.BlacklistFeatureTestResults.Webgl2 recorded 1 samples, mean = 2.0 (flags = 0x1)
+0  ... 
+2  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+3  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: GPU.BlacklistFeatureTestResultsWindows.Accelerated2dCanvas recorded 1 samples, mean = 12.0 (flags = 0x1)
+0   ... 
+12  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+13  ... 
+
+Histogram: GPU.BlacklistFeatureTestResultsWindows.GpuCompositing recorded 1 samples, mean = 14.0 (flags = 0x1)
+0   ... 
+14  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+15  ... 
+
+Histogram: GPU.BlacklistFeatureTestResultsWindows.GpuRasterization recorded 1 samples, mean = 12.0 (flags = 0x1)
+0   ... 
+12  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+13  ... 
+
+Histogram: GPU.BlacklistFeatureTestResultsWindows.Webgl recorded 1 samples, mean = 12.0 (flags = 0x1)
+0   ... 
+12  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+13  ... 
+
+Histogram: GPU.BlacklistFeatureTestResultsWindows.Webgl2 recorded 1 samples, mean = 14.0 (flags = 0x1)
+0   ... 
+14  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+15  ... 
+
+Histogram: GPU.BlacklistTestResultsPerEntry recorded 2 samples, mean = 60.0 (flags = 0x1)
+0    ------------------------------------------------------------------------O (1 = 50.0%)
+1    ... 
+120  ------------------------------------------------------------------------O (1 = 50.0%) {50.0%}
+121  ... 
+
+Histogram: GPU.CreateBrowserCompositor recorded 2 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (2 = 100.0%)
+1  ... 
+
+Histogram: GPU.DisplayLinkInstallationStatus recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: MPArch.ChildProcessLaunchFirst recorded 1 samples, mean = 2.0 (flags = 0x1)
+0  ... 
+2  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+3  ... 
+
+Histogram: MPArch.ChildProcessLaunchSubsequent recorded 1 samples, mean = 2.0 (flags = 0x1)
+0  ... 
+2  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+3  ... 
+
+Histogram: Media.AudioThreadStatus recorded 1 samples, mean = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  ... 
+
+Histogram: Media.Midi.ResultOnShutdown recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Media.Midi.Usage recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Memory.PressureLevel recorded 27 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (27 = 100.0%)
+1  ... 
+
+Histogram: Mojo.System.MessagesAcceptedPerEvent recorded 506 samples, mean = 1.4 (flags = 0x1)
+0   ------------------------------------------------------------------------O (228 = 45.1%)
+1   -------------------------------------O                                    (116 = 22.9%) {45.1%}
+2   -----------------------------------O                                      (112 = 22.1%) {68.0%}
+3   -O                                                                        (3 = 0.6%) {90.1%}
+4   -------O                                                                  (23 = 4.5%) {90.7%}
+5   -O                                                                        (3 = 0.6%) {95.3%}
+6   O                                                                         (1 = 0.2%) {95.8%}
+7   O                                                                         (1 = 0.2%) {96.0%}
+8   ---O                                                                      (11 = 2.2%) {96.2%}
+9   -O                                                                        (3 = 0.6%) {98.4%}
+10  ... 
+16  O                                                                         (2 = 0.4%) {99.0%}
+18  O                                                                         (1 = 0.2%) {99.4%}
+20  ... 
+30  O                                                                         (2 = 0.4%) {99.6%}
+33  ... 
+
+Histogram: Mojo.System.Node.ConnectedPeers recorded 2 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (2 = 100.0%)
+1  ... 
+
+Histogram: Mojo.System.Node.PendingChildren recorded 4 samples, mean = 0.5 (flags = 0x1)
+0  ------------------------------------------------------------------------O (2 = 50.0%)
+1  ------------------------------------------------------------------------O (2 = 50.0%) {50.0%}
+2  ... 
+
+Histogram: Net.NotifyAddrChangeFailures recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: Net.QuicSession.CloseAllSessionsError recorded 1 samples (flags = 0x1)
+3  ------------------------------------------------------------------------O (1 = 100.0%)
+
+Histogram: Net.QuicSession.PreferAesGcm recorded 1 samples, mean = 1.0 (flags = 0x1)
+0  O                                                                         (0 = 0.0%)
+1  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+2  O                                                                         (0 = 0.0%) {100.0%}
+
+Histogram: PluginFinder.BuiltInPluginList.ErrorCode recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ServiceWorkerCache.BackgroundSyncManager.Scheduler.IsOperationSlow recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ServiceWorkerCache.BackgroundSyncManager.Scheduler.OperationDuration recorded 1 samples, mean = 2.0 (flags = 0x1)
+0  ... 
+2  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+3  ... 
+
+Histogram: ServiceWorkerCache.BackgroundSyncManager.Scheduler.QueueDuration recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: ServiceWorkerCache.BackgroundSyncManager.Scheduler.QueueLength recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: SessionRestore.FrameUniqueNameLength recorded 2 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (2 = 100.0%)
+1  ... 
+
+Histogram: SharedMemory.CreateError recorded 2 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (2 = 100.0%)
+1  ... 
+
+Histogram: Startup.BrowserMainRunnerImplInitializeLongTime recorded 1 samples, mean = 44.0 (flags = 0x1)
+0   ... 
+43  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+50  ... 
+
+Histogram: Startup.BrowserMainRunnerImplInitializeStep1Time recorded 1 samples, mean = 15.0 (flags = 0x1)
+0   ... 
+14  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+17  ... 
+
+Histogram: Startup.BrowserMainRunnerImplInitializeStep2Time recorded 1 samples, mean = 29.0 (flags = 0x1)
+0   ... 
+29  ------------------------------------------------------------------------O (1 = 100.0%) {0.0%}
+34  ... 
+
+Histogram: Storage.Blob.MaxDiskSpace recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: TaskScheduler.DetachDuration.BackgroundFileIOPool recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TaskScheduler.DetachDuration.BackgroundPool recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TaskScheduler.DetachDuration.ForegroundFileIOPool recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TaskScheduler.DetachDuration.ForegroundPool recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TaskScheduler.NumTasksBeforeDetach.BackgroundFileIOPool recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TaskScheduler.NumTasksBeforeDetach.BackgroundPool recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TaskScheduler.NumTasksBeforeDetach.ForegroundFileIOPool recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TaskScheduler.NumTasksBeforeDetach.ForegroundPool recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TaskScheduler.NumTasksBetweenWaits.BackgroundFileIOPool recorded 3 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (3 = 100.0%)
+1  ... 
+
+Histogram: TaskScheduler.NumTasksBetweenWaits.BackgroundPool recorded 3 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (3 = 100.0%)
+1  ... 
+
+Histogram: TaskScheduler.NumTasksBetweenWaits.ForegroundFileIOPool recorded 3 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (3 = 100.0%)
+1  ... 
+
+Histogram: TaskScheduler.NumTasksBetweenWaits.ForegroundPool recorded 3 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (3 = 100.0%)
+1  ... 
+
+Histogram: TaskScheduler.TaskLatency.BackgroundTaskPriority recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TaskScheduler.TaskLatency.BackgroundTaskPriority.MayBlock recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TaskScheduler.TaskLatency.UserBlockingTaskPriority recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TaskScheduler.TaskLatency.UserBlockingTaskPriority.MayBlock recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TaskScheduler.TaskLatency.UserVisibleTaskPriority recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TaskScheduler.TaskLatency.UserVisibleTaskPriority.MayBlock recorded 0 samples (flags = 0x1)
+0 ... 
+
+Histogram: TrackedObjects.GetRetiredOrCreateThreadData recorded 23 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (23 = 100.0%)
+1  ... 
+
+Histogram: UI.DeviceScale recorded 1 samples (flags = 0x1)
+100  ------------------------------------------------------------------------O (1 = 100.0%)
+
+Histogram: UMA.Histograms.Activity recorded 398 samples, mean = 4.2 (flags = 0x1)
+0  -O                                                                        (1 = 0.3%)
+1  ------------------------------------------------------------------------O (132 = 33.2%) {0.3%}
+2  -O                                                                        (1 = 0.3%) {33.4%}
+3  ------------------------------------------O                               (77 = 19.3%) {33.7%}
+4  --------------------O                                                     (37 = 9.3%) {53.0%}
+5  ---------O                                                                (16 = 4.0%) {62.3%}
+6  O                                                                         (0 = 0.0%) {66.3%}
+7  -O                                                                        (2 = 0.5%) {66.3%}
+8  ------------------------------------------------------------------------O (132 = 33.2%) {66.8%}
+9  ... 
+
+Histogram: V8.Initializer.LoadV8Snapshot.Result recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: V8.Initializer.OpenV8File.Result recorded 2 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (2 = 100.0%)
+1  ... 
+
+Histogram: appcache.CompletionQueueTime recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: appcache.CompletionRunTime recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: appcache.TaskQueueTime recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+Histogram: appcache.TaskRunTime recorded 1 samples, mean = 0.0 (flags = 0x1)
+0  ------------------------------------------------------------------------O (1 = 100.0%)
+1  ... 
+
+

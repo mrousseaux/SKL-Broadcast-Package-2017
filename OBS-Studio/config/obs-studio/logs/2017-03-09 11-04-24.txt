@@ -1,0 +1,255 @@
+11:04:24.144: CPU Name: Intel(R) Core(TM) i7-2600K CPU @ 3.40GHz
+11:04:24.144: CPU Speed: 3392MHz
+11:04:24.144: Physical Cores: 4, Logical Cores: 8
+11:04:24.144: Physical Memory: 16366MB Total, 8222MB Free
+11:04:24.144: Windows Version: 10.0 Build 14393 (revision: 693; 64-bit)
+11:04:24.145: Running as administrator: false
+11:04:24.145: Aero is Enabled (Aero is always on for windows 8 and above)
+11:04:24.145: Portable mode: true
+11:04:24.175: OBS 18.0.1 (64bit, windows)
+11:04:24.175: ---------------------------------
+11:04:24.176: ---------------------------------
+11:04:24.176: audio settings reset:
+11:04:24.176: 	samples per sec: 44100
+11:04:24.176: 	speakers:        2
+11:04:24.182: ---------------------------------
+11:04:24.182: Initializing D3D11..
+11:04:24.182: Available Video Adapters: 
+11:04:24.183: 	Adapter 1: NVIDIA GeForce GTX 750 Ti
+11:04:24.183: 	  Dedicated VRAM: 2114650112
+11:04:24.183: 	  Shared VRAM:    4285851648
+11:04:24.183: 	  output 1: pos={0, 0}, size={1920, 1080}, attached=true
+11:04:24.183: 	  output 2: pos={1920, 0}, size={1600, 900}, attached=true
+11:04:24.183: 	Adapter 2: ATI FirePro V4800 (FireGL) Graphics Adapter
+11:04:24.183: 	  Dedicated VRAM: 1059917824
+11:04:24.183: 	  Shared VRAM:    4026531840
+11:04:24.185: Loading up D3D11 on adapter NVIDIA GeForce GTX 750 Ti (0)
+11:04:24.205: D3D11 loaded sucessfully, feature level used: 45056
+11:04:24.900: ---------------------------------
+11:04:24.900: video settings reset:
+11:04:24.900: 	base resolution:   1920x1080
+11:04:24.900: 	output resolution: 1280x720
+11:04:24.900: 	downscale filter:  Bicubic
+11:04:24.900: 	fps:               30/1
+11:04:24.900: 	format:            NV12
+11:04:24.901: Audio monitoring device:
+11:04:24.901: 	name: Default
+11:04:24.901: 	id: default
+11:04:24.901: ---------------------------------
+11:04:24.902: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/chrome_elf.dll' not found, loading of module failed
+11:04:24.906: [CoreAudio encoder]: Adding CoreAudio AAC encoder
+11:04:24.908: [AMF Encoder] Unable to load 'amfrt64.dll', error code 126.
+11:04:24.913: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/libcef.dll' not found, loading of module failed
+11:04:24.914: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/libEGL.dll' not found, loading of module failed
+11:04:24.914: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/libGLESv2.dll' not found, loading of module failed
+11:04:24.914: Failed to load 'en-US' text for module: 'obs-browser.dll'
+11:04:24.914: [browser_source: 'Version: 1.29.0']
+11:04:24.915: NVENC supported
+11:04:24.984: Couldn't find VLC installation, VLC video source disabled
+11:04:25.020: ---------------------------------
+11:04:25.021:   Loaded Modules:
+11:04:25.021:     win-wasapi.dll
+11:04:25.021:     win-mf.dll
+11:04:25.021:     win-dshow.dll
+11:04:25.021:     win-decklink.dll
+11:04:25.021:     win-capture.dll
+11:04:25.021:     vlc-video.dll
+11:04:25.021:     text-freetype2.dll
+11:04:25.021:     rtmp-services.dll
+11:04:25.021:     obs-x264.dll
+11:04:25.021:     obs-vst.dll
+11:04:25.021:     obs-transitions.dll
+11:04:25.021:     obs-text.dll
+11:04:25.021:     obs-qsv11.dll
+11:04:25.021:     obs-outputs.dll
+11:04:25.021:     obs-filters.dll
+11:04:25.021:     obs-ffmpeg.dll
+11:04:25.021:     obs-browser.dll
+11:04:25.021:     image-source.dll
+11:04:25.021:     frontend-tools.dll
+11:04:25.021:     enc-amf.dll
+11:04:25.021:     coreaudio-encoder.dll
+11:04:25.021: ==== Startup complete ===============================================
+11:04:25.027: obs-data.c: [obs_data_create_from_json] Failed reading json string (-1): wrong arguments
+11:04:25.028: Service '' not found
+11:04:25.029: Switched to Preview/Program mode
+11:04:25.029: ------------------------------------------------
+11:04:25.031: All scene data cleared
+11:04:25.031: ------------------------------------------------
+11:04:25.054: WASAPI: Device 'Speakers (Realtek High Definition Audio)' initialized
+11:04:25.068: WASAPI: Device 'Line In (2- BEHRINGER USB WDM AUDIO 2.8.40)' initialized
+11:04:25.069: Failed to open file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Overlay Images/!dummyGameBG.jpg': No such file or directory
+11:04:25.069: gs_image_file_init: Failed to load file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Overlay Images/!dummyGameBG.jpg'
+11:04:25.069: [image_source: 'GameDummy'] failed to load texture 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Overlay Images/!dummyGameBG.jpg'
+11:04:25.069: Failed to open file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Overlay Images/Spectator Overlay v3.0.png': No such file or directory
+11:04:25.069: gs_image_file_init: Failed to load file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Overlay Images/Spectator Overlay v3.0.png'
+11:04:25.069: [image_source: 'Main Game Overlay'] failed to load texture 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Overlay Images/Spectator Overlay v3.0.png'
+11:04:25.089: [Media Source 'Media Source']: settings:
+11:04:25.089: 	input:                   E:/Customers/CEL/SKL/broadcast/Hype/SKL 2015 Finals Hype.mp4
+11:04:25.089: 	input_format:            (null)
+11:04:25.089: 	is_looping:              yes
+11:04:25.089: 	is_forcing_scale:        yes
+11:04:25.089: 	is_hw_decoding:          yes
+11:04:25.089: 	is_clear_on_media_end:   yes
+11:04:25.089: 	restart_on_activate:     yes
+11:04:25.090: Failed to open file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Scoreboard Assistant/output/teams/image1.png': No such file or directory
+11:04:25.090: gs_image_file_init: Failed to load file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Scoreboard Assistant/output/teams/image1.png'
+11:04:25.090: [image_source: 'Blue Team Logo'] failed to load texture 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Scoreboard Assistant/output/teams/image1.png'
+11:04:25.091: Failed to open file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Scoreboard Assistant/output/teams/image2.png': No such file or directory
+11:04:25.091: gs_image_file_init: Failed to load file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Scoreboard Assistant/output/teams/image2.png'
+11:04:25.091: [image_source: 'Red Team Logo'] failed to load texture 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Scoreboard Assistant/output/teams/image2.png'
+11:04:25.107: Switched to scene 'Game Overlay'
+11:04:25.128: adding 23 milliseconds of audio buffering, total audio buffering is now 23 milliseconds
+11:04:25.409: ------------------------------------------------
+11:04:25.409: Loaded scenes:
+11:04:25.409: - scene 'Scene':
+11:04:25.409:     - source: 'Media Source' (ffmpeg_source)
+11:04:25.409:     - source: 'alert' (browser_source)
+11:04:25.409: - scene 'Game Overlay':
+11:04:25.409:     - source: 'GameDummy' (image_source)
+11:04:25.409:     - source: 'alert' (browser_source)
+11:04:25.409:     - source: 'Main Game Overlay' (image_source)
+11:04:25.409:     - source: 'Blue Team Initials' (text_gdiplus)
+11:04:25.409:     - source: 'Blue Team Logo' (image_source)
+11:04:25.409:     - source: 'Red Team Initials' (text_gdiplus)
+11:04:25.409:     - source: 'Red Team Logo' (image_source)
+11:04:25.409: ------------------------------------------------
+11:04:35.362: Switched to scene '(null)'
+11:04:35.364: WASAPI: Device 'Speakers (Realtek High Definition Audio)' Terminated
+11:04:35.367: WASAPI: Device 'Line In (2- BEHRINGER USB WDM AUDIO 2.8.40)' Terminated
+11:04:35.370: All scene data cleared
+11:04:35.370: ------------------------------------------------
+11:04:35.385: WASAPI: Device 'Speakers (Realtek High Definition Audio)' initialized
+11:04:35.398: WASAPI: Device 'Line In (2- BEHRINGER USB WDM AUDIO 2.8.40)' initialized
+11:04:35.399: Switched to scene 'Scene'
+11:04:35.400: ------------------------------------------------
+11:04:35.400: Loaded scenes:
+11:04:35.400: - scene 'Scene':
+11:04:35.400: ------------------------------------------------
+11:04:35.401: Removed scene collection 'SKL - League' (../../config/obs-studio/basic/scenes/SKL__League.json.bak.json), switched to 'Untitled' (Untitled.json)
+11:04:35.401: ------------------------------------------------
+11:04:35.820: adding 23 milliseconds of audio buffering, total audio buffering is now 46 milliseconds
+11:04:47.648: Switched to scene '(null)'
+11:04:47.649: WASAPI: Device 'Speakers (Realtek High Definition Audio)' Terminated
+11:04:47.652: WASAPI: Device 'Line In (2- BEHRINGER USB WDM AUDIO 2.8.40)' Terminated
+11:04:47.654: All scene data cleared
+11:04:47.654: ------------------------------------------------
+11:04:47.655: [WASAPISource::WASAPISource] Device '{0.0.0.00000000}.{e91907c9-6ebf-4d0f-beac-3217b5bf132a}' not found.  Waiting for device
+11:04:47.667: WASAPI: Device 'VoiceMeeter Aux Output (VB-Audio VoiceMeeter AUX VAIO)' initialized
+11:04:47.678: WASAPI: Device 'Line In (2- BEHRINGER USB WDM AUDIO 2.8.40)' initialized
+11:04:47.678: Failed to open file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Overlay Images/Bans&Picks Overlay.png': No such file or directory
+11:04:47.678: gs_image_file_init: Failed to load file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Overlay Images/Bans&Picks Overlay.png'
+11:04:47.678: [image_source: 'PickBanOverlay'] failed to load texture 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Overlay Images/Bans&Picks Overlay.png'
+11:04:47.679: [Media Source 'Start Video']: settings:
+11:04:47.679: 	input:                   E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Videos/startingSoon.mp4
+11:04:47.679: 	input_format:            (null)
+11:04:47.679: 	is_looping:              yes
+11:04:47.679: 	is_forcing_scale:        yes
+11:04:47.679: 	is_hw_decoding:          yes
+11:04:47.679: 	is_clear_on_media_end:   yes
+11:04:47.679: 	restart_on_activate:     yes
+11:04:47.684: [Media Source 'Looping BG']: settings:
+11:04:47.684: 	input:                   E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Videos/genericBG.mp4
+11:04:47.684: 	input_format:            (null)
+11:04:47.684: 	is_looping:              yes
+11:04:47.684: 	is_forcing_scale:        yes
+11:04:47.684: 	is_hw_decoding:          yes
+11:04:47.684: 	is_clear_on_media_end:   yes
+11:04:47.684: 	restart_on_activate:     yes
+11:04:47.684: Failed to open file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Overlay Images/beRighBack_overlay.png': No such file or directory
+11:04:47.684: gs_image_file_init: Failed to load file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Overlay Images/beRighBack_overlay.png'
+11:04:47.684: [image_source: 'BRB Overlay'] failed to load texture 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Overlay Images/beRighBack_overlay.png'
+11:04:47.709: Failed to open file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Overlay Images/!dummyGameBG.png': No such file or directory
+11:04:47.709: gs_image_file_init: Failed to load file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Overlay Images/!dummyGameBG.png'
+11:04:47.709: [image_source: 'GameDummy'] failed to load texture 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Overlay Images/!dummyGameBG.png'
+11:04:47.709: Failed to open file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Overlay Images/Spectator Overlay v3.0.png': No such file or directory
+11:04:47.709: gs_image_file_init: Failed to load file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Overlay Images/Spectator Overlay v3.0.png'
+11:04:47.709: [image_source: 'Main Game Overlay'] failed to load texture 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Overlay Images/Spectator Overlay v3.0.png'
+11:04:47.719: Failed to open file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Scoreboard Assistant/output/teams/image1.png': No such file or directory
+11:04:47.719: gs_image_file_init: Failed to load file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Scoreboard Assistant/output/teams/image1.png'
+11:04:47.719: [image_source: 'Blue Team Logo'] failed to load texture 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Scoreboard Assistant/output/teams/image1.png'
+11:04:47.720: Failed to open file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Scoreboard Assistant/output/teams/image2.png': No such file or directory
+11:04:47.720: gs_image_file_init: Failed to load file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Scoreboard Assistant/output/teams/image2.png'
+11:04:47.720: [image_source: 'Red Team Logo'] failed to load texture 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Scoreboard Assistant/output/teams/image2.png'
+11:04:47.748: Failed to open file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Images/Sponsors': No such file or directory
+11:04:47.748: gs_image_file_init: Failed to load file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Images/Sponsors'
+11:04:47.748: [image_source: '(null)'] failed to load texture 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Images/Sponsors'
+11:04:47.751: Switched to scene 'Camera'
+11:04:47.753: ------------------------------------------------
+11:04:47.753: Loaded scenes:
+11:04:47.753: - scene 'Starting Soon':
+11:04:47.753:     - source: 'Start Video' (ffmpeg_source)
+11:04:47.753: - scene 'Camera':
+11:04:47.753:     - source: 'Webcam' (dshow_input)
+11:04:47.753: - scene 'Pick/Ban':
+11:04:47.753:     - source: 'Pickban' (window_capture)
+11:04:47.753:     - source: 'PickBanOverlay' (image_source)
+11:04:47.753:     - source: 'Blue Team Logo' (image_source)
+11:04:47.753:     - source: 'Red Team Logo' (image_source)
+11:04:47.753:     - source: 'Webcam' (dshow_input)
+11:04:47.753:     - source: 'Sponsor Loop' (slideshow)
+11:04:47.753:     - source: 'Blue Team Name' (text_gdiplus)
+11:04:47.753:     - source: 'Red Team Name' (text_gdiplus)
+11:04:47.753: - scene 'Game Overlay':
+11:04:47.753:     - source: 'League Game' (game_capture)
+11:04:47.753:     - source: 'GameDummy' (image_source)
+11:04:47.753:     - source: 'alert' (browser_source)
+11:04:47.753:     - source: 'Main Game Overlay' (image_source)
+11:04:47.753:     - source: 'Blue Team Initials' (text_gdiplus)
+11:04:47.753:     - source: 'Blue Team Logo' (image_source)
+11:04:47.753:     - source: 'Red Team Initials' (text_gdiplus)
+11:04:47.753:     - source: 'Red Team Logo' (image_source)
+11:04:47.753:     - source: 'Blue PP' (browser_source)
+11:04:47.753:     - source: 'Red PP' (browser_source)
+11:04:47.753:     - source: 'Sponsor Loop' (slideshow)
+11:04:47.753:     - source: 'twich alerts' (browser_source)
+11:04:47.753: - scene 'Be Right Back':
+11:04:47.753:     - source: 'Looping BG' (ffmpeg_source)
+11:04:47.753:     - source: 'BRB Overlay' (image_source)
+11:04:47.753:     - source: 'Blue Team Logo' (image_source)
+11:04:47.753:     - source: 'Red Team Logo' (image_source)
+11:04:47.753:     - source: 'Blue Score' (text_gdiplus)
+11:04:47.753:     - source: 'Red Score' (text_gdiplus)
+11:04:47.753:     - source: 'Song Info' (text_gdiplus)
+11:04:47.753:         - filter: 'Scroll' (scroll_filter)
+11:04:47.753:     - source: 'Now Playing' (text_gdiplus)
+11:04:47.753: ------------------------------------------------
+11:04:47.756: Switched to scene collection 'SKL - League' (SKL__League.json)
+11:04:47.756: ------------------------------------------------
+11:04:47.951: ---------------------------------
+11:04:47.951: [DShow Device: 'Webcam'] settings updated: 
+11:04:47.951: 	video device: Microsoft® LifeCam Cinema(TM)
+11:04:47.951: 	video path: \\?\usb#vid_045e&pid_075d&mi_00#7&17ba1b95&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+11:04:47.951: 	resolution: 1280x720
+11:04:47.951: 	fps: 30.00 (interval: 333333)
+11:04:47.951: 	format: YUY2
+11:04:48.428: ---------------------------------
+11:04:48.431: [DShow Device: 'Webcam'] settings updated: 
+11:04:48.431: 	video device: Microsoft® LifeCam Cinema(TM)
+11:04:48.431: 	video path: \\?\usb#vid_045e&pid_075d&mi_00#7&17ba1b95&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+11:04:48.431: 	resolution: 1280x720
+11:04:48.431: 	fps: 30.00 (interval: 333333)
+11:04:48.431: 	format: YUY2
+11:05:15.543: Created profile 'SKL' (duplicate, SKL)
+11:05:15.543: ------------------------------------------------
+11:05:15.549: ------------------------------------------------
+11:05:15.549: Removed profile 'Untitled' (Untitled)
+11:05:15.549: ------------------------------------------------
+11:05:32.590: User switched to scene 'Starting Soon'
+11:06:46.334: [Media Source 'Start Video']: settings:
+11:06:46.334: 	input:                   E:/Broadcast Package 2017/Videos/startingSoon.mp4
+11:06:46.334: 	input_format:            (null)
+11:06:46.334: 	is_looping:              yes
+11:06:46.334: 	is_forcing_scale:        yes
+11:06:46.334: 	is_hw_decoding:          yes
+11:06:46.334: 	is_clear_on_media_end:   yes
+11:06:46.334: 	restart_on_activate:     yes
+11:06:47.721: User switched to scene 'Pick/Ban'
+11:06:47.872: ---------------------------------
+11:06:47.872: [DShow Device: 'Webcam'] settings updated: 
+11:06:47.872: 	video device: Microsoft® LifeCam Cinema(TM)
+11:06:47.872: 	video path: \\?\usb#vid_045e&pid_075d&mi_00#7&17ba1b95&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+11:06:47.872: 	resolution: 1280x720
+11:06:47.872: 	fps: 30.00 (interval: 333333)
+11:06:47.872: 	format: YUY2
+11:07:18.330: warning: Stream #0: not enough frames to estimate rate; consider increasing probesize

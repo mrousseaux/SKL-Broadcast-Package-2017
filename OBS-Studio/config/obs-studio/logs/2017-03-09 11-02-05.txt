@@ -1,0 +1,302 @@
+11:02:05.270: CPU Name: Intel(R) Core(TM) i7-2600K CPU @ 3.40GHz
+11:02:05.270: CPU Speed: 3392MHz
+11:02:05.270: Physical Cores: 4, Logical Cores: 8
+11:02:05.270: Physical Memory: 16366MB Total, 8133MB Free
+11:02:05.270: Windows Version: 10.0 Build 14393 (revision: 693; 64-bit)
+11:02:05.270: Running as administrator: false
+11:02:05.270: Aero is Enabled (Aero is always on for windows 8 and above)
+11:02:05.271: Portable mode: true
+11:02:05.302: OBS 18.0.1 (64bit, windows)
+11:02:05.302: ---------------------------------
+11:02:05.303: ---------------------------------
+11:02:05.303: audio settings reset:
+11:02:05.303: 	samples per sec: 44100
+11:02:05.303: 	speakers:        2
+11:02:05.304: ---------------------------------
+11:02:05.304: Initializing D3D11..
+11:02:05.304: Available Video Adapters: 
+11:02:05.305: 	Adapter 1: NVIDIA GeForce GTX 750 Ti
+11:02:05.305: 	  Dedicated VRAM: 2114650112
+11:02:05.305: 	  Shared VRAM:    4285851648
+11:02:05.305: 	  output 1: pos={0, 0}, size={1920, 1080}, attached=true
+11:02:05.305: 	  output 2: pos={1920, 0}, size={1600, 900}, attached=true
+11:02:05.305: 	Adapter 2: ATI FirePro V4800 (FireGL) Graphics Adapter
+11:02:05.305: 	  Dedicated VRAM: 1059917824
+11:02:05.305: 	  Shared VRAM:    4026531840
+11:02:05.308: Loading up D3D11 on adapter NVIDIA GeForce GTX 750 Ti (0)
+11:02:05.328: D3D11 loaded sucessfully, feature level used: 45056
+11:02:06.064: ---------------------------------
+11:02:06.064: video settings reset:
+11:02:06.064: 	base resolution:   1920x1080
+11:02:06.064: 	output resolution: 1280x720
+11:02:06.064: 	downscale filter:  Bicubic
+11:02:06.064: 	fps:               30/1
+11:02:06.064: 	format:            NV12
+11:02:06.065: Audio monitoring device:
+11:02:06.065: 	name: Default
+11:02:06.065: 	id: default
+11:02:06.065: ---------------------------------
+11:02:06.067: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/chrome_elf.dll' not found, loading of module failed
+11:02:06.072: [CoreAudio encoder]: Adding CoreAudio AAC encoder
+11:02:06.073: [AMF Encoder] Unable to load 'amfrt64.dll', error code 126.
+11:02:06.080: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/libcef.dll' not found, loading of module failed
+11:02:06.081: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/libEGL.dll' not found, loading of module failed
+11:02:06.081: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/libGLESv2.dll' not found, loading of module failed
+11:02:06.082: Failed to load 'en-US' text for module: 'obs-browser.dll'
+11:02:06.082: [browser_source: 'Version: 1.29.0']
+11:02:06.083: NVENC supported
+11:02:06.156: Couldn't find VLC installation, VLC video source disabled
+11:02:06.194: ---------------------------------
+11:02:06.194:   Loaded Modules:
+11:02:06.194:     win-wasapi.dll
+11:02:06.194:     win-mf.dll
+11:02:06.194:     win-dshow.dll
+11:02:06.194:     win-decklink.dll
+11:02:06.194:     win-capture.dll
+11:02:06.194:     vlc-video.dll
+11:02:06.194:     text-freetype2.dll
+11:02:06.194:     rtmp-services.dll
+11:02:06.194:     obs-x264.dll
+11:02:06.194:     obs-vst.dll
+11:02:06.195:     obs-transitions.dll
+11:02:06.195:     obs-text.dll
+11:02:06.195:     obs-qsv11.dll
+11:02:06.195:     obs-outputs.dll
+11:02:06.195:     obs-filters.dll
+11:02:06.195:     obs-ffmpeg.dll
+11:02:06.195:     obs-browser.dll
+11:02:06.195:     image-source.dll
+11:02:06.195:     frontend-tools.dll
+11:02:06.195:     enc-amf.dll
+11:02:06.195:     coreaudio-encoder.dll
+11:02:06.195: ==== Startup complete ===============================================
+11:02:06.202: obs-data.c: [obs_data_create_from_json] Failed reading json string (-1): wrong arguments
+11:02:06.202: Service '' not found
+11:02:06.204: Switched to Preview/Program mode
+11:02:06.204: ------------------------------------------------
+11:02:06.205: All scene data cleared
+11:02:06.205: ------------------------------------------------
+11:02:06.229: WASAPI: Device 'Speakers (Realtek High Definition Audio)' initialized
+11:02:06.244: WASAPI: Device 'Line In (2- BEHRINGER USB WDM AUDIO 2.8.40)' initialized
+11:02:06.245: Failed to open file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Overlay Images/!dummyGameBG.jpg': No such file or directory
+11:02:06.245: gs_image_file_init: Failed to load file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Overlay Images/!dummyGameBG.jpg'
+11:02:06.245: [image_source: 'GameDummy'] failed to load texture 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Overlay Images/!dummyGameBG.jpg'
+11:02:06.245: Failed to open file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Overlay Images/Spectator Overlay v3.0.png': No such file or directory
+11:02:06.245: gs_image_file_init: Failed to load file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Overlay Images/Spectator Overlay v3.0.png'
+11:02:06.245: [image_source: 'Main Game Overlay'] failed to load texture 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Overlay Images/Spectator Overlay v3.0.png'
+11:02:06.267: [Media Source 'Media Source']: settings:
+11:02:06.267: 	input:                   E:/Customers/CEL/SKL/broadcast/Hype/SKL 2015 Finals Hype.mp4
+11:02:06.267: 	input_format:            (null)
+11:02:06.267: 	is_looping:              yes
+11:02:06.267: 	is_forcing_scale:        yes
+11:02:06.267: 	is_hw_decoding:          yes
+11:02:06.267: 	is_clear_on_media_end:   yes
+11:02:06.267: 	restart_on_activate:     yes
+11:02:06.267: Failed to open file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Scoreboard Assistant/output/teams/image1.png': No such file or directory
+11:02:06.267: gs_image_file_init: Failed to load file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Scoreboard Assistant/output/teams/image1.png'
+11:02:06.267: [image_source: 'Blue Team Logo'] failed to load texture 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Scoreboard Assistant/output/teams/image1.png'
+11:02:06.268: Failed to open file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Scoreboard Assistant/output/teams/image2.png': No such file or directory
+11:02:06.268: gs_image_file_init: Failed to load file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Scoreboard Assistant/output/teams/image2.png'
+11:02:06.268: [image_source: 'Red Team Logo'] failed to load texture 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Scoreboard Assistant/output/teams/image2.png'
+11:02:06.272: adding 23 milliseconds of audio buffering, total audio buffering is now 23 milliseconds
+11:02:06.628: Switched to scene 'Game Overlay'
+11:02:06.633: ------------------------------------------------
+11:02:06.633: Loaded scenes:
+11:02:06.633: - scene 'Scene':
+11:02:06.633:     - source: 'Media Source' (ffmpeg_source)
+11:02:06.633:     - source: 'alert' (browser_source)
+11:02:06.633: - scene 'Game Overlay':
+11:02:06.633:     - source: 'GameDummy' (image_source)
+11:02:06.633:     - source: 'alert' (browser_source)
+11:02:06.633:     - source: 'Main Game Overlay' (image_source)
+11:02:06.633:     - source: 'Blue Team Initials' (text_gdiplus)
+11:02:06.633:     - source: 'Blue Team Logo' (image_source)
+11:02:06.633:     - source: 'Red Team Initials' (text_gdiplus)
+11:02:06.633:     - source: 'Red Team Logo' (image_source)
+11:02:06.633: ------------------------------------------------
+11:02:06.655: adding 23 milliseconds of audio buffering, total audio buffering is now 46 milliseconds
+11:02:21.677: Switched to scene '(null)'
+11:02:21.736: WASAPI: Device 'Speakers (Realtek High Definition Audio)' Terminated
+11:02:21.741: WASAPI: Device 'Line In (2- BEHRINGER USB WDM AUDIO 2.8.40)' Terminated
+11:02:21.743: All scene data cleared
+11:02:21.743: ------------------------------------------------
+11:02:21.758: WASAPI: Device 'Speakers (Realtek High Definition Audio)' initialized
+11:02:21.771: WASAPI: Device 'Line In (2- BEHRINGER USB WDM AUDIO 2.8.40)' initialized
+11:02:21.772: Switched to scene 'Scene'
+11:02:21.773: ------------------------------------------------
+11:02:21.774: Loaded scenes:
+11:02:21.774: - scene 'Scene':
+11:02:21.774: ------------------------------------------------
+11:02:21.775: Switched to scene collection 'Untitled' (Untitled.json)
+11:02:21.775: ------------------------------------------------
+11:02:39.289: Switched to scene '(null)'
+11:02:39.290: WASAPI: Device 'Speakers (Realtek High Definition Audio)' Terminated
+11:02:39.293: WASAPI: Device 'Line In (2- BEHRINGER USB WDM AUDIO 2.8.40)' Terminated
+11:02:39.295: All scene data cleared
+11:02:39.295: ------------------------------------------------
+11:02:39.310: WASAPI: Device 'Speakers (Realtek High Definition Audio)' initialized
+11:02:39.323: WASAPI: Device 'Line In (2- BEHRINGER USB WDM AUDIO 2.8.40)' initialized
+11:02:39.323: Failed to open file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Scoreboard Assistant/output/teams/image2.png': No such file or directory
+11:02:39.323: gs_image_file_init: Failed to load file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Scoreboard Assistant/output/teams/image2.png'
+11:02:39.323: [image_source: 'Red Team Logo'] failed to load texture 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Scoreboard Assistant/output/teams/image2.png'
+11:02:39.324: Failed to open file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Scoreboard Assistant/output/teams/image1.png': No such file or directory
+11:02:39.324: gs_image_file_init: Failed to load file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Scoreboard Assistant/output/teams/image1.png'
+11:02:39.324: [image_source: 'Blue Team Logo'] failed to load texture 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Scoreboard Assistant/output/teams/image1.png'
+11:02:39.324: [Media Source 'Media Source']: settings:
+11:02:39.324: 	input:                   E:/Customers/CEL/SKL/broadcast/Hype/SKL 2015 Finals Hype.mp4
+11:02:39.324: 	input_format:            (null)
+11:02:39.324: 	is_looping:              yes
+11:02:39.324: 	is_forcing_scale:        yes
+11:02:39.324: 	is_hw_decoding:          yes
+11:02:39.324: 	is_clear_on_media_end:   yes
+11:02:39.324: 	restart_on_activate:     yes
+11:02:39.334: Failed to open file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Overlay Images/Spectator Overlay v3.0.png': No such file or directory
+11:02:39.334: gs_image_file_init: Failed to load file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Overlay Images/Spectator Overlay v3.0.png'
+11:02:39.334: [image_source: 'Main Game Overlay'] failed to load texture 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Overlay Images/Spectator Overlay v3.0.png'
+11:02:39.334: Failed to open file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Overlay Images/!dummyGameBG.jpg': No such file or directory
+11:02:39.334: gs_image_file_init: Failed to load file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Overlay Images/!dummyGameBG.jpg'
+11:02:39.334: [image_source: 'GameDummy'] failed to load texture 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Overlay Images/!dummyGameBG.jpg'
+11:02:39.349: Switched to scene 'Game Overlay'
+11:02:39.350: ------------------------------------------------
+11:02:39.350: Loaded scenes:
+11:02:39.350: - scene 'Scene':
+11:02:39.350:     - source: 'Media Source' (ffmpeg_source)
+11:02:39.350:     - source: 'alert' (browser_source)
+11:02:39.350: - scene 'Game Overlay':
+11:02:39.350:     - source: 'GameDummy' (image_source)
+11:02:39.350:     - source: 'alert' (browser_source)
+11:02:39.350:     - source: 'Main Game Overlay' (image_source)
+11:02:39.350:     - source: 'Blue Team Initials' (text_gdiplus)
+11:02:39.350:     - source: 'Blue Team Logo' (image_source)
+11:02:39.350:     - source: 'Red Team Initials' (text_gdiplus)
+11:02:39.350:     - source: 'Red Team Logo' (image_source)
+11:02:39.350: ------------------------------------------------
+11:02:39.352: Switched to scene collection 'SKL - League' (SKL__League.json)
+11:02:39.352: ------------------------------------------------
+11:02:42.845: Switched to scene '(null)'
+11:02:42.880: WASAPI: Device 'Speakers (Realtek High Definition Audio)' Terminated
+11:02:42.885: WASAPI: Device 'Line In (2- BEHRINGER USB WDM AUDIO 2.8.40)' Terminated
+11:02:42.887: All scene data cleared
+11:02:42.887: ------------------------------------------------
+11:02:42.902: WASAPI: Device 'Speakers (Realtek High Definition Audio)' initialized
+11:02:42.916: WASAPI: Device 'Line In (2- BEHRINGER USB WDM AUDIO 2.8.40)' initialized
+11:02:42.917: Switched to scene 'Scene'
+11:02:42.918: ------------------------------------------------
+11:02:42.918: Loaded scenes:
+11:02:42.918: - scene 'Scene':
+11:02:42.918: ------------------------------------------------
+11:02:42.919: Removed scene collection 'SKL - League' (../../config/obs-studio/basic/scenes/SKL__League.json.bak.json), switched to 'Untitled' (Untitled.json)
+11:02:42.919: ------------------------------------------------
+11:02:53.054: Switched to scene '(null)'
+11:02:53.055: WASAPI: Device 'Speakers (Realtek High Definition Audio)' Terminated
+11:02:53.059: WASAPI: Device 'Line In (2- BEHRINGER USB WDM AUDIO 2.8.40)' Terminated
+11:02:53.061: All scene data cleared
+11:02:53.061: ------------------------------------------------
+11:02:53.075: WASAPI: Device 'Speakers (Realtek High Definition Audio)' initialized
+11:02:53.088: WASAPI: Device 'Line In (2- BEHRINGER USB WDM AUDIO 2.8.40)' initialized
+11:02:53.089: Failed to open file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Scoreboard Assistant/output/teams/image2.png': No such file or directory
+11:02:53.089: gs_image_file_init: Failed to load file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Scoreboard Assistant/output/teams/image2.png'
+11:02:53.089: [image_source: 'Red Team Logo'] failed to load texture 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Scoreboard Assistant/output/teams/image2.png'
+11:02:53.089: Failed to open file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Scoreboard Assistant/output/teams/image1.png': No such file or directory
+11:02:53.089: gs_image_file_init: Failed to load file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Scoreboard Assistant/output/teams/image1.png'
+11:02:53.089: [image_source: 'Blue Team Logo'] failed to load texture 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Scoreboard Assistant/output/teams/image1.png'
+11:02:53.089: [Media Source 'Media Source']: settings:
+11:02:53.089: 	input:                   E:/Customers/CEL/SKL/broadcast/Hype/SKL 2015 Finals Hype.mp4
+11:02:53.089: 	input_format:            (null)
+11:02:53.089: 	is_looping:              yes
+11:02:53.089: 	is_forcing_scale:        yes
+11:02:53.089: 	is_hw_decoding:          yes
+11:02:53.089: 	is_clear_on_media_end:   yes
+11:02:53.089: 	restart_on_activate:     yes
+11:02:53.099: Failed to open file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Overlay Images/Spectator Overlay v3.0.png': No such file or directory
+11:02:53.099: gs_image_file_init: Failed to load file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Overlay Images/Spectator Overlay v3.0.png'
+11:02:53.099: [image_source: 'Main Game Overlay'] failed to load texture 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Overlay Images/Spectator Overlay v3.0.png'
+11:02:53.099: Failed to open file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Overlay Images/!dummyGameBG.jpg': No such file or directory
+11:02:53.099: gs_image_file_init: Failed to load file 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Overlay Images/!dummyGameBG.jpg'
+11:02:53.099: [image_source: 'GameDummy'] failed to load texture 'E:/Customers/CEL/SKL/broadcast/Broadcast Package 2017/Overlay Images/!dummyGameBG.jpg'
+11:02:53.114: Switched to scene 'Game Overlay'
+11:02:53.115: ------------------------------------------------
+11:02:53.115: Loaded scenes:
+11:02:53.115: - scene 'Scene':
+11:02:53.115:     - source: 'Media Source' (ffmpeg_source)
+11:02:53.115:     - source: 'alert' (browser_source)
+11:02:53.115: - scene 'Game Overlay':
+11:02:53.115:     - source: 'GameDummy' (image_source)
+11:02:53.115:     - source: 'alert' (browser_source)
+11:02:53.115:     - source: 'Main Game Overlay' (image_source)
+11:02:53.115:     - source: 'Blue Team Initials' (text_gdiplus)
+11:02:53.115:     - source: 'Blue Team Logo' (image_source)
+11:02:53.115:     - source: 'Red Team Initials' (text_gdiplus)
+11:02:53.115:     - source: 'Red Team Logo' (image_source)
+11:02:53.115: ------------------------------------------------
+11:02:53.117: Switched to scene collection 'SKL - League' (SKL__League.json)
+11:02:53.117: ------------------------------------------------
+11:03:10.629: ==== Shutting down ==================================================
+11:03:10.635: Switched to scene '(null)'
+11:03:10.637: WASAPI: Device 'Speakers (Realtek High Definition Audio)' Terminated
+11:03:10.640: WASAPI: Device 'Line In (2- BEHRINGER USB WDM AUDIO 2.8.40)' Terminated
+11:03:10.642: All scene data cleared
+11:03:10.642: ------------------------------------------------
+11:03:10.704: Freeing OBS context data
+11:03:10.734: == Profiler Results =============================
+11:03:10.735: run_program_init: 1796.95 ms
+11:03:10.735:  ┣OBSApp::AppInit: 2.032 ms
+11:03:10.735:  ┃ ┗OBSApp::InitLocale: 1.098 ms
+11:03:10.735:  ┗OBSApp::OBSInit: 1760.48 ms
+11:03:10.735:    ┣obs_startup: 1.237 ms
+11:03:10.735:    ┗OBSBasic::OBSInit: 1686.27 ms
+11:03:10.735:      ┣OBSBasic::InitBasicConfig: 0.394 ms
+11:03:10.735:      ┣OBSBasic::ResetAudio: 0.433 ms
+11:03:10.735:      ┣OBSBasic::ResetVideo: 761.757 ms
+11:03:10.735:      ┣OBSBasic::InitOBSCallbacks: 0.005 ms
+11:03:10.735:      ┣OBSBasic::InitHotkeys: 0.043 ms
+11:03:10.735:      ┣obs_load_all_modules: 129.073 ms
+11:03:10.735:      ┃ ┣obs_init_module(coreaudio-encoder.dll): 4.215 ms
+11:03:10.735:      ┃ ┣obs_init_module(enc-amf.dll): 0.477 ms
+11:03:10.735:      ┃ ┣obs_init_module(frontend-tools.dll): 1.523 ms
+11:03:10.735:      ┃ ┣obs_init_module(image-source.dll): 0.005 ms
+11:03:10.735:      ┃ ┣obs_init_module(obs-browser.dll): 0.055 ms
+11:03:10.735:      ┃ ┣obs_init_module(obs-ffmpeg.dll): 0.517 ms
+11:03:10.735:      ┃ ┣obs_init_module(obs-filters.dll): 0.008 ms
+11:03:10.735:      ┃ ┣obs_init_module(obs-outputs.dll): 0.005 ms
+11:03:10.735:      ┃ ┣obs_init_module(obs-qsv11.dll): 64.546 ms
+11:03:10.735:      ┃ ┣obs_init_module(obs-text.dll): 0.446 ms
+11:03:10.735:      ┃ ┣obs_init_module(obs-transitions.dll): 0.004 ms
+11:03:10.735:      ┃ ┣obs_init_module(obs-vst.dll): 0.001 ms
+11:03:10.735:      ┃ ┣obs_init_module(obs-x264.dll): 0.001 ms
+11:03:10.735:      ┃ ┣obs_init_module(rtmp-services.dll): 0.288 ms
+11:03:10.735:      ┃ ┣obs_init_module(text-freetype2.dll): 0.037 ms
+11:03:10.735:      ┃ ┣obs_init_module(vlc-video.dll): 0.04 ms
+11:03:10.735:      ┃ ┣obs_init_module(win-capture.dll): 0.062 ms
+11:03:10.735:      ┃ ┣obs_init_module(win-decklink.dll): 9.021 ms
+11:03:10.735:      ┃ ┣obs_init_module(win-dshow.dll): 1.344 ms
+11:03:10.735:      ┃ ┣obs_init_module(win-mf.dll): 22.933 ms
+11:03:10.735:      ┃ ┣obs_init_module(win-wasapi.dll): 0.005 ms
+11:03:10.735:      ┃ ┗reset_win32_symbol_paths: 0.094 ms
+11:03:10.735:      ┣OBSBasic::ResetOutputs: 7.632 ms
+11:03:10.735:      ┣OBSBasic::CreateHotkeys: 0.019 ms
+11:03:10.735:      ┣OBSBasic::InitService: 0.129 ms
+11:03:10.735:      ┣OBSBasic::InitPrimitives: 0.24 ms
+11:03:10.735:      ┗OBSBasic::Load: 429.859 ms
+11:03:10.735: obs_hotkey_thread(25 ms): min=0.002 ms, median=0.004 ms, max=2.344 ms, 99th percentile=0.386 ms, 100% below 25 ms
+11:03:10.735: audio_thread(Audio): min=0 ms, median=0.051 ms, max=6.696 ms, 99th percentile=0.168 ms
+11:03:10.735: obs_video_thread(33.3333 ms): min=0.265 ms, median=1.018 ms, max=320.083 ms, 99th percentile=3.944 ms, 99.8964% below 33.333 ms
+11:03:10.735:  ┣tick_sources: min=0.001 ms, median=0.008 ms, max=319.291 ms, 99th percentile=0.127 ms
+11:03:10.735:  ┣render_displays: min=0.001 ms, median=0.537 ms, max=12.175 ms, 99th percentile=2.106 ms
+11:03:10.735:  ┗output_frame: min=0.259 ms, median=0.466 ms, max=11.869 ms, 99th percentile=1.163 ms
+11:03:10.735:    ┣gs_context(video->graphics): min=0.159 ms, median=0.252 ms, max=11.5 ms, 99th percentile=0.804 ms
+11:03:10.735:    ┃ ┣render_video: min=0.022 ms, median=0.041 ms, max=11.316 ms, 99th percentile=0.127 ms
+11:03:10.735:    ┃ ┃ ┣render_main_texture: min=0.002 ms, median=0.012 ms, max=11.096 ms, 99th percentile=0.042 ms
+11:03:10.735:    ┃ ┃ ┣render_output_texture: min=0.002 ms, median=0.014 ms, max=0.101 ms, 99th percentile=0.035 ms
+11:03:10.735:    ┃ ┃ ┣render_convert_texture: min=0.001 ms, median=0.01 ms, max=0.12 ms, 99th percentile=0.031 ms
+11:03:10.735:    ┃ ┃ ┗stage_output_texture: min=0 ms, median=0.002 ms, max=0.098 ms, 99th percentile=0.011 ms
+11:03:10.735:    ┃ ┣download_frame: min=0 ms, median=0.002 ms, max=0.405 ms, 99th percentile=0.01 ms
+11:03:10.735:    ┃ ┗gs_flush: min=0.028 ms, median=0.206 ms, max=10.651 ms, 99th percentile=0.635 ms
+11:03:10.735:    ┗output_video_data: min=0.173 ms, median=0.202 ms, max=0.737 ms, 99th percentile=0.345 ms
+11:03:10.735: video_thread(video): min=0.001 ms, median=0.001 ms, max=0.047 ms, 99th percentile=0.002 ms
+11:03:10.735: =================================================
+11:03:10.735: == Profiler Time Between Calls ==================
+11:03:10.735: obs_hotkey_thread(25 ms): min=24.926 ms, median=25.018 ms, max=27.02 ms, 93.6757% within ±2% of 25 ms (0% lower, 6.32426% higher)
+11:03:10.735: obs_video_thread(33.3333 ms): min=2.567 ms, median=33.333 ms, max=320.092 ms, 99.7409% within ±2% of 33.333 ms (0.103627% lower, 0.15544% higher)
+11:03:10.735: =================================================
+11:03:10.763: Number of memory leaks: 1
