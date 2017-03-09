@@ -78,7 +78,7 @@
         "volume": 0.61412495374679565
     },
     "current_program_scene": "Game Overlay",
-    "current_scene": "Pick/Ban",
+    "current_scene": "Game Overlay",
     "current_transition": "Fade",
     "modules": {
         "auto-scene-switcher": {
@@ -125,7 +125,7 @@
             "saved_preview_projectors": 0
         },
         {
-            "saved_preview_projectors": 0
+            "saved_preview_projectors": 1
         },
         {
             "saved_preview_projectors": 0
@@ -190,7 +190,7 @@
             "name": "Starting Soon"
         },
         {
-            "name": "Camera"
+            "name": "Full Screen Camera"
         },
         {
             "name": "Pick/Ban"
@@ -208,22 +208,23 @@
             "deinterlace_mode": 0,
             "enabled": true,
             "flags": 0,
-            "hotkeys": {
-                "hotkey_start": [],
-                "hotkey_stop": []
-            },
-            "id": "game_capture",
+            "hotkeys": {},
+            "id": "slideshow",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "League Game",
+            "name": "SKL Panels",
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "capture_mode": "window",
-                "window": "League of Legends (TM) Client:RiotWindowClass:League of Legends.exe"
+                "files": [
+                    {
+                        "value": "E:/Broadcast Package 2017/Images/SKL Panels"
+                    }
+                ],
+                "transition": "swipe"
             },
             "sync": 0,
             "volume": 1.0
@@ -234,17 +235,17 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {},
-            "id": "window_capture",
+            "id": "image_source",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Pickban",
+            "name": "Stream Times",
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "window": "League of Legends:RCLIENT:LeagueClientUx.exe"
+                "file": "E:/Broadcast Package 2017/Images/Stream times.png"
             },
             "sync": 0,
             "volume": 1.0
@@ -253,30 +254,501 @@
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
             "enabled": true,
-            "flags": 1,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Red Score White",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "E:/Broadcast Package 2017/Scoreboard Assistant/output/teams/score2.txt",
+                "font": {
+                    "face": "Arial Black",
+                    "flags": 1,
+                    "size": 72,
+                    "style": ""
+                },
+                "read_from_file": true
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Blue Score White",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "E:/Broadcast Package 2017/Scoreboard Assistant/output/teams/score1.txt",
+                "font": {
+                    "face": "Arial Black",
+                    "flags": 1,
+                    "size": 72,
+                    "style": ""
+                },
+                "read_from_file": true
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Red Team Name",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "align": "right",
+                "file": "E:/Broadcast Package 2017/Scoreboard Assistant/output/teams/player2.A.txt",
+                "font": {
+                    "face": "Arial",
+                    "flags": 1,
+                    "size": 72,
+                    "style": ""
+                },
+                "read_from_file": true
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Blue Team Name",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "color": 16777215,
+                "file": "E:/Broadcast Package 2017/Scoreboard Assistant/output/teams/player1.A.txt",
+                "font": {
+                    "face": "Arial",
+                    "flags": 1,
+                    "size": 72,
+                    "style": ""
+                },
+                "read_from_file": true
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "PickBanOverlay",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "E:/Broadcast Package 2017/Overlay Images/Bans&Picks Overlay.png"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "slideshow",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Sponsor Loop",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "files": [
+                    {
+                        "value": "E:/Broadcast Package 2017/Images/Sponsors"
+                    }
+                ],
+                "transition": "slide"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
             "hotkeys": {
                 "libobs.mute": [],
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": [],
                 "libobs.unmute": []
             },
-            "id": "dshow_input",
+            "id": "ffmpeg_source",
             "mixers": 255,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Webcam",
+            "name": "Start Video",
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "color_space": "601",
-                "deactivate_when_not_showing": true,
-                "last_resolution": "1280x720",
-                "last_video_device_id": "Microsoft® LifeCam Cinema(TM):\\\\?\\usb#22vid_045e&pid_075d&mi_00#227&17ba1b95&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
-                "res_type": 1,
-                "resolution": "1280x720",
-                "video_device_id": "Microsoft® LifeCam Cinema(TM):\\\\?\\usb#22vid_045e&pid_075d&mi_00#227&17ba1b95&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global"
+                "local_file": "E:/Broadcast Package 2017/Videos/startingSoon.mp4",
+                "looping": true
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "filters": [
+                {
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "scroll_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Scroll",
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "cx": 300,
+                        "limit_cx": true,
+                        "speed_x": 10.0
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                }
+            ],
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Song Info",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "align": "center",
+                "extents": true,
+                "extents_cx": 350,
+                "extents_cy": 50,
+                "extents_wrap": false,
+                "file": "E:/Broadcast Package 2017/Scoreboard Assistant/output/music/status.txt",
+                "font": {
+                    "face": "Arial",
+                    "flags": 0,
+                    "size": 24,
+                    "style": ""
+                },
+                "read_from_file": true,
+                "valign": "center"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Now Playing",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "align": "center",
+                "font": {
+                    "face": "Arial",
+                    "flags": 1,
+                    "size": 72,
+                    "style": ""
+                },
+                "text": "Currently Playing:"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Red Score",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "align": "center",
+                "color": 0,
+                "file": "E:/Broadcast Package 2017/Scoreboard Assistant/output/teams/score2.txt",
+                "font": {
+                    "face": "Arial Black",
+                    "flags": 1,
+                    "size": 140,
+                    "style": ""
+                },
+                "read_from_file": true,
+                "valign": "center"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Blue Score",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "align": "center",
+                "color": 0,
+                "file": "E:/Broadcast Package 2017/Scoreboard Assistant/output/teams/score1.txt",
+                "font": {
+                    "face": "Arial Black",
+                    "flags": 1,
+                    "size": 140,
+                    "style": ""
+                },
+                "read_from_file": true
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "ffmpeg_source",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Looping BG",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "local_file": "E:/Broadcast Package 2017/Videos/genericBG.mp4",
+                "looping": true
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "BRB Overlay",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "E:/Broadcast Package 2017/Overlay Images/beRighBack_overlay.png"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "browser_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "twich alerts",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "fps": 30,
+                "height": 300,
+                "url": "http://streamlabs.com/alert-box/v3/5124DE3E99A09491BA9F"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "browser_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Red PP",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "css": "",
+                "height": 100,
+                "is_local_file": true,
+                "local_file": "E:/Broadcast Package 2017/Scoreboard Assistant/redPowerPlay.html",
+                "restart_when_active": true,
+                "shutdown": true,
+                "width": 300
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "browser_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Blue PP",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "css": "",
+                "height": 100,
+                "is_local_file": true,
+                "local_file": "E:/Broadcast Package 2017/Scoreboard Assistant/bluePowerPlay.html",
+                "restart_when_active": true,
+                "shutdown": true,
+                "width": 300
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "GameDummy",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "E:/Broadcast Package 2017/Overlay Images/!dummyGameBG.png"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Main Game Overlay",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "E:/Broadcast Package 2017/Overlay Images/Spectator Overlay v3.0.png"
             },
             "sync": 0,
             "volume": 1.0
@@ -288,28 +760,66 @@
             "flags": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Blue PP": [
+                    {
+                        "key": "OBS_KEY_NUM7"
+                    }
+                ],
+                "libobs.hide_scene_item.Blue Score White": [],
+                "libobs.hide_scene_item.Blue Team Initials": [],
                 "libobs.hide_scene_item.Blue Team Logo": [],
-                "libobs.hide_scene_item.Blue Team Name": [],
-                "libobs.hide_scene_item.PickBanOverlay": [],
-                "libobs.hide_scene_item.Pickban": [],
+                "libobs.hide_scene_item.GameDummy": [],
+                "libobs.hide_scene_item.League Game": [],
+                "libobs.hide_scene_item.Main Game Overlay": [],
+                "libobs.hide_scene_item.Red PP": [
+                    {
+                        "key": "OBS_KEY_NUM9"
+                    }
+                ],
+                "libobs.hide_scene_item.Red Score White": [],
+                "libobs.hide_scene_item.Red Team Initials": [],
                 "libobs.hide_scene_item.Red Team Logo": [],
-                "libobs.hide_scene_item.Red Team Name": [],
                 "libobs.hide_scene_item.Sponsor Loop": [],
-                "libobs.hide_scene_item.Webcam": [],
+                "libobs.hide_scene_item.Stream Times": [],
+                "libobs.hide_scene_item.alert": [
+                    {
+                        "key": "OBS_KEY_NUM1"
+                    }
+                ],
+                "libobs.hide_scene_item.twich alerts": [],
+                "libobs.show_scene_item.Blue PP": [
+                    {
+                        "key": "OBS_KEY_NUM7"
+                    }
+                ],
+                "libobs.show_scene_item.Blue Score White": [],
+                "libobs.show_scene_item.Blue Team Initials": [],
                 "libobs.show_scene_item.Blue Team Logo": [],
-                "libobs.show_scene_item.Blue Team Name": [],
-                "libobs.show_scene_item.PickBanOverlay": [],
-                "libobs.show_scene_item.Pickban": [],
+                "libobs.show_scene_item.GameDummy": [],
+                "libobs.show_scene_item.League Game": [],
+                "libobs.show_scene_item.Main Game Overlay": [],
+                "libobs.show_scene_item.Red PP": [
+                    {
+                        "key": "OBS_KEY_NUM9"
+                    }
+                ],
+                "libobs.show_scene_item.Red Score White": [],
+                "libobs.show_scene_item.Red Team Initials": [],
                 "libobs.show_scene_item.Red Team Logo": [],
-                "libobs.show_scene_item.Red Team Name": [],
                 "libobs.show_scene_item.Sponsor Loop": [],
-                "libobs.show_scene_item.Webcam": []
+                "libobs.show_scene_item.Stream Times": [],
+                "libobs.show_scene_item.alert": [
+                    {
+                        "key": "OBS_KEY_NUM1"
+                    }
+                ],
+                "libobs.show_scene_item.twich alerts": []
             },
             "id": "scene",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Pick/Ban",
+            "name": "Game Overlay",
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -328,32 +838,7 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "name": "Pickban",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.2000000476837158,
-                            "y": 1.2000000476837158
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "name": "PickBanOverlay",
+                        "name": "League Game",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -378,15 +863,140 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "name": "Blue Team Logo",
+                        "name": "GameDummy",
                         "pos": {
-                            "x": 43.0,
-                            "y": 815.0
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.343873530626297,
-                            "y": 0.343873530626297
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "alert",
+                        "pos": {
+                            "x": 633.0,
+                            "y": 774.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Main Game Overlay",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Blue Team Initials",
+                        "pos": {
+                            "x": 417.0,
+                            "y": 14.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Blue Team Logo",
+                        "pos": {
+                            "x": 489.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.197628453373909,
+                            "y": 0.197628453373909
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Red Team Initials",
+                        "pos": {
+                            "x": 1466.0,
+                            "y": 13.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -405,13 +1015,13 @@
                         "crop_top": 0,
                         "name": "Red Team Logo",
                         "pos": {
-                            "x": 1791.0,
-                            "y": 815.0
+                            "x": 1394.0,
+                            "y": 4.0
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.33992093801498413,
-                            "y": 0.33992093801498413
+                            "x": 0.17786560952663422,
+                            "y": 0.17786560952663422
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -428,18 +1038,43 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "name": "Webcam",
+                        "name": "Blue PP",
                         "pos": {
-                            "x": 637.0,
-                            "y": 695.0
+                            "x": 596.0,
+                            "y": 43.0
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.50703126192092896,
-                            "y": 0.50694441795349121
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": true
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Red PP",
+                        "pos": {
+                            "x": 1124.0,
+                            "y": 44.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
                     },
                     {
                         "align": 5,
@@ -455,13 +1090,13 @@
                         "crop_top": 0,
                         "name": "Sponsor Loop",
                         "pos": {
-                            "x": 1389.0,
-                            "y": 918.0
+                            "x": 1339.0,
+                            "y": 963.0
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.20697362720966339,
-                            "y": 0.20637328922748566
+                            "x": 0.57915055751800537,
+                            "y": 0.5792078971862793
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -478,15 +1113,15 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "name": "Blue Team Name",
+                        "name": "twich alerts",
                         "pos": {
-                            "x": 164.0,
-                            "y": 836.0
+                            "x": 1325.0,
+                            "y": 951.0
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.5788770318031311,
-                            "y": 0.58333331346511841
+                            "x": 0.42875000834465027,
+                            "y": 0.43000000715255737
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -503,15 +1138,65 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "name": "Red Team Name",
+                        "name": "Blue Score White",
                         "pos": {
-                            "x": 1469.0,
-                            "y": 838.0
+                            "x": 552.0,
+                            "y": 1.0
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.5788770318031311,
-                            "y": 0.58333331346511841
+                            "x": 0.6388888955116272,
+                            "y": 0.6388888955116272
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Red Score White",
+                        "pos": {
+                            "x": 1358.0,
+                            "y": 1.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.6388888955116272,
+                            "y": 0.6388888955116272
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Stream Times",
+                        "pos": {
+                            "x": 369.0,
+                            "y": 969.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.52743899822235107,
+                            "y": 0.52813851833343506
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -526,16 +1211,141 @@
             "deinterlace_mode": 0,
             "enabled": true,
             "flags": 0,
+            "hotkeys": {},
+            "id": "browser_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "alert",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "css": "",
+                "is_local_file": true,
+                "local_file": "E:/Broadcast Package 2017/Scoreboard Assistant/spectatorAlerts.html",
+                "restart_when_active": true,
+                "shutdown": true
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Blue Team Initials",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "align": "center",
+                "file": "E:/Broadcast Package 2017/Scoreboard Assistant/output/teams/player1.B.txt",
+                "font": {
+                    "face": "Arial",
+                    "flags": 1,
+                    "size": 28,
+                    "style": ""
+                },
+                "read_from_file": true
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Blue Team Logo",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "E:/Broadcast Package 2017/Scoreboard Assistant/output/teams/image1.png"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Red Team Initials",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "align": "center",
+                "file": "E:/Broadcast Package 2017/Scoreboard Assistant/output/teams/player2.B.txt",
+                "font": {
+                    "face": "Arial",
+                    "flags": 1,
+                    "size": 28,
+                    "style": ""
+                },
+                "read_from_file": true
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Red Team Logo",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "E:/Broadcast Package 2017/Scoreboard Assistant/output/teams/image2.png"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
-                "libobs.hide_scene_item.Webcam": [],
-                "libobs.show_scene_item.Webcam": []
+                "libobs.hide_scene_item.Start Video": [],
+                "libobs.show_scene_item.Start Video": []
             },
             "id": "scene",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Camera",
+            "name": "Starting Soon",
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -554,15 +1364,15 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "name": "Webcam",
+                        "name": "Start Video",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 1.5,
-                            "y": 1.5
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -819,14 +1629,14 @@
             "flags": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
-                "libobs.hide_scene_item.Start Video": [],
-                "libobs.show_scene_item.Start Video": []
+                "libobs.hide_scene_item.Webcam": [],
+                "libobs.show_scene_item.Webcam": []
             },
             "id": "scene",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Starting Soon",
+            "name": "Full Screen Camera",
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -845,15 +1655,15 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "name": "Start Video",
+                        "name": "Webcam",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 1.5,
+                            "y": 1.5
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -868,187 +1678,36 @@
             "deinterlace_mode": 0,
             "enabled": true,
             "flags": 0,
-            "hotkeys": {},
-            "id": "image_source",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Red Team Logo",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "file": "E:/Broadcast Package 2017/Scoreboard Assistant/output/teams/image2.png"
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "text_gdiplus",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Red Team Initials",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "align": "center",
-                "file": "E:/Broadcast Package 2017/Scoreboard Assistant/output/teams/player2.B.txt",
-                "font": {
-                    "face": "Arial",
-                    "flags": 1,
-                    "size": 28,
-                    "style": ""
-                },
-                "read_from_file": true
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "image_source",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Blue Team Logo",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "file": "E:/Broadcast Package 2017/Scoreboard Assistant/output/teams/image1.png"
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "text_gdiplus",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Blue Team Initials",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "align": "center",
-                "file": "E:/Broadcast Package 2017/Scoreboard Assistant/output/teams/player1.B.txt",
-                "font": {
-                    "face": "Arial",
-                    "flags": 1,
-                    "size": 28,
-                    "style": ""
-                },
-                "read_from_file": true
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "browser_source",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "alert",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "css": "",
-                "is_local_file": true,
-                "local_file": "E:/Broadcast Package 2017/Scoreboard Assistant/spectatorAlerts.html",
-                "restart_when_active": true,
-                "shutdown": true
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
-                "libobs.hide_scene_item.Blue PP": [
-                    {
-                        "key": "OBS_KEY_NUM7"
-                    }
-                ],
-                "libobs.hide_scene_item.Blue Team Initials": [],
+                "libobs.hide_scene_item.Blue Score White": [],
                 "libobs.hide_scene_item.Blue Team Logo": [],
-                "libobs.hide_scene_item.GameDummy": [],
-                "libobs.hide_scene_item.League Game": [],
-                "libobs.hide_scene_item.Main Game Overlay": [],
-                "libobs.hide_scene_item.Red PP": [
-                    {
-                        "key": "OBS_KEY_NUM9"
-                    }
-                ],
-                "libobs.hide_scene_item.Red Team Initials": [],
+                "libobs.hide_scene_item.Blue Team Name": [],
+                "libobs.hide_scene_item.PickBanOverlay": [],
+                "libobs.hide_scene_item.Pickban": [],
+                "libobs.hide_scene_item.Red Score White": [],
                 "libobs.hide_scene_item.Red Team Logo": [],
+                "libobs.hide_scene_item.Red Team Name": [],
+                "libobs.hide_scene_item.SKL Panels": [],
                 "libobs.hide_scene_item.Sponsor Loop": [],
-                "libobs.hide_scene_item.alert": [
-                    {
-                        "key": "OBS_KEY_NUM1"
-                    }
-                ],
-                "libobs.hide_scene_item.twich alerts": [],
-                "libobs.show_scene_item.Blue PP": [
-                    {
-                        "key": "OBS_KEY_NUM7"
-                    }
-                ],
-                "libobs.show_scene_item.Blue Team Initials": [],
+                "libobs.hide_scene_item.Webcam": [],
+                "libobs.show_scene_item.Blue Score White": [],
                 "libobs.show_scene_item.Blue Team Logo": [],
-                "libobs.show_scene_item.GameDummy": [],
-                "libobs.show_scene_item.League Game": [],
-                "libobs.show_scene_item.Main Game Overlay": [],
-                "libobs.show_scene_item.Red PP": [
-                    {
-                        "key": "OBS_KEY_NUM9"
-                    }
-                ],
-                "libobs.show_scene_item.Red Team Initials": [],
+                "libobs.show_scene_item.Blue Team Name": [],
+                "libobs.show_scene_item.PickBanOverlay": [],
+                "libobs.show_scene_item.Pickban": [],
+                "libobs.show_scene_item.Red Score White": [],
                 "libobs.show_scene_item.Red Team Logo": [],
+                "libobs.show_scene_item.Red Team Name": [],
+                "libobs.show_scene_item.SKL Panels": [],
                 "libobs.show_scene_item.Sponsor Loop": [],
-                "libobs.show_scene_item.alert": [
-                    {
-                        "key": "OBS_KEY_NUM1"
-                    }
-                ],
-                "libobs.show_scene_item.twich alerts": []
+                "libobs.show_scene_item.Webcam": []
             },
             "id": "scene",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Game Overlay",
+            "name": "Pick/Ban",
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -1067,15 +1726,15 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "name": "League Game",
+                        "name": "Pickban",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 1.2000000476837158,
+                            "y": 1.2000000476837158
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -1092,85 +1751,10 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "name": "GameDummy",
+                        "name": "PickBanOverlay",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": false
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "name": "alert",
-                        "pos": {
-                            "x": 633.0,
-                            "y": 774.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": false
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "name": "Main Game Overlay",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "name": "Blue Team Initials",
-                        "pos": {
-                            "x": 417.0,
-                            "y": 14.0
                         },
                         "rot": 0.0,
                         "scale": {
@@ -1194,38 +1778,13 @@
                         "crop_top": 0,
                         "name": "Blue Team Logo",
                         "pos": {
-                            "x": 489.0,
-                            "y": 0.0
+                            "x": 43.0,
+                            "y": 815.0
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.197628453373909,
-                            "y": 0.197628453373909
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "name": "Red Team Initials",
-                        "pos": {
-                            "x": 1466.0,
-                            "y": 13.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.343873530626297,
+                            "y": 0.343873530626297
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -1244,13 +1803,13 @@
                         "crop_top": 0,
                         "name": "Red Team Logo",
                         "pos": {
-                            "x": 1394.0,
-                            "y": 4.0
+                            "x": 1791.0,
+                            "y": 815.0
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.17786560952663422,
-                            "y": 0.17786560952663422
+                            "x": 0.33992093801498413,
+                            "y": 0.33992093801498413
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -1267,43 +1826,18 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "name": "Blue PP",
+                        "name": "Webcam",
                         "pos": {
-                            "x": 596.0,
-                            "y": 43.0
+                            "x": 637.0,
+                            "y": 695.0
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.50703126192092896,
+                            "y": 0.50694441795349121
                         },
                         "scale_filter": "disable",
-                        "visible": false
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "name": "Red PP",
-                        "pos": {
-                            "x": 1124.0,
-                            "y": 44.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": false
+                        "visible": true
                     },
                     {
                         "align": 5,
@@ -1320,12 +1854,12 @@
                         "name": "Sponsor Loop",
                         "pos": {
                             "x": 1352.0,
-                            "y": 984.0
+                            "y": 875.0
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.11622709035873413,
-                            "y": 0.11684370040893555
+                            "x": 1.0154440402984619,
+                            "y": 1.014851450920105
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -1342,15 +1876,115 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "name": "twich alerts",
+                        "name": "Blue Team Name",
                         "pos": {
-                            "x": 1318.0,
-                            "y": 951.0
+                            "x": 164.0,
+                            "y": 836.0
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.42875000834465027,
-                            "y": 0.43000000715255737
+                            "x": 0.5788770318031311,
+                            "y": 0.58333331346511841
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Red Team Name",
+                        "pos": {
+                            "x": 1478.0,
+                            "y": 838.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.5788770318031311,
+                            "y": 0.58333331346511841
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Blue Score White",
+                        "pos": {
+                            "x": 750.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Red Score White",
+                        "pos": {
+                            "x": 1107.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "SKL Panels",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 879.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.88051211833953857,
+                            "y": 0.87878787517547607
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -1364,19 +1998,30 @@
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
             "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "image_source",
-            "mixers": 0,
+            "flags": 1,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "dshow_input",
+            "mixers": 255,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Main Game Overlay",
+            "name": "Webcam",
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "E:/Broadcast Package 2017/Overlay Images/Spectator Overlay v3.0.png"
+                "color_space": "601",
+                "deactivate_when_not_showing": true,
+                "last_resolution": "1280x720",
+                "last_video_device_id": "Microsoft® LifeCam Cinema(TM):\\\\?\\usb#22vid_045e&pid_075d&mi_00#227&17ba1b95&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+                "res_type": 1,
+                "resolution": "1280x720",
+                "video_device_id": "Microsoft® LifeCam Cinema(TM):\\\\?\\usb#22vid_045e&pid_075d&mi_00#227&17ba1b95&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global"
             },
             "sync": 0,
             "volume": 1.0
@@ -1387,115 +2032,17 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {},
-            "id": "image_source",
+            "id": "window_capture",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "GameDummy",
+            "name": "Pickban",
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "E:/Broadcast Package 2017/Overlay Images/!dummyGameBG.png"
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "browser_source",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Blue PP",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "css": "",
-                "height": 100,
-                "is_local_file": true,
-                "local_file": "E:/Broadcast Package 2017/Scoreboard Assistant/bluePowerPlay.html",
-                "restart_when_active": true,
-                "shutdown": true,
-                "width": 300
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "browser_source",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Red PP",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "css": "",
-                "height": 100,
-                "is_local_file": true,
-                "local_file": "E:/Broadcast Package 2017/Scoreboard Assistant/redPowerPlay.html",
-                "restart_when_active": true,
-                "shutdown": true,
-                "width": 300
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "browser_source",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "twich alerts",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "fps": 30,
-                "height": 300,
-                "url": "http://streamlabs.com/alert-box/v3/5124DE3E99A09491BA9F"
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "image_source",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "BRB Overlay",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "file": "E:/Broadcast Package 2017/Overlay Images/beRighBack_overlay.png"
+                "window": "League of Legends:RCLIENT:LeagueClientUx.exe"
             },
             "sync": 0,
             "volume": 1.0
@@ -1506,303 +2053,21 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "libobs.mute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "libobs.unmute": []
+                "hotkey_start": [],
+                "hotkey_stop": []
             },
-            "id": "ffmpeg_source",
-            "mixers": 255,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Looping BG",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "local_file": "E:/Broadcast Package 2017/Videos/genericBG.mp4",
-                "looping": true
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "text_gdiplus",
+            "id": "game_capture",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Blue Score",
+            "name": "League Game",
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "align": "center",
-                "color": 0,
-                "file": "E:/Broadcast Package 2017/Scoreboard Assistant/output/teams/score1.txt",
-                "font": {
-                    "face": "Arial Black",
-                    "flags": 1,
-                    "size": 140,
-                    "style": ""
-                },
-                "read_from_file": true
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "text_gdiplus",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Red Score",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "align": "center",
-                "color": 0,
-                "file": "E:/Broadcast Package 2017/Scoreboard Assistant/output/teams/score2.txt",
-                "font": {
-                    "face": "Arial Black",
-                    "flags": 1,
-                    "size": 140,
-                    "style": ""
-                },
-                "read_from_file": true,
-                "valign": "center"
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "text_gdiplus",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Now Playing",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "align": "center",
-                "font": {
-                    "face": "Arial",
-                    "flags": 1,
-                    "size": 72,
-                    "style": ""
-                },
-                "text": "Currently Playing:"
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "filters": [
-                {
-                    "deinterlace_field_order": 0,
-                    "deinterlace_mode": 0,
-                    "enabled": true,
-                    "flags": 0,
-                    "hotkeys": {},
-                    "id": "scroll_filter",
-                    "mixers": 0,
-                    "monitoring_type": 0,
-                    "muted": false,
-                    "name": "Scroll",
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "settings": {
-                        "cx": 300,
-                        "limit_cx": true,
-                        "speed_x": 10.0
-                    },
-                    "sync": 0,
-                    "volume": 1.0
-                }
-            ],
-            "flags": 0,
-            "hotkeys": {},
-            "id": "text_gdiplus",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Song Info",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "align": "center",
-                "extents": true,
-                "extents_cx": 350,
-                "extents_cy": 50,
-                "extents_wrap": false,
-                "file": "E:/Broadcast Package 2017/Scoreboard Assistant/output/music/status.txt",
-                "font": {
-                    "face": "Arial",
-                    "flags": 0,
-                    "size": 24,
-                    "style": ""
-                },
-                "read_from_file": true,
-                "valign": "center"
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "libobs.unmute": []
-            },
-            "id": "ffmpeg_source",
-            "mixers": 255,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Start Video",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "local_file": "E:/Broadcast Package 2017/Videos/startingSoon.mp4",
-                "looping": true
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "slideshow",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Sponsor Loop",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "files": [
-                    {
-                        "value": "E:/Broadcast Package 2017/Images/Sponsors"
-                    }
-                ],
-                "transition": "slide"
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "image_source",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "PickBanOverlay",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "file": "E:/Broadcast Package 2017/Overlay Images/Bans&Picks Overlay.png"
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "text_gdiplus",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Blue Team Name",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "color": 16777215,
-                "file": "E:/Broadcast Package 2017/Scoreboard Assistant/output/teams/player1.A.txt",
-                "font": {
-                    "face": "Arial",
-                    "flags": 1,
-                    "size": 72,
-                    "style": ""
-                },
-                "read_from_file": true
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "text_gdiplus",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Red Team Name",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "align": "right",
-                "file": "E:/Broadcast Package 2017/Scoreboard Assistant/output/teams/player2.A.txt",
-                "font": {
-                    "face": "Arial",
-                    "flags": 1,
-                    "size": 72,
-                    "style": ""
-                },
-                "read_from_file": true
+                "capture_mode": "window",
+                "window": "League of Legends (TM) Client:RiotWindowClass:League of Legends.exe"
             },
             "sync": 0,
             "volume": 1.0

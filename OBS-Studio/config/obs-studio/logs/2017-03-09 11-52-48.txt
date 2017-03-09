@@ -1,0 +1,437 @@
+11:52:48.712: CPU Name: Intel(R) Core(TM) i7-2600K CPU @ 3.40GHz
+11:52:48.712: CPU Speed: 3392MHz
+11:52:48.712: Physical Cores: 4, Logical Cores: 8
+11:52:48.712: Physical Memory: 16366MB Total, 8408MB Free
+11:52:48.712: Windows Version: 10.0 Build 14393 (revision: 693; 64-bit)
+11:52:48.712: Running as administrator: false
+11:52:48.712: Aero is Enabled (Aero is always on for windows 8 and above)
+11:52:48.712: Portable mode: true
+11:52:48.744: OBS 18.0.1 (64bit, windows)
+11:52:48.744: ---------------------------------
+11:52:48.745: ---------------------------------
+11:52:48.745: audio settings reset:
+11:52:48.745: 	samples per sec: 44100
+11:52:48.745: 	speakers:        2
+11:52:48.746: ---------------------------------
+11:52:48.746: Initializing D3D11..
+11:52:48.746: Available Video Adapters: 
+11:52:48.747: 	Adapter 1: NVIDIA GeForce GTX 750 Ti
+11:52:48.747: 	  Dedicated VRAM: 2114650112
+11:52:48.747: 	  Shared VRAM:    4285851648
+11:52:48.747: 	  output 1: pos={0, 0}, size={1920, 1080}, attached=true
+11:52:48.747: 	  output 2: pos={1920, 0}, size={1600, 900}, attached=true
+11:52:48.747: 	Adapter 2: ATI FirePro V4800 (FireGL) Graphics Adapter
+11:52:48.747: 	  Dedicated VRAM: 1059917824
+11:52:48.747: 	  Shared VRAM:    4026531840
+11:52:48.749: Loading up D3D11 on adapter NVIDIA GeForce GTX 750 Ti (0)
+11:52:48.770: D3D11 loaded sucessfully, feature level used: 45056
+11:52:49.509: ---------------------------------
+11:52:49.509: video settings reset:
+11:52:49.509: 	base resolution:   1920x1080
+11:52:49.509: 	output resolution: 1280x720
+11:52:49.509: 	downscale filter:  Bicubic
+11:52:49.509: 	fps:               30/1
+11:52:49.509: 	format:            NV12
+11:52:49.510: Audio monitoring device:
+11:52:49.510: 	name: Default
+11:52:49.510: 	id: default
+11:52:49.510: ---------------------------------
+11:52:49.511: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/chrome_elf.dll' not found, loading of module failed
+11:52:49.516: [CoreAudio encoder]: Adding CoreAudio AAC encoder
+11:52:49.518: [AMF Encoder] Unable to load 'amfrt64.dll', error code 126.
+11:52:49.524: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/libcef.dll' not found, loading of module failed
+11:52:49.525: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/libEGL.dll' not found, loading of module failed
+11:52:49.525: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/libGLESv2.dll' not found, loading of module failed
+11:52:49.525: Failed to load 'en-US' text for module: 'obs-browser.dll'
+11:52:49.525: [browser_source: 'Version: 1.29.0']
+11:52:49.526: NVENC supported
+11:52:49.601: Couldn't find VLC installation, VLC video source disabled
+11:52:49.640: ---------------------------------
+11:52:49.640:   Loaded Modules:
+11:52:49.640:     win-wasapi.dll
+11:52:49.640:     win-mf.dll
+11:52:49.640:     win-dshow.dll
+11:52:49.640:     win-decklink.dll
+11:52:49.640:     win-capture.dll
+11:52:49.640:     vlc-video.dll
+11:52:49.640:     text-freetype2.dll
+11:52:49.640:     rtmp-services.dll
+11:52:49.640:     obs-x264.dll
+11:52:49.640:     obs-vst.dll
+11:52:49.640:     obs-transitions.dll
+11:52:49.641:     obs-text.dll
+11:52:49.641:     obs-qsv11.dll
+11:52:49.641:     obs-outputs.dll
+11:52:49.641:     obs-filters.dll
+11:52:49.641:     obs-ffmpeg.dll
+11:52:49.641:     obs-browser.dll
+11:52:49.641:     image-source.dll
+11:52:49.641:     frontend-tools.dll
+11:52:49.641:     enc-amf.dll
+11:52:49.641:     coreaudio-encoder.dll
+11:52:49.641: ==== Startup complete ===============================================
+11:52:49.648: obs-data.c: [obs_data_create_from_json] Failed reading json string (-1): wrong arguments
+11:52:49.649: Service '' not found
+11:52:49.650: Switched to Preview/Program mode
+11:52:49.650: ------------------------------------------------
+11:52:49.653: All scene data cleared
+11:52:49.653: ------------------------------------------------
+11:52:49.660: [WASAPISource::WASAPISource] Device '{0.0.0.00000000}.{e91907c9-6ebf-4d0f-beac-3217b5bf132a}' not found.  Waiting for device
+11:52:49.674: WASAPI: Device 'VoiceMeeter Aux Output (VB-Audio VoiceMeeter AUX VAIO)' initialized
+11:52:49.687: WASAPI: Device 'Line In (2- BEHRINGER USB WDM AUDIO 2.8.40)' initialized
+11:52:49.715: adding 23 milliseconds of audio buffering, total audio buffering is now 23 milliseconds
+11:52:49.987: warning: Stream #0: not enough frames to estimate rate; consider increasing probesize
+11:52:50.169: ---------------------------------
+11:52:50.169: [DShow Device: 'Webcam'] settings updated: 
+11:52:50.169: 	video device: Microsoft® LifeCam Cinema(TM)
+11:52:50.169: 	video path: \\?\usb#vid_045e&pid_075d&mi_00#7&17ba1b95&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+11:52:50.169: 	resolution: 1280x720
+11:52:50.169: 	fps: 30.00 (interval: 333333)
+11:52:50.169: 	format: YUY2
+11:52:50.257: adding 23 milliseconds of audio buffering, total audio buffering is now 46 milliseconds
+11:52:50.390: [Media Source 'Looping BG']: settings:
+11:52:50.390: 	input:                   E:/Broadcast Package 2017/Videos/genericBG.mp4
+11:52:50.390: 	input_format:            (null)
+11:52:50.390: 	is_looping:              yes
+11:52:50.390: 	is_forcing_scale:        yes
+11:52:50.390: 	is_hw_decoding:          yes
+11:52:50.390: 	is_clear_on_media_end:   yes
+11:52:50.390: 	restart_on_activate:     yes
+11:52:50.397: [Media Source 'Start Video']: settings:
+11:52:50.397: 	input:                   E:/Broadcast Package 2017/Videos/startingSoon.mp4
+11:52:50.397: 	input_format:            (null)
+11:52:50.397: 	is_looping:              yes
+11:52:50.397: 	is_forcing_scale:        yes
+11:52:50.397: 	is_hw_decoding:          yes
+11:52:50.397: 	is_clear_on_media_end:   yes
+11:52:50.397: 	restart_on_activate:     yes
+11:52:50.470: warning: Stream #0: not enough frames to estimate rate; consider increasing probesize
+11:52:52.513: warning: Warning: data is not aligned! This can lead to a speedloss
+11:52:52.528: Switched to scene 'Full Screen Camera'
+11:52:52.530: ------------------------------------------------
+11:52:52.530: Loaded scenes:
+11:52:52.530: - scene 'Starting Soon':
+11:52:52.530:     - source: 'Start Video' (ffmpeg_source)
+11:52:52.530: - scene 'Full Screen Camera':
+11:52:52.530:     - source: 'Webcam' (dshow_input)
+11:52:52.530: - scene 'Pick/Ban':
+11:52:52.530:     - source: 'Pickban' (window_capture)
+11:52:52.530:     - source: 'PickBanOverlay' (image_source)
+11:52:52.530:     - source: 'Blue Team Logo' (image_source)
+11:52:52.530:     - source: 'Red Team Logo' (image_source)
+11:52:52.530:     - source: 'Webcam' (dshow_input)
+11:52:52.530:     - source: 'Sponsor Loop' (slideshow)
+11:52:52.530:     - source: 'Blue Team Name' (text_gdiplus)
+11:52:52.530:     - source: 'Red Team Name' (text_gdiplus)
+11:52:52.530: - scene 'Game Overlay':
+11:52:52.530:     - source: 'League Game' (game_capture)
+11:52:52.530:     - source: 'GameDummy' (image_source)
+11:52:52.531:     - source: 'alert' (browser_source)
+11:52:52.531:     - source: 'Main Game Overlay' (image_source)
+11:52:52.531:     - source: 'Blue Team Initials' (text_gdiplus)
+11:52:52.531:     - source: 'Blue Team Logo' (image_source)
+11:52:52.531:     - source: 'Red Team Initials' (text_gdiplus)
+11:52:52.531:     - source: 'Red Team Logo' (image_source)
+11:52:52.531:     - source: 'Blue PP' (browser_source)
+11:52:52.531:     - source: 'Red PP' (browser_source)
+11:52:52.531:     - source: 'Sponsor Loop' (slideshow)
+11:52:52.531:     - source: 'twich alerts' (browser_source)
+11:52:52.531: - scene 'Be Right Back':
+11:52:52.531:     - source: 'Looping BG' (ffmpeg_source)
+11:52:52.531:     - source: 'BRB Overlay' (image_source)
+11:52:52.531:     - source: 'Blue Team Logo' (image_source)
+11:52:52.531:     - source: 'Red Team Logo' (image_source)
+11:52:52.531:     - source: 'Blue Score' (text_gdiplus)
+11:52:52.531:     - source: 'Red Score' (text_gdiplus)
+11:52:52.531:     - source: 'Song Info' (text_gdiplus)
+11:52:52.531:         - filter: 'Scroll' (scroll_filter)
+11:52:52.531:     - source: 'Now Playing' (text_gdiplus)
+11:52:52.531: ------------------------------------------------
+11:52:52.844: ---------------------------------
+11:52:52.844: [DShow Device: 'Webcam'] settings updated: 
+11:52:52.844: 	video device: Microsoft® LifeCam Cinema(TM)
+11:52:52.844: 	video path: \\?\usb#vid_045e&pid_075d&mi_00#7&17ba1b95&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+11:52:52.844: 	resolution: 1280x720
+11:52:52.844: 	fps: 30.00 (interval: 333333)
+11:52:52.844: 	format: YUY2
+11:52:59.372: User switched to scene 'Pick/Ban'
+11:55:08.231: User switched to scene 'Game Overlay'
+11:55:08.760: User switched to scene 'Be Right Back'
+11:55:19.589: User switched to scene 'Full Screen Camera'
+11:55:19.729: ---------------------------------
+11:55:19.729: [DShow Device: 'Webcam'] settings updated: 
+11:55:19.729: 	video device: Microsoft® LifeCam Cinema(TM)
+11:55:19.729: 	video path: \\?\usb#vid_045e&pid_075d&mi_00#7&17ba1b95&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+11:55:19.729: 	resolution: 1280x720
+11:55:19.729: 	fps: 30.00 (interval: 333333)
+11:55:19.729: 	format: YUY2
+11:55:33.788: User switched to scene 'Starting Soon'
+11:55:34.615: User switched to scene 'Full Screen Camera'
+11:55:34.761: ---------------------------------
+11:55:34.761: [DShow Device: 'Webcam'] settings updated: 
+11:55:34.761: 	video device: Microsoft® LifeCam Cinema(TM)
+11:55:34.761: 	video path: \\?\usb#vid_045e&pid_075d&mi_00#7&17ba1b95&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+11:55:34.761: 	resolution: 1280x720
+11:55:34.761: 	fps: 30.00 (interval: 333333)
+11:55:34.761: 	format: YUY2
+11:55:35.063: User switched to scene 'Pick/Ban'
+11:55:51.178: User switched to scene 'Game Overlay'
+11:55:52.505: User switched to scene 'Be Right Back'
+11:55:54.440: User switched to scene 'Game Overlay'
+11:55:58.247: User switched to scene 'Be Right Back'
+11:57:01.710: User switched to scene 'Game Overlay'
+11:57:02.773: User switched to scene 'Full Screen Camera'
+11:57:02.937: ---------------------------------
+11:57:02.937: [DShow Device: 'Webcam'] settings updated: 
+11:57:02.937: 	video device: Microsoft® LifeCam Cinema(TM)
+11:57:02.937: 	video path: \\?\usb#vid_045e&pid_075d&mi_00#7&17ba1b95&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+11:57:02.937: 	resolution: 1280x720
+11:57:02.937: 	fps: 30.00 (interval: 333333)
+11:57:02.937: 	format: YUY2
+11:57:03.389: User switched to scene 'Starting Soon'
+11:57:04.276: User switched to scene 'Full Screen Camera'
+11:57:04.400: ---------------------------------
+11:57:04.400: [DShow Device: 'Webcam'] settings updated: 
+11:57:04.400: 	video device: Microsoft® LifeCam Cinema(TM)
+11:57:04.400: 	video path: \\?\usb#vid_045e&pid_075d&mi_00#7&17ba1b95&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+11:57:04.400: 	resolution: 1280x720
+11:57:04.400: 	fps: 30.00 (interval: 333333)
+11:57:04.400: 	format: YUY2
+11:57:14.508: User switched to scene 'Starting Soon'
+11:57:15.828: User switched to scene 'Full Screen Camera'
+11:57:15.961: ---------------------------------
+11:57:15.961: [DShow Device: 'Webcam'] settings updated: 
+11:57:15.961: 	video device: Microsoft® LifeCam Cinema(TM)
+11:57:15.961: 	video path: \\?\usb#vid_045e&pid_075d&mi_00#7&17ba1b95&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+11:57:15.961: 	resolution: 1280x720
+11:57:15.961: 	fps: 30.00 (interval: 333333)
+11:57:15.961: 	format: YUY2
+11:57:16.336: User switched to scene 'Pick/Ban'
+11:59:16.400: User switched to scene 'Be Right Back'
+12:00:43.181: User switched to scene 'Pick/Ban'
+12:00:43.350: ---------------------------------
+12:00:43.350: [DShow Device: 'Webcam'] settings updated: 
+12:00:43.350: 	video device: Microsoft® LifeCam Cinema(TM)
+12:00:43.350: 	video path: \\?\usb#vid_045e&pid_075d&mi_00#7&17ba1b95&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+12:00:43.350: 	resolution: 1280x720
+12:00:43.350: 	fps: 30.00 (interval: 333333)
+12:00:43.350: 	format: YUY2
+12:00:47.307: User switched to scene 'Starting Soon'
+12:00:48.043: User switched to scene 'Full Screen Camera'
+12:00:48.168: ---------------------------------
+12:00:48.168: [DShow Device: 'Webcam'] settings updated: 
+12:00:48.168: 	video device: Microsoft® LifeCam Cinema(TM)
+12:00:48.168: 	video path: \\?\usb#vid_045e&pid_075d&mi_00#7&17ba1b95&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+12:00:48.168: 	resolution: 1280x720
+12:00:48.168: 	fps: 30.00 (interval: 333333)
+12:00:48.168: 	format: YUY2
+12:00:55.539: User switched to scene 'Starting Soon'
+12:00:56.678: User switched to scene 'Pick/Ban'
+12:00:56.797: ---------------------------------
+12:00:56.797: [DShow Device: 'Webcam'] settings updated: 
+12:00:56.797: 	video device: Microsoft® LifeCam Cinema(TM)
+12:00:56.797: 	video path: \\?\usb#vid_045e&pid_075d&mi_00#7&17ba1b95&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+12:00:56.797: 	resolution: 1280x720
+12:00:56.797: 	fps: 30.00 (interval: 333333)
+12:00:56.797: 	format: YUY2
+12:01:09.189: User added source 'Blue Score White' (text_gdiplus) to scene 'Pick/Ban'
+12:02:33.004: User added source 'Red Score White' (text_gdiplus) to scene 'Pick/Ban'
+12:03:25.347: User switched to scene 'Game Overlay'
+12:03:32.865: User added source 'Blue Score White' (text_gdiplus) to scene 'Game Overlay'
+12:03:42.636: User switched to scene 'Game Overlay'
+12:03:42.638: Switched to regular Preview mode
+12:03:42.638: ------------------------------------------------
+12:04:14.314: User added source 'Red Score White' (text_gdiplus) to scene 'Game Overlay'
+12:06:13.941: rtmp-common.c: [initialize_output] Could not find service ''
+12:06:13.942: rtmp-common.c: [initialize_output] Could not find service ''
+12:06:14.029: rtmp-common.c: [initialize_output] Could not find service ''
+12:06:15.899: rtmp-common.c: [initialize_output] Could not find service ''
+12:06:16.475: rtmp-common.c: [initialize_output] Could not find service ''
+12:06:18.219: rtmp-common.c: [initialize_output] Could not find service ''
+12:06:24.418: rtmp-common.c: [initialize_output] Could not find service ''
+12:06:27.549: Settings changed (hotkeys)
+12:06:27.549: ------------------------------------------------
+12:06:51.881: User switched to scene 'Starting Soon'
+12:06:53.089: User switched to scene 'Full Screen Camera'
+12:06:53.278: ---------------------------------
+12:06:53.278: [DShow Device: 'Webcam'] settings updated: 
+12:06:53.278: 	video device: Microsoft® LifeCam Cinema(TM)
+12:06:53.278: 	video path: \\?\usb#vid_045e&pid_075d&mi_00#7&17ba1b95&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+12:06:53.278: 	resolution: 1280x720
+12:06:53.278: 	fps: 30.00 (interval: 333333)
+12:06:53.278: 	format: YUY2
+12:06:53.737: User switched to scene 'Pick/Ban'
+12:07:00.180: User switched to scene 'Be Right Back'
+12:07:01.197: User switched to scene 'Game Overlay'
+12:08:37.737: User switched to scene 'Starting Soon'
+12:08:38.702: User switched to scene 'Pick/Ban'
+12:08:38.881: ---------------------------------
+12:08:38.881: [DShow Device: 'Webcam'] settings updated: 
+12:08:38.881: 	video device: Microsoft® LifeCam Cinema(TM)
+12:08:38.881: 	video path: \\?\usb#vid_045e&pid_075d&mi_00#7&17ba1b95&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+12:08:38.881: 	resolution: 1280x720
+12:08:38.881: 	fps: 30.00 (interval: 333333)
+12:08:38.881: 	format: YUY2
+12:08:39.361: User switched to scene 'Full Screen Camera'
+12:08:40.102: User switched to scene 'Pick/Ban'
+12:23:07.293: User added source 'SKL Panels' (slideshow) to scene 'Pick/Ban'
+12:23:45.318: User switched to scene 'Full Screen Camera'
+12:23:46.827: User switched to scene 'Pick/Ban'
+12:24:58.055: User switched to scene 'Game Overlay'
+12:25:03.507: User added source 'SKL Panels' (slideshow) to scene 'Game Overlay'
+12:27:26.921: User Removed source 'SKL Panels' (slideshow) from scene 'Game Overlay'
+12:27:35.973: User added source 'Stream Times' (image_source) to scene 'Game Overlay'
+12:28:07.308: User switched to scene 'Pick/Ban'
+12:28:07.534: ---------------------------------
+12:28:07.534: [DShow Device: 'Webcam'] settings updated: 
+12:28:07.534: 	video device: Microsoft® LifeCam Cinema(TM)
+12:28:07.534: 	video path: \\?\usb#vid_045e&pid_075d&mi_00#7&17ba1b95&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+12:28:07.534: 	resolution: 1280x720
+12:28:07.534: 	fps: 30.00 (interval: 333333)
+12:28:07.534: 	format: YUY2
+12:36:10.386: User switched to scene 'Game Overlay'
+12:36:11.745: User switched to scene 'Pick/Ban'
+12:36:11.935: ---------------------------------
+12:36:11.935: [DShow Device: 'Webcam'] settings updated: 
+12:36:11.935: 	video device: Microsoft® LifeCam Cinema(TM)
+12:36:11.935: 	video path: \\?\usb#vid_045e&pid_075d&mi_00#7&17ba1b95&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+12:36:11.935: 	resolution: 1280x720
+12:36:11.935: 	fps: 30.00 (interval: 333333)
+12:36:11.935: 	format: YUY2
+12:36:12.496: User switched to scene 'Full Screen Camera'
+12:36:14.058: User switched to scene 'Pick/Ban'
+12:36:23.327: User Removed source 'SKL Panels' (slideshow) from scene 'Pick/Ban'
+12:36:31.802: User added source 'SKL Panels' (slideshow) to scene 'Pick/Ban'
+12:39:12.110: Failed to open file 'E:/Broadcast Package 2017/Images/SKL Panels/Stream times.png': No such file or directory
+12:39:12.110: gs_image_file_init: Failed to load file 'E:/Broadcast Package 2017/Images/SKL Panels/Stream times.png'
+12:39:12.110: [image_source: '(null)'] failed to load texture 'E:/Broadcast Package 2017/Images/SKL Panels/Stream times.png'
+12:39:12.353: User switched to scene 'Game Overlay'
+12:39:12.511: Failed to open file 'E:/Broadcast Package 2017/Images/SKL Panels/Stream times.png': No such file or directory
+12:39:12.511: gs_image_file_init: Failed to load file 'E:/Broadcast Package 2017/Images/SKL Panels/Stream times.png'
+12:39:12.511: [image_source: 'Stream Times'] failed to load texture 'E:/Broadcast Package 2017/Images/SKL Panels/Stream times.png'
+12:39:23.508: User switched to scene 'Pick/Ban'
+12:39:23.690: ---------------------------------
+12:39:23.690: [DShow Device: 'Webcam'] settings updated: 
+12:39:23.690: 	video device: Microsoft® LifeCam Cinema(TM)
+12:39:23.690: 	video path: \\?\usb#vid_045e&pid_075d&mi_00#7&17ba1b95&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+12:39:23.690: 	resolution: 1280x720
+12:39:23.690: 	fps: 30.00 (interval: 333333)
+12:39:23.690: 	format: YUY2
+12:40:40.210: Failed to open file 'E:/Broadcast Package 2017/Images/Sponsors/patreon.png': No such file or directory
+12:40:40.210: gs_image_file_init: Failed to load file 'E:/Broadcast Package 2017/Images/Sponsors/patreon.png'
+12:40:40.210: [image_source: '(null)'] failed to load texture 'E:/Broadcast Package 2017/Images/Sponsors/patreon.png'
+12:40:48.377: Failed to open file 'E:/Broadcast Package 2017/Images/Sponsors/GPC-Logo.png': No such file or directory
+12:40:48.377: gs_image_file_init: Failed to load file 'E:/Broadcast Package 2017/Images/Sponsors/GPC-Logo.png'
+12:40:48.377: [image_source: '(null)'] failed to load texture 'E:/Broadcast Package 2017/Images/Sponsors/GPC-Logo.png'
+12:40:55.411: Failed to open file 'E:/Broadcast Package 2017/Images/Sponsors/hyperx.png': No such file or directory
+12:40:55.411: gs_image_file_init: Failed to load file 'E:/Broadcast Package 2017/Images/Sponsors/hyperx.png'
+12:40:55.411: [image_source: '(null)'] failed to load texture 'E:/Broadcast Package 2017/Images/Sponsors/hyperx.png'
+12:43:36.065: User switched to scene 'Game Overlay'
+12:48:22.588: User switched to scene 'Pick/Ban'
+12:48:22.801: ---------------------------------
+12:48:22.801: [DShow Device: 'Webcam'] settings updated: 
+12:48:22.801: 	video device: Microsoft® LifeCam Cinema(TM)
+12:48:22.801: 	video path: \\?\usb#vid_045e&pid_075d&mi_00#7&17ba1b95&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+12:48:22.801: 	resolution: 1280x720
+12:48:22.801: 	fps: 30.00 (interval: 333333)
+12:48:22.801: 	format: YUY2
+12:48:44.221: User switched to scene 'Game Overlay'
+12:48:45.037: User switched to scene 'Full Screen Camera'
+12:48:45.206: ---------------------------------
+12:48:45.207: [DShow Device: 'Webcam'] settings updated: 
+12:48:45.207: 	video device: Microsoft® LifeCam Cinema(TM)
+12:48:45.207: 	video path: \\?\usb#vid_045e&pid_075d&mi_00#7&17ba1b95&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+12:48:45.207: 	resolution: 1280x720
+12:48:45.207: 	fps: 30.00 (interval: 333333)
+12:48:45.207: 	format: YUY2
+12:48:45.563: User switched to scene 'Starting Soon'
+12:48:45.710: Max audio buffering reached!
+12:48:45.710: adding 998 milliseconds of audio buffering, total audio buffering is now 1044 milliseconds
+12:48:46.708: User switched to scene 'Full Screen Camera'
+12:48:46.889: ---------------------------------
+12:48:46.889: [DShow Device: 'Webcam'] settings updated: 
+12:48:46.889: 	video device: Microsoft® LifeCam Cinema(TM)
+12:48:46.889: 	video path: \\?\usb#vid_045e&pid_075d&mi_00#7&17ba1b95&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+12:48:46.889: 	resolution: 1280x720
+12:48:46.889: 	fps: 30.00 (interval: 333333)
+12:48:46.889: 	format: YUY2
+12:48:54.165: User switched to scene 'Pick/Ban'
+12:48:58.028: User switched to scene 'Game Overlay'
+12:48:58.899: User switched to scene 'Pick/Ban'
+12:48:59.073: ---------------------------------
+12:48:59.073: [DShow Device: 'Webcam'] settings updated: 
+12:48:59.073: 	video device: Microsoft® LifeCam Cinema(TM)
+12:48:59.073: 	video path: \\?\usb#vid_045e&pid_075d&mi_00#7&17ba1b95&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+12:48:59.073: 	resolution: 1280x720
+12:48:59.073: 	fps: 30.00 (interval: 333333)
+12:48:59.073: 	format: YUY2
+12:49:01.967: User switched to scene 'Game Overlay'
+12:49:12.239: ==== Shutting down ==================================================
+12:49:12.249: Switched to scene '(null)'
+12:49:12.265: WASAPI: Device 'VoiceMeeter Aux Output (VB-Audio VoiceMeeter AUX VAIO)' Terminated
+12:49:12.269: WASAPI: Device 'Line In (2- BEHRINGER USB WDM AUDIO 2.8.40)' Terminated
+12:49:12.272: All scene data cleared
+12:49:12.272: ------------------------------------------------
+12:49:12.429: Freeing OBS context data
+12:49:12.760: == Profiler Results =============================
+12:49:12.760: run_program_init: 4004.94 ms
+12:49:12.760:  ┣OBSApp::AppInit: 1.715 ms
+12:49:12.760:  ┃ ┗OBSApp::InitLocale: 1.009 ms
+12:49:12.760:  ┗OBSApp::OBSInit: 3966.83 ms
+12:49:12.760:    ┣obs_startup: 1.242 ms
+12:49:12.760:    ┗OBSBasic::OBSInit: 3894.04 ms
+12:49:12.760:      ┣OBSBasic::InitBasicConfig: 0.401 ms
+12:49:12.760:      ┣OBSBasic::ResetAudio: 0.467 ms
+12:49:12.760:      ┣OBSBasic::ResetVideo: 764.733 ms
+12:49:12.760:      ┣OBSBasic::InitOBSCallbacks: 0.005 ms
+12:49:12.760:      ┣OBSBasic::InitHotkeys: 0.044 ms
+12:49:12.760:      ┣obs_load_all_modules: 130.373 ms
+12:49:12.760:      ┃ ┣obs_init_module(coreaudio-encoder.dll): 4.564 ms
+12:49:12.760:      ┃ ┣obs_init_module(enc-amf.dll): 0.583 ms
+12:49:12.760:      ┃ ┣obs_init_module(frontend-tools.dll): 1.906 ms
+12:49:12.760:      ┃ ┣obs_init_module(image-source.dll): 0.004 ms
+12:49:12.760:      ┃ ┣obs_init_module(obs-browser.dll): 0.056 ms
+12:49:12.760:      ┃ ┣obs_init_module(obs-ffmpeg.dll): 0.494 ms
+12:49:12.760:      ┃ ┣obs_init_module(obs-filters.dll): 0.008 ms
+12:49:12.760:      ┃ ┣obs_init_module(obs-outputs.dll): 0.006 ms
+12:49:12.760:      ┃ ┣obs_init_module(obs-qsv11.dll): 68.668 ms
+12:49:12.760:      ┃ ┣obs_init_module(obs-text.dll): 0.423 ms
+12:49:12.760:      ┃ ┣obs_init_module(obs-transitions.dll): 0.004 ms
+12:49:12.760:      ┃ ┣obs_init_module(obs-vst.dll): 0.001 ms
+12:49:12.760:      ┃ ┣obs_init_module(obs-x264.dll): 0.002 ms
+12:49:12.760:      ┃ ┣obs_init_module(rtmp-services.dll): 0.242 ms
+12:49:12.760:      ┃ ┣obs_init_module(text-freetype2.dll): 0.026 ms
+12:49:12.760:      ┃ ┣obs_init_module(vlc-video.dll): 0.034 ms
+12:49:12.760:      ┃ ┣obs_init_module(win-capture.dll): 0.045 ms
+12:49:12.760:      ┃ ┣obs_init_module(win-decklink.dll): 13.271 ms
+12:49:12.760:      ┃ ┣obs_init_module(win-dshow.dll): 1.221 ms
+12:49:12.760:      ┃ ┣obs_init_module(win-mf.dll): 20.743 ms
+12:49:12.760:      ┃ ┣obs_init_module(win-wasapi.dll): 0.005 ms
+12:49:12.760:      ┃ ┗reset_win32_symbol_paths: 0.077 ms
+12:49:12.760:      ┣OBSBasic::ResetOutputs: 7.925 ms
+12:49:12.760:      ┣OBSBasic::CreateHotkeys: 0.023 ms
+12:49:12.760:      ┣OBSBasic::InitService: 0.126 ms
+12:49:12.760:      ┣OBSBasic::InitPrimitives: 0.238 ms
+12:49:12.760:      ┗OBSBasic::Load: 2880.57 ms
+12:49:12.760: obs_hotkey_thread(25 ms): min=0.003 ms, median=0.005 ms, max=16.834 ms, 99th percentile=2.35 ms, 100% below 25 ms
+12:49:12.760: audio_thread(Audio): min=0 ms, median=0.069 ms, max=27.295 ms, 99th percentile=0.162 ms
+12:49:12.760: obs_video_thread(33.3333 ms): min=0.262 ms, median=3.224 ms, max=2816.93 ms, 99th percentile=18.562 ms, 99.5336% below 33.333 ms
+12:49:12.760:  ┣tick_sources: min=0.002 ms, median=1.859 ms, max=2816.09 ms, 99th percentile=15.882 ms
+12:49:12.760:  ┣render_displays: min=0.001 ms, median=0.467 ms, max=25.887 ms, 99th percentile=1.753 ms
+12:49:12.760:  ┗output_frame: min=0.254 ms, median=0.747 ms, max=29.24 ms, 99th percentile=1.654 ms
+12:49:12.761:    ┣gs_context(video->graphics): min=0.127 ms, median=0.529 ms, max=29.034 ms, 99th percentile=1.358 ms
+12:49:12.761:    ┃ ┣render_video: min=0.024 ms, median=0.067 ms, max=22.626 ms, 99th percentile=0.867 ms
+12:49:12.761:    ┃ ┃ ┣render_main_texture: min=0.004 ms, median=0.043 ms, max=22.589 ms, 99th percentile=0.112 ms
+12:49:12.761:    ┃ ┃ ┣render_output_texture: min=0.003 ms, median=0.009 ms, max=0.434 ms, 99th percentile=0.023 ms
+12:49:12.761:    ┃ ┃ ┣render_convert_texture: min=0.001 ms, median=0.008 ms, max=0.4 ms, 99th percentile=0.025 ms
+12:49:12.761:    ┃ ┃ ┗stage_output_texture: min=0 ms, median=0.002 ms, max=12.121 ms, 99th percentile=0.788 ms
+12:49:12.761:    ┃ ┣download_frame: min=0 ms, median=0.002 ms, max=28.575 ms, 99th percentile=0.939 ms
+12:49:12.761:    ┃ ┗gs_flush: min=0.02 ms, median=0.352 ms, max=22.352 ms, 99th percentile=1.096 ms
+12:49:12.761:    ┗output_video_data: min=0.174 ms, median=0.208 ms, max=1.041 ms, 99th percentile=0.367 ms
+12:49:12.761: video_thread(video): min=0 ms, median=0.001 ms, max=0.36 ms, 99th percentile=0.002 ms
+12:49:12.761: =================================================
+12:49:12.761: == Profiler Time Between Calls ==================
+12:49:12.761: obs_hotkey_thread(25 ms): min=24.539 ms, median=25.019 ms, max=66.192 ms, 91.2227% within ±2% of 25 ms (0% lower, 8.77735% higher)
+12:49:12.761: obs_video_thread(33.3333 ms): min=7.951 ms, median=33.333 ms, max=2816.94 ms, 98.9525% within ±2% of 33.333 ms (0.511893% lower, 0.53561% higher)
+12:49:12.761: =================================================
+12:49:12.936: Number of memory leaks: 41

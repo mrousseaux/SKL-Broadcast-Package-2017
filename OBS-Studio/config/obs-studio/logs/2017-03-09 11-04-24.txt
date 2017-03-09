@@ -253,3 +253,203 @@
 11:06:47.872: 	fps: 30.00 (interval: 333333)
 11:06:47.872: 	format: YUY2
 11:07:18.330: warning: Stream #0: not enough frames to estimate rate; consider increasing probesize
+11:09:15.098: Switched to scene '(null)'
+11:09:15.277: WASAPI: Device 'VoiceMeeter Aux Output (VB-Audio VoiceMeeter AUX VAIO)' Terminated
+11:09:15.280: WASAPI: Device 'Line In (2- BEHRINGER USB WDM AUDIO 2.8.40)' Terminated
+11:09:15.282: All scene data cleared
+11:09:15.282: ------------------------------------------------
+11:09:15.297: WASAPI: Device 'Speakers (Realtek High Definition Audio)' initialized
+11:09:15.312: WASAPI: Device 'Line In (2- BEHRINGER USB WDM AUDIO 2.8.40)' initialized
+11:09:15.313: Switched to scene 'Scene'
+11:09:15.315: ------------------------------------------------
+11:09:15.315: Loaded scenes:
+11:09:15.315: - scene 'Scene':
+11:09:15.315: ------------------------------------------------
+11:09:15.315: Removed scene collection 'SKL - League' (../../config/obs-studio/basic/scenes/SKL__League.json.bak.json), switched to 'Untitled' (Untitled.json)
+11:09:15.315: ------------------------------------------------
+11:09:28.104: Switched to scene '(null)'
+11:09:28.105: WASAPI: Device 'Speakers (Realtek High Definition Audio)' Terminated
+11:09:28.109: WASAPI: Device 'Line In (2- BEHRINGER USB WDM AUDIO 2.8.40)' Terminated
+11:09:28.112: All scene data cleared
+11:09:28.112: ------------------------------------------------
+11:09:28.112: [WASAPISource::WASAPISource] Device '{0.0.0.00000000}.{e91907c9-6ebf-4d0f-beac-3217b5bf132a}' not found.  Waiting for device
+11:09:28.125: WASAPI: Device 'VoiceMeeter Aux Output (VB-Audio VoiceMeeter AUX VAIO)' initialized
+11:09:28.137: WASAPI: Device 'Line In (2- BEHRINGER USB WDM AUDIO 2.8.40)' initialized
+11:09:28.224: warning: Stream #0: not enough frames to estimate rate; consider increasing probesize
+11:09:28.284: [Media Source 'Start Video']: settings:
+11:09:28.284: 	input:                   E:/Broadcast Package 2017/Videos/startingSoon.mp4
+11:09:28.284: 	input_format:            (null)
+11:09:28.284: 	is_looping:              yes
+11:09:28.284: 	is_forcing_scale:        yes
+11:09:28.284: 	is_hw_decoding:          yes
+11:09:28.284: 	is_clear_on_media_end:   yes
+11:09:28.284: 	restart_on_activate:     yes
+11:09:28.285: [Media Source 'Looping BG']: settings:
+11:09:28.285: 	input:                   E:/Broadcast Package 2017/Videos/genericBG.mp4
+11:09:28.285: 	input_format:            (null)
+11:09:28.285: 	is_looping:              yes
+11:09:28.285: 	is_forcing_scale:        yes
+11:09:28.285: 	is_hw_decoding:          yes
+11:09:28.285: 	is_clear_on_media_end:   yes
+11:09:28.285: 	restart_on_activate:     yes
+11:09:28.759: warning: Stream #0: not enough frames to estimate rate; consider increasing probesize
+11:09:28.929: warning: Warning: data is not aligned! This can lead to a speedloss
+11:09:28.938: Switched to scene 'Camera'
+11:09:28.940: ------------------------------------------------
+11:09:28.940: Loaded scenes:
+11:09:28.940: - scene 'Starting Soon':
+11:09:28.940:     - source: 'Start Video' (ffmpeg_source)
+11:09:28.940: - scene 'Camera':
+11:09:28.940:     - source: 'Webcam' (dshow_input)
+11:09:28.940: - scene 'Pick/Ban':
+11:09:28.940:     - source: 'Pickban' (window_capture)
+11:09:28.940:     - source: 'PickBanOverlay' (image_source)
+11:09:28.940:     - source: 'Blue Team Logo' (image_source)
+11:09:28.940:     - source: 'Red Team Logo' (image_source)
+11:09:28.940:     - source: 'Webcam' (dshow_input)
+11:09:28.940:     - source: 'Sponsor Loop' (slideshow)
+11:09:28.940:     - source: 'Blue Team Name' (text_gdiplus)
+11:09:28.940:     - source: 'Red Team Name' (text_gdiplus)
+11:09:28.940: - scene 'Game Overlay':
+11:09:28.940:     - source: 'League Game' (game_capture)
+11:09:28.940:     - source: 'GameDummy' (image_source)
+11:09:28.940:     - source: 'alert' (browser_source)
+11:09:28.940:     - source: 'Main Game Overlay' (image_source)
+11:09:28.940:     - source: 'Blue Team Initials' (text_gdiplus)
+11:09:28.940:     - source: 'Blue Team Logo' (image_source)
+11:09:28.940:     - source: 'Red Team Initials' (text_gdiplus)
+11:09:28.940:     - source: 'Red Team Logo' (image_source)
+11:09:28.940:     - source: 'Blue PP' (browser_source)
+11:09:28.940:     - source: 'Red PP' (browser_source)
+11:09:28.940:     - source: 'Sponsor Loop' (slideshow)
+11:09:28.940:     - source: 'twich alerts' (browser_source)
+11:09:28.940: - scene 'Be Right Back':
+11:09:28.940:     - source: 'Looping BG' (ffmpeg_source)
+11:09:28.940:     - source: 'BRB Overlay' (image_source)
+11:09:28.940:     - source: 'Blue Team Logo' (image_source)
+11:09:28.940:     - source: 'Red Team Logo' (image_source)
+11:09:28.940:     - source: 'Blue Score' (text_gdiplus)
+11:09:28.940:     - source: 'Red Score' (text_gdiplus)
+11:09:28.940:     - source: 'Song Info' (text_gdiplus)
+11:09:28.940:         - filter: 'Scroll' (scroll_filter)
+11:09:28.940:     - source: 'Now Playing' (text_gdiplus)
+11:09:28.940: ------------------------------------------------
+11:09:28.945: Switched to scene collection 'SKL - League' (SKL__League.json)
+11:09:28.945: ------------------------------------------------
+11:09:28.967: ---------------------------------
+11:09:28.967: [DShow Device: 'Webcam'] settings updated: 
+11:09:28.967: 	video device: Microsoft® LifeCam Cinema(TM)
+11:09:28.967: 	video path: \\?\usb#vid_045e&pid_075d&mi_00#7&17ba1b95&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+11:09:28.967: 	resolution: 1280x720
+11:09:28.967: 	fps: 30.00 (interval: 333333)
+11:09:28.967: 	format: YUY2
+11:09:29.440: ---------------------------------
+11:09:29.440: [DShow Device: 'Webcam'] settings updated: 
+11:09:29.440: 	video device: Microsoft® LifeCam Cinema(TM)
+11:09:29.440: 	video path: \\?\usb#vid_045e&pid_075d&mi_00#7&17ba1b95&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+11:09:29.440: 	resolution: 1280x720
+11:09:29.440: 	fps: 30.00 (interval: 333333)
+11:09:29.440: 	format: YUY2
+11:09:31.761: User switched to scene 'Pick/Ban'
+11:12:07.012: User switched to scene 'Game Overlay'
+11:12:09.727: User switched to scene 'Be Right Back'
+11:12:13.689: User switched to scene 'Game Overlay'
+11:12:15.749: User switched to scene 'Be Right Back'
+11:12:18.255: User switched to scene 'Pick/Ban'
+11:12:18.385: ---------------------------------
+11:12:18.385: [DShow Device: 'Webcam'] settings updated: 
+11:12:18.385: 	video device: Microsoft® LifeCam Cinema(TM)
+11:12:18.385: 	video path: \\?\usb#vid_045e&pid_075d&mi_00#7&17ba1b95&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+11:12:18.385: 	resolution: 1280x720
+11:12:18.385: 	fps: 30.00 (interval: 333333)
+11:12:18.385: 	format: YUY2
+11:12:19.341: User switched to scene 'Camera'
+11:12:20.241: User switched to scene 'Pick/Ban'
+11:12:21.180: User switched to scene 'Game Overlay'
+11:12:22.054: User switched to scene 'Pick/Ban'
+11:12:22.156: ---------------------------------
+11:12:22.156: [DShow Device: 'Webcam'] settings updated: 
+11:12:22.156: 	video device: Microsoft® LifeCam Cinema(TM)
+11:12:22.156: 	video path: \\?\usb#vid_045e&pid_075d&mi_00#7&17ba1b95&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+11:12:22.156: 	resolution: 1280x720
+11:12:22.156: 	fps: 30.00 (interval: 333333)
+11:12:22.156: 	format: YUY2
+11:13:52.324: User switched to scene 'Starting Soon'
+11:13:53.915: User switched to scene 'Camera'
+11:13:54.058: ---------------------------------
+11:13:54.058: [DShow Device: 'Webcam'] settings updated: 
+11:13:54.058: 	video device: Microsoft® LifeCam Cinema(TM)
+11:13:54.058: 	video path: \\?\usb#vid_045e&pid_075d&mi_00#7&17ba1b95&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+11:13:54.058: 	resolution: 1280x720
+11:13:54.058: 	fps: 30.00 (interval: 333333)
+11:13:54.058: 	format: YUY2
+11:14:04.003: Source 'Camera' renamed to 'Full Screen Camera'
+11:16:07.744: ==== Shutting down ==================================================
+11:16:07.752: Switched to scene '(null)'
+11:16:07.934: WASAPI: Device 'VoiceMeeter Aux Output (VB-Audio VoiceMeeter AUX VAIO)' Terminated
+11:16:07.938: WASAPI: Device 'Line In (2- BEHRINGER USB WDM AUDIO 2.8.40)' Terminated
+11:16:07.941: All scene data cleared
+11:16:07.941: ------------------------------------------------
+11:16:08.007: Freeing OBS context data
+11:16:08.304: == Profiler Results =============================
+11:16:08.304: run_program_init: 1422.09 ms
+11:16:08.304:  ┣OBSApp::AppInit: 1.593 ms
+11:16:08.304:  ┃ ┗OBSApp::InitLocale: 0.958 ms
+11:16:08.304:  ┗OBSApp::OBSInit: 1386.12 ms
+11:16:08.304:    ┣obs_startup: 1.172 ms
+11:16:08.304:    ┗OBSBasic::OBSInit: 1314.63 ms
+11:16:08.304:      ┣OBSBasic::InitBasicConfig: 0.377 ms
+11:16:08.304:      ┣OBSBasic::ResetAudio: 5.639 ms
+11:16:08.304:      ┣OBSBasic::ResetVideo: 719.554 ms
+11:16:08.304:      ┣OBSBasic::InitOBSCallbacks: 0.005 ms
+11:16:08.304:      ┣OBSBasic::InitHotkeys: 0.042 ms
+11:16:08.304:      ┣obs_load_all_modules: 119.491 ms
+11:16:08.304:      ┃ ┣obs_init_module(coreaudio-encoder.dll): 3.899 ms
+11:16:08.304:      ┃ ┣obs_init_module(enc-amf.dll): 0.459 ms
+11:16:08.304:      ┃ ┣obs_init_module(frontend-tools.dll): 1.498 ms
+11:16:08.304:      ┃ ┣obs_init_module(image-source.dll): 0.003 ms
+11:16:08.304:      ┃ ┣obs_init_module(obs-browser.dll): 0.051 ms
+11:16:08.304:      ┃ ┣obs_init_module(obs-ffmpeg.dll): 0.503 ms
+11:16:08.304:      ┃ ┣obs_init_module(obs-filters.dll): 0.009 ms
+11:16:08.304:      ┃ ┣obs_init_module(obs-outputs.dll): 0.005 ms
+11:16:08.304:      ┃ ┣obs_init_module(obs-qsv11.dll): 62.301 ms
+11:16:08.304:      ┃ ┣obs_init_module(obs-text.dll): 0.433 ms
+11:16:08.304:      ┃ ┣obs_init_module(obs-transitions.dll): 0.006 ms
+11:16:08.304:      ┃ ┣obs_init_module(obs-vst.dll): 0.001 ms
+11:16:08.304:      ┃ ┣obs_init_module(obs-x264.dll): 0.001 ms
+11:16:08.304:      ┃ ┣obs_init_module(rtmp-services.dll): 0.24 ms
+11:16:08.304:      ┃ ┣obs_init_module(text-freetype2.dll): 0.028 ms
+11:16:08.304:      ┃ ┣obs_init_module(vlc-video.dll): 0.038 ms
+11:16:08.304:      ┃ ┣obs_init_module(win-capture.dll): 0.044 ms
+11:16:08.304:      ┃ ┣obs_init_module(win-decklink.dll): 10.256 ms
+11:16:08.304:      ┃ ┣obs_init_module(win-dshow.dll): 1.478 ms
+11:16:08.304:      ┃ ┣obs_init_module(win-mf.dll): 20.942 ms
+11:16:08.304:      ┃ ┣obs_init_module(win-wasapi.dll): 0.005 ms
+11:16:08.304:      ┃ ┗reset_win32_symbol_paths: 0.188 ms
+11:16:08.304:      ┣OBSBasic::ResetOutputs: 7.058 ms
+11:16:08.304:      ┣OBSBasic::CreateHotkeys: 0.018 ms
+11:16:08.304:      ┣OBSBasic::InitService: 0.113 ms
+11:16:08.304:      ┣OBSBasic::InitPrimitives: 0.257 ms
+11:16:08.304:      ┗OBSBasic::Load: 379.513 ms
+11:16:08.304: obs_hotkey_thread(25 ms): min=0.002 ms, median=0.005 ms, max=4.827 ms, 99th percentile=0.342 ms, 100% below 25 ms
+11:16:08.304: audio_thread(Audio): min=0 ms, median=0.064 ms, max=4.306 ms, 99th percentile=0.134 ms
+11:16:08.304: obs_video_thread(33.3333 ms): min=0.293 ms, median=2.921 ms, max=767.659 ms, 99th percentile=7.01 ms, 99.9573% below 33.333 ms
+11:16:08.304:  ┣tick_sources: min=0.001 ms, median=1.619 ms, max=766.549 ms, 99th percentile=5.042 ms
+11:16:08.304:  ┣render_displays: min=0.001 ms, median=0.865 ms, max=10.354 ms, 99th percentile=1.484 ms
+11:16:08.304:  ┗output_frame: min=0.288 ms, median=0.507 ms, max=40.011 ms, 99th percentile=0.953 ms
+11:16:08.304:    ┣gs_context(video->graphics): min=0.161 ms, median=0.293 ms, max=39.792 ms, 99th percentile=0.64 ms
+11:16:08.304:    ┃ ┣render_video: min=0.023 ms, median=0.059 ms, max=0.489 ms, 99th percentile=0.123 ms
+11:16:08.304:    ┃ ┃ ┣render_main_texture: min=0.003 ms, median=0.037 ms, max=0.424 ms, 99th percentile=0.085 ms
+11:16:08.304:    ┃ ┃ ┣render_output_texture: min=0.002 ms, median=0.009 ms, max=0.276 ms, 99th percentile=0.023 ms
+11:16:08.304:    ┃ ┃ ┣render_convert_texture: min=0.001 ms, median=0.008 ms, max=0.152 ms, 99th percentile=0.02 ms
+11:16:08.304:    ┃ ┃ ┗stage_output_texture: min=0 ms, median=0.002 ms, max=0.37 ms, 99th percentile=0.01 ms
+11:16:08.304:    ┃ ┣download_frame: min=0 ms, median=0.002 ms, max=39.69 ms, 99th percentile=0.009 ms
+11:16:08.304:    ┃ ┗gs_flush: min=0.024 ms, median=0.229 ms, max=10.101 ms, 99th percentile=0.532 ms
+11:16:08.304:    ┗output_video_data: min=0.176 ms, median=0.208 ms, max=0.814 ms, 99th percentile=0.377 ms
+11:16:08.304: video_thread(video): min=0.001 ms, median=0.001 ms, max=0.113 ms, 99th percentile=0.002 ms
+11:16:08.304: =================================================
+11:16:08.304: == Profiler Time Between Calls ==================
+11:16:08.304: obs_hotkey_thread(25 ms): min=24.351 ms, median=25.019 ms, max=71.797 ms, 93.06% within ±2% of 25 ms (0.0106879% lower, 6.92935% higher)
+11:16:08.304: obs_video_thread(33.3333 ms): min=2.332 ms, median=33.333 ms, max=767.669 ms, 99.6011% within ±2% of 33.333 ms (0.204198% lower, 0.1947% higher)
+11:16:08.304: =================================================
+11:16:08.383: Number of memory leaks: 17

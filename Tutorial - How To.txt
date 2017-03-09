@@ -1,0 +1,39 @@
+===============================================================
+SKL eSports Broadcast How To
+==============================================================
+
+Ok, so the new streaming stuff is pretty easy but there are some things that have to be running in order for everything to work. Below are some details and tips on what to do to make it all work.
+
+PROGRAMS
+------------------------------
+1) First start "Scoreboard Assistant" shortcut in the root folder (This uses websockets so you might get a warning, allow all the things)
+2) Start WinAmp (not included in this package, but easy to setup. Download and make sure you have music from our connect.monstercat.com account.)
+3) Start League of Legends (not included either)
+4) Use the "OBS-Studio Portable" shortcut to start OBS
+5) OPTIONAL: Go to https://streamlabs.com/ so you can see the twitch alerts dashboard, run any follows or donations we might have missed etc.
+
+Explanation
+------------------------------
+-"Scoreboard Assistant" is pretty straight forward. There are tabs for each area: "Teams" is where you enter/switch team names around (there is a dropdown with some already in there) as well as team logos and score. "Casters" is for the caster's names. "Timers" is for the countdowns while on break, stream starting etc. And "Music" is what scrobbles the WinAmp "now playing" so we have that info as well. "Alerts" allows you to change the 3 alerts that show up in the pop up alert box above the scoreboard.
+
+*******NOTE: The double lines || seperates the fields. So "Lizard Wizards || LW" actually creates two fields so that we can easily have that info split up. Same for the Casters. Name || Twitter donates multiple fields**********
+
+-"WinAmp" use this to play your music
+
+-"OBS-Studio Portable is a shortcut that specifically runs the portable version of OBS within the package. This way everything is in sync and saved
+
+-Stream Labs (formerly Twitch Alerts) tracks donations, follows and hosts. You can manually resend an alert from twitch using the buttons in the dashboard. This is nice because we don't have alerts always showing, so keeping track of said alerts allows us to play them again if they got missed.
+
+
+
+
+
+OBS Fun Stuff
+-----------------------------
+SHORT CUTS:
+Num0 - Saves 30 second replay to "E:\Broadcast Package 2017\Videos\HIGHLIGHT SAVES" 
+Num1 - shows/hides alerts box above the scoreboard
+Num7 - shows/starts the "powerplay" countdown for the Blue Team
+Num9 - shows/starts the "powerplay" countdown for the Red Team
+
+Everything else should be set, just switch between the scenes and use Scoreboard Assistant to change names, scores, etc. Eventually we will have more fancy stuff, but this is a basic setup for now.

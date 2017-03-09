@@ -78,7 +78,7 @@
         "volume": 0.61412495374679565
     },
     "current_program_scene": "Game Overlay",
-    "current_scene": "Full Screen Camera",
+    "current_scene": "Game Overlay",
     "current_transition": "Fade",
     "modules": {
         "auto-scene-switcher": {
@@ -125,7 +125,7 @@
             "saved_preview_projectors": 0
         },
         {
-            "saved_preview_projectors": 0
+            "saved_preview_projectors": 1
         },
         {
             "saved_preview_projectors": 0
@@ -288,20 +288,26 @@
             "flags": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Blue Score White": [],
                 "libobs.hide_scene_item.Blue Team Logo": [],
                 "libobs.hide_scene_item.Blue Team Name": [],
                 "libobs.hide_scene_item.PickBanOverlay": [],
                 "libobs.hide_scene_item.Pickban": [],
+                "libobs.hide_scene_item.Red Score White": [],
                 "libobs.hide_scene_item.Red Team Logo": [],
                 "libobs.hide_scene_item.Red Team Name": [],
+                "libobs.hide_scene_item.SKL Panels": [],
                 "libobs.hide_scene_item.Sponsor Loop": [],
                 "libobs.hide_scene_item.Webcam": [],
+                "libobs.show_scene_item.Blue Score White": [],
                 "libobs.show_scene_item.Blue Team Logo": [],
                 "libobs.show_scene_item.Blue Team Name": [],
                 "libobs.show_scene_item.PickBanOverlay": [],
                 "libobs.show_scene_item.Pickban": [],
+                "libobs.show_scene_item.Red Score White": [],
                 "libobs.show_scene_item.Red Team Logo": [],
                 "libobs.show_scene_item.Red Team Name": [],
+                "libobs.show_scene_item.SKL Panels": [],
                 "libobs.show_scene_item.Sponsor Loop": [],
                 "libobs.show_scene_item.Webcam": []
             },
@@ -455,13 +461,13 @@
                         "crop_top": 0,
                         "name": "Sponsor Loop",
                         "pos": {
-                            "x": 1389.0,
-                            "y": 918.0
+                            "x": 1352.0,
+                            "y": 875.0
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.20697362720966339,
-                            "y": 0.20637328922748566
+                            "x": 1.0154440402984619,
+                            "y": 1.014851450920105
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -512,6 +518,81 @@
                         "scale": {
                             "x": 0.5788770318031311,
                             "y": 0.58333331346511841
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Blue Score White",
+                        "pos": {
+                            "x": 750.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Red Score White",
+                        "pos": {
+                            "x": 1107.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "SKL Panels",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 879.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.88051211833953857,
+                            "y": 0.87878787517547607
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -1000,6 +1081,7 @@
                         "key": "OBS_KEY_NUM7"
                     }
                 ],
+                "libobs.hide_scene_item.Blue Score White": [],
                 "libobs.hide_scene_item.Blue Team Initials": [],
                 "libobs.hide_scene_item.Blue Team Logo": [],
                 "libobs.hide_scene_item.GameDummy": [],
@@ -1010,9 +1092,11 @@
                         "key": "OBS_KEY_NUM9"
                     }
                 ],
+                "libobs.hide_scene_item.Red Score White": [],
                 "libobs.hide_scene_item.Red Team Initials": [],
                 "libobs.hide_scene_item.Red Team Logo": [],
                 "libobs.hide_scene_item.Sponsor Loop": [],
+                "libobs.hide_scene_item.Stream Times": [],
                 "libobs.hide_scene_item.alert": [
                     {
                         "key": "OBS_KEY_NUM1"
@@ -1024,6 +1108,7 @@
                         "key": "OBS_KEY_NUM7"
                     }
                 ],
+                "libobs.show_scene_item.Blue Score White": [],
                 "libobs.show_scene_item.Blue Team Initials": [],
                 "libobs.show_scene_item.Blue Team Logo": [],
                 "libobs.show_scene_item.GameDummy": [],
@@ -1034,9 +1119,11 @@
                         "key": "OBS_KEY_NUM9"
                     }
                 ],
+                "libobs.show_scene_item.Red Score White": [],
                 "libobs.show_scene_item.Red Team Initials": [],
                 "libobs.show_scene_item.Red Team Logo": [],
                 "libobs.show_scene_item.Sponsor Loop": [],
+                "libobs.show_scene_item.Stream Times": [],
                 "libobs.show_scene_item.alert": [
                     {
                         "key": "OBS_KEY_NUM1"
@@ -1278,7 +1365,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": false
+                        "visible": true
                     },
                     {
                         "align": 5,
@@ -1303,7 +1390,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": false
+                        "visible": true
                     },
                     {
                         "align": 5,
@@ -1319,13 +1406,13 @@
                         "crop_top": 0,
                         "name": "Sponsor Loop",
                         "pos": {
-                            "x": 1352.0,
-                            "y": 984.0
+                            "x": 1339.0,
+                            "y": 963.0
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.11622709035873413,
-                            "y": 0.11684370040893555
+                            "x": 0.57915055751800537,
+                            "y": 0.5792078971862793
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -1345,12 +1432,87 @@
                         "name": "twich alerts",
                         "pos": {
                             "x": 1318.0,
-                            "y": 951.0
+                            "y": 957.0
                         },
                         "rot": 0.0,
                         "scale": {
                             "x": 0.42875000834465027,
                             "y": 0.43000000715255737
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Blue Score White",
+                        "pos": {
+                            "x": 552.0,
+                            "y": 1.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.6388888955116272,
+                            "y": 0.6388888955116272
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Red Score White",
+                        "pos": {
+                            "x": 1358.0,
+                            "y": 1.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.6388888955116272,
+                            "y": 0.6388888955116272
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Stream Times",
+                        "pos": {
+                            "x": 369.0,
+                            "y": 969.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.52743899822235107,
+                            "y": 0.52813851833343506
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -1803,6 +1965,109 @@
                     "style": ""
                 },
                 "read_from_file": true
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Blue Score White",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "E:/Broadcast Package 2017/Scoreboard Assistant/output/teams/score1.txt",
+                "font": {
+                    "face": "Arial Black",
+                    "flags": 1,
+                    "size": 72,
+                    "style": ""
+                },
+                "read_from_file": true
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Red Score White",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "E:/Broadcast Package 2017/Scoreboard Assistant/output/teams/score2.txt",
+                "font": {
+                    "face": "Arial Black",
+                    "flags": 1,
+                    "size": 72,
+                    "style": ""
+                },
+                "read_from_file": true
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Stream Times",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "E:/Broadcast Package 2017/Images/Stream times.png"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "slideshow",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "SKL Panels",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "files": [
+                    {
+                        "value": "E:/Broadcast Package 2017/Images/SKL Panels"
+                    }
+                ],
+                "transition": "swipe"
             },
             "sync": 0,
             "volume": 1.0
