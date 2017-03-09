@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <teams>
-	<player1>Vicious and Delicious || VaD</player1>
-	<player1A>Vicious and Delicious</player1A>
-	<player1B>VaD</player1B>
-	<player2>Fellowship of the Nerd || FotN</player2>
-	<player2A>Fellowship of the Nerd</player2A>
-	<player2B>FotN</player2B>
+	<player1>Rocky Mountain Classics || RMC</player1>
+	<player1A>Rocky Mountain Classics</player1A>
+	<player1B>RMC</player1B>
+	<player2>Spooky Midnight || SM</player2>
+	<player2A>Spooky Midnight</player2A>
+	<player2B>SM</player2B>
 	<score1>0</score1>
 	<score1A>0</score1A>
 	<score1B />
-	<score2>1</score2>
-	<score2A>1</score2A>
+	<score2>0</score2>
+	<score2A>0</score2A>
 	<score2B />
-	<image1>ViciouseAndDelicious</image1>
-	<image1A>ViciouseAndDelicious</image1A>
+	<image1>RockyMountainClassics.ai-01</image1>
+	<image1A>RockyMountainClassics.ai-01</image1A>
 	<image1B />
-	<image2>FellowshipOfTheNerds</image2>
-	<image2A>FellowshipOfTheNerds</image2A>
+	<image2>SpookyMidnight</image2>
+	<image2A>SpookyMidnight</image2A>
 	<image2B />
 	<match />
 	<matchA />
@@ -25,5 +25,5 @@
 	<gameA />
 	<gameB />
 	<visible>true</visible>
-	<time>636192416974255796</time>
+	<time>636238215850968435</time>
 </teams>

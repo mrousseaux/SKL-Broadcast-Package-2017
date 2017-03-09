@@ -1,0 +1,13 @@
+body {
+	font-family: 'Arial';
+}
+
+.textBackground {
+	width: 700px;
+	height: 100px;
+	background-image: url("../images/low_third_bg.png");
+	background-size: 960px 250px;
+	background-repeat: no-repeat;
+	background-position: left center;
+	display: block;
+}

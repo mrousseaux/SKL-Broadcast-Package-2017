@@ -1,2 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<config />
+<config>
+	<name>Status</name>
+	<format>text</format>
+	<default />
+	<font>Arial</font>
+	<color>#FF000000</color>
+	<size>18</size>
+	<style>normal</style>
+	<weight>medium</weight>
+	<glow>#FFFFFFFF</glow>
+	<stroke>0</stroke>
+	<halign>center</halign>
+	<valign>center</valign>
+	<width>500</width>
+	<height>50</height>
+	<rotate>0</rotate>
+</config>

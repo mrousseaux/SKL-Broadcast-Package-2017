@@ -1,0 +1,72 @@
+:root {
+	--block-height: 50px;
+	--gutter-width: 15px;
+	
+	--game-width: 320px;
+}
+
+body {
+	margin: calc(0% - var(--border-width)) auto;
+}
+
+.colorB { height: var(--block-height); }
+.title { line-height: calc(var(--block-height) - var(--border-width) * 2); }
+
+.event {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	-webkit-clip-path: polygon(
+		50%																												100%,
+		50%																												calc(100% - var(--gutter-width)),
+		50%																												calc(100% - var(--gutter-width)),
+		50%																												calc(100% - var(--gutter-width)),
+		50%																												calc(100% - var(--gutter-width)),
+		50%																												calc(100% - var(--gutter-width)),
+		50%																												calc(100% - var(--gutter-width)),
+		50%																												100%
+	);
+}
+.event.step1 {
+	-webkit-clip-path: polygon(
+		0%																												100%,
+		calc(var(--gutter-width) * var(--arrow-tangent))																calc(100% - var(--gutter-width)),
+		calc(50% - var(--game-width) / 2 + (var(--block-height) - var(--gutter-width)) * var(--arrow-tangent))			calc(100% - var(--gutter-width)),
+		calc(50% - var(--game-width) / 2 + (var(--block-height) - var(--gutter-width)) * var(--arrow-tangent))			calc(100% - var(--gutter-width)),
+		calc(50% + var(--game-width) / 2 - (var(--block-height) - var(--gutter-width)) * var(--arrow-tangent))			calc(100% - var(--gutter-width)),
+		calc(50% + var(--game-width) / 2 - (var(--block-height) - var(--gutter-width)) * var(--arrow-tangent))			calc(100% - var(--gutter-width)),
+		calc(100% - var(--gutter-width) * var(--arrow-tangent))															calc(100% - var(--gutter-width)),
+		100%																										100%
+	);
+}
+.event.step2 {
+	-webkit-clip-path: polygon(
+		0%																												100%,
+		calc(var(--block-height) * var(--arrow-tangent))																0%,
+		calc(50% - var(--game-width) / 2)																				0%,
+		calc(50% - var(--game-width) / 2 + (var(--block-height) - var(--gutter-width)) * var(--arrow-tangent))			calc(100% - var(--gutter-width)),
+		calc(50% + var(--game-width) / 2 - (var(--block-height) - var(--gutter-width)) * var(--arrow-tangent))			calc(100% - var(--gutter-width)),
+		calc(50% + var(--game-width) / 2)																				0%,
+		calc(100% - var(--block-height) * var(--arrow-tangent))															0%,
+		100%																											100%
+	);
+}
+
+.event .title {
+	position: relative;
+}
+
+.event1 {
+	position: absolute;
+	top: 0;
+	left: calc(var(--block-height) * var(--arrow-tangent));
+	width: calc(50% - var(--game-width) / 2 - calc(var(--block-height) * var(--arrow-tangent)));
+}
+
+.event2 {
+	position: absolute;
+	top: 0;
+	right: calc(var(--block-height) * var(--arrow-tangent));
+	width: calc(50% - var(--game-width) / 2 - calc(var(--block-height) * var(--arrow-tangent)));
+}

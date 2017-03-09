@@ -1,0 +1,92 @@
+:root {
+	--block-height: 130px;
+	--gutter-width: var(--border-width);
+	
+	--logo-width: 130px;
+	--lower1-width: 800px;
+	--lower2-width: 1000px;
+	
+	--lower1-height: 50px;
+	--lower2-height: calc(var(--block-height) - var(--lower1-height) - var(--gutter-width));
+}
+
+body {
+	margin: 20px auto;
+}
+
+.title { padding-left: 100px; text-align: left; }
+.title.display { padding-left: 15px; }
+
+
+
+
+.logo {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: var(--logo-width);
+	transform: scale(0,0) rotate3D(1,1,1,-720deg);
+}
+.logo.display {
+	transform: scale(1,1) rotateY(0deg);
+}
+
+.logo .inner {
+	margin: var(--border-width);
+	height: calc(var(--block-height) - var(--border-width) * 2);
+	width: calc(var(--logo-width) - var(--border-width) * 2);
+	background: url('../images/lower-logo.png');
+	background-size: 100%;
+}
+
+
+
+
+.lower1 {
+	position: absolute;
+	top: 0;
+	left: calc(var(--logo-width) + var(--gutter-width));
+	height: var(--lower1-height);
+	width: var(--lower1-width);
+	line-height: calc(var(--lower1-height) - var(--border-width) * 2);
+	-webkit-clip-path: polygon(
+		0%		100%,
+		0%		100%,
+		100%	100%,
+		100%	100%
+	);
+}
+.lower1.display {
+	-webkit-clip-path: polygon(
+		0%																					0%,
+		0%																					100%,
+		100%																				100%,
+		calc(100% - var(--lower1-height) * var(--arrow-tangent))							0%
+	);
+}
+
+
+
+
+.lower2 {
+	position: absolute;
+	top: calc(var(--lower1-height) + var(--gutter-width));
+	left: calc(var(--logo-width) + var(--gutter-width));
+	height: var(--lower2-height);
+	width: var(--lower2-width);
+	line-height: calc(var(--lower2-height) - var(--border-width) * 2);
+	-webkit-clip-path: polygon(
+		0%		0%,
+		0%		0%,
+		100%	0%,
+		100%	0%
+	);
+}
+.lower2.display {
+	-webkit-clip-path: polygon(
+		0%																					0%,
+		0%																					100%,
+		calc(100% - var(--lower2-height) * var(--arrow-tangent))							100%,
+		100%																				0%
+	);
+}

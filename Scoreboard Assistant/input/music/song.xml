@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <config>
 	<name>Song</name>
-	<format>text</format>
+	<format>none</format>
 	<default />
 	<font>Arial</font>
 	<color>#FF000000</color>

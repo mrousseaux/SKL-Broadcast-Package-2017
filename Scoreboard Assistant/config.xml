@@ -1,25 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <config>
 	<settings>
-		<ontop>False</ontop>
-		<snapto>False</snapto>
+		<enableXml>True</enableXml>
+		<enableWss>True</enableWss>
+		<ontop>True</ontop>
+		<snapto>True</snapto>
 		<prefix />
 		<versus />
 		<teams />
 		<aorb />
 	</settings>
 	<tabs>
+		<item type="talk" name="casters" auto="true">
+			<head>Casters</head>
+		</item>
 		<item type="trophy2i" name="teams" auto="true">
 			<head>teams</head>
-		</item>
-		<item type="talk" name="casters" auto="true">
-			<head>casters</head>
 		</item>
 		<item type="timer" name="timers" auto="true">
 			<head>timers</head>
 		</item>
 		<item type="music" name="music" auto="true">
-			<head>Music</head>
+			<head>music</head>
+		</item>
+		<item type="text" name="alerts" auto="true">
+			<head>Alerts</head>
 		</item>
 	</tabs>
 </config>
