@@ -11603,3 +11603,192 @@ Histogram: interstitial.ssl.good_cert_seen recorded 42 samples, mean = 0.0 (flag
   effective extension id: (none)
   effective context type: UNSPECIFIED
 [0309/131820.988:VERBOSE1:dispatcher.cc(396)] Num tracked contexts: 1
+[0315/132644.298:VERBOSE1:pref_proxy_config_tracker_impl.cc(151)] 000002232DDF9D00: set chrome proxy config service to 000002232DE51FC0
+[0315/132644.380:VERBOSE1:pref_proxy_config_tracker_impl.cc(278)] 000002232DDF9D00: Done pushing proxy to UpdateProxyConfig
+[0315/132644.524:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Google 'Pilot' log
+[0315/132644.524:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Google 'Aviator' log
+[0315/132644.524:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: DigiCert Log Server
+[0315/132644.524:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Google 'Rocketeer' log
+[0315/132644.524:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Symantec log
+[0315/132644.524:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Venafi log
+[0315/132644.524:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Symantec 'Vega' log
+[0315/132644.524:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: CNNIC CT log
+[0315/132644.525:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: WoSign log
+[0315/132644.525:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: StartCom CT log
+[0315/132644.525:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Google 'Skydiver' log
+[0315/132644.525:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Google 'Icarus' log
+[0315/132644.525:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Izenpe log
+[0315/132644.525:VERBOSE1:multi_log_ct_verifier.cc(75)] Adding CT log: Certly.IO log
+[0315/132644.715:VERBOSE1:webrtc_internals.cc(99)] Could not get the download directory.
+[0315/132645.823:INFO:cpu_info.cc(50)] Available number of cores: 8
+[0315/132647.161:INFO:cpu_info.cc(50)] Available number of cores: 8
+[0315/132649.787:INFO:cpu_info.cc(50)] Available number of cores: 8
+[0315/132649.787:INFO:cpu_info.cc(50)] Available number of cores: 8
+[0315/132650.978:VERBOSE1:navigator_impl.cc(213)] Failed Provisional Load: http://absolute/E:/Broadcast%20Package%202017/Scoreboard%20Assistant/bluePowerPlay.html, error_code: -3, error_description: , showing_repost_interstitial: 0, frame_id: 2
+[0315/132650.991:VERBOSE1:navigator_impl.cc(213)] Failed Provisional Load: http://absolute/E:/Broadcast%20Package%202017/Scoreboard%20Assistant/redPowerPlay.html, error_code: -3, error_description: , showing_repost_interstitial: 0, frame_id: 2
+[0315/132651.562:ERROR:disk_cache.cc(132)] Unable to create cache
+[0315/132651.676:VERBOSE1:dhcp_proxy_script_adapter_fetcher_win.cc(262)] Error fetching PAC URL from DHCP: 2
+[0315/132651.702:VERBOSE1:script_context.cc(111)] Created context:
+  extension id:           (none)
+  frame:                  0000034D9FB61DC8
+  URL:                    
+  context_type:           WEB_PAGE
+  effective extension id: (none)
+  effective context type: WEB_PAGE
+[0315/132651.722:VERBOSE1:script_context.cc(111)] Created context:
+  extension id:           (none)
+  frame:                  0000000000000000
+  URL:                    
+  context_type:           UNSPECIFIED
+  effective extension id: (none)
+  effective context type: UNSPECIFIED
+[0315/132651.731:VERBOSE1:dispatcher.cc(396)] Num tracked contexts: 1
+[0315/132652.294:VERBOSE1:script_context.cc(111)] Created context:
+  extension id:           (none)
+  frame:                  00000393EDA01DC8
+  URL:                    
+  context_type:           WEB_PAGE
+  effective extension id: (none)
+  effective context type: WEB_PAGE
+[0315/132652.294:VERBOSE1:script_context.cc(111)] Created context:
+  extension id:           (none)
+  frame:                  0000037CCB901DC8
+  URL:                    
+  context_type:           WEB_PAGE
+  effective extension id: (none)
+  effective context type: WEB_PAGE
+[0315/132652.295:VERBOSE1:script_context.cc(111)] Created context:
+  extension id:           (none)
+  frame:                  0000000000000000
+  URL:                    
+  context_type:           UNSPECIFIED
+  effective extension id: (none)
+  effective context type: UNSPECIFIED
+[0315/132652.295:VERBOSE1:script_context.cc(111)] Created context:
+  extension id:           (none)
+  frame:                  0000000000000000
+  URL:                    
+  context_type:           UNSPECIFIED
+  effective extension id: (none)
+  effective context type: UNSPECIFIED
+[0315/132652.295:VERBOSE1:dispatcher.cc(396)] Num tracked contexts: 1
+[0315/132652.295:VERBOSE1:dispatcher.cc(396)] Num tracked contexts: 1
+[0315/132652.687:VERBOSE1:proxy_service.cc(1244)] Failed configuring with PAC script, falling-back to manual proxy servers.
+[0315/132653.274:VERBOSE1:dispatcher.cc(527)] Num tracked contexts: 0
+[0315/132653.286:VERBOSE1:script_context.cc(120)] Destroyed context for extension
+  extension id: 
+  effective extension id: 
+[0315/132653.286:VERBOSE1:script_context.cc(120)] Destroyed context for extension
+  extension id: 
+  effective extension id: 
+[0315/132653.298:VERBOSE1:script_context.cc(111)] Created context:
+  extension id:           (none)
+  frame:                  0000034D9FB61DC8
+  URL:                    
+  context_type:           WEB_PAGE
+  effective extension id: (none)
+  effective context type: WEB_PAGE
+[0315/132653.298:VERBOSE1:script_context.cc(111)] Created context:
+  extension id:           (none)
+  frame:                  0000000000000000
+  URL:                    
+  context_type:           UNSPECIFIED
+  effective extension id: (none)
+  effective context type: UNSPECIFIED
+[0315/132653.299:VERBOSE1:dispatcher.cc(396)] Num tracked contexts: 1
+[0315/132654.341:INFO:CONSOLE(3)] "/dist/worker.min.js?v=6acb338&token=5124DE3E99A09491BA9F&v=0&platformTokens={"twitch_account":"u0pv3r77kfip12sywzyyrymdlcsr70"}&username=saskleague&platforms={"twitch_account":"93343185"}", source: https://streamlabs.com/dist/alert-box/js/alert-box.min.js?v= (3)
+[0315/132654.471:VERBOSE1:script_context.cc(111)] Created context:
+  extension id:           (none)
+  frame:                  0000034D9FC83360
+  URL:                    
+  context_type:           WEB_PAGE
+  effective extension id: (none)
+  effective context type: WEB_PAGE
+[0315/132654.472:VERBOSE1:script_context.cc(111)] Created context:
+  extension id:           (none)
+  frame:                  0000000000000000
+  URL:                    
+  context_type:           UNSPECIFIED
+  effective extension id: (none)
+  effective context type: UNSPECIFIED
+[0315/132654.472:VERBOSE1:dispatcher.cc(396)] Num tracked contexts: 2
+[0315/132654.837:VERBOSE1:mime_sniffing_resource_handler.cc(355)] To buffer: https://cdn.streamlabs.com/static/polly/voices.json
+[0315/132655.031:VERBOSE1:script_context.cc(111)] Created context:
+  extension id:           (none)
+  frame:                  0000034D9FC63C88
+  URL:                    
+  context_type:           WEB_PAGE
+  effective extension id: (none)
+  effective context type: WEB_PAGE
+[0315/132655.031:VERBOSE1:script_context.cc(111)] Created context:
+  extension id:           (none)
+  frame:                  0000000000000000
+  URL:                    
+  context_type:           UNSPECIFIED
+  effective extension id: (none)
+  effective context type: UNSPECIFIED
+[0315/132655.032:VERBOSE1:dispatcher.cc(396)] Num tracked contexts: 3
+[0315/132655.032:INFO:CONSOLE(119)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://www.youtube.com') does not match the recipient window's origin ('https://streamlabs.com').", source: https://s.ytimg.com/yts/jsbin/www-widgetapi-vflaVmuxD/www-widgetapi.js (119)
+[0315/132655.058:VERBOSE1:dispatcher.cc(527)] Num tracked contexts: 2
+[0315/132655.059:VERBOSE1:script_context.cc(120)] Destroyed context for extension
+  extension id: 
+  effective extension id: 
+[0315/132655.059:VERBOSE1:script_context.cc(120)] Destroyed context for extension
+  extension id: 
+  effective extension id: 
+[0315/132655.062:VERBOSE1:script_context.cc(111)] Created context:
+  extension id:           (none)
+  frame:                  0000034D9FC63C88
+  URL:                    
+  context_type:           WEB_PAGE
+  effective extension id: (none)
+  effective context type: WEB_PAGE
+[0315/132655.062:VERBOSE1:script_context.cc(111)] Created context:
+  extension id:           (none)
+  frame:                  0000000000000000
+  URL:                    
+  context_type:           UNSPECIFIED
+  effective extension id: (none)
+  effective context type: UNSPECIFIED
+[0315/132655.062:VERBOSE1:dispatcher.cc(396)] Num tracked contexts: 3
+[0315/132655.479:ERROR:leveldb_database.cc(311)] Failed to open LevelDB database from ../../config/obs-studio/plugin_config/obs-browser\IndexedDB\https_streamlabs.com_0.indexeddb.leveldb,IO error: ../../config/obs-studio/plugin_config/obs-browser\IndexedDB\https_streamlabs.com_0.indexeddb.leveldb/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0315/132655.479:ERROR:indexed_db_backing_store.cc(1053)] Unable to open backing store, not trying to recover - IO error: ../../config/obs-studio/plugin_config/obs-browser\IndexedDB\https_streamlabs.com_0.indexeddb.leveldb/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[0315/132655.670:INFO:CONSOLE(0)] "Uncaught (in promise) UnknownError: Internal error opening backing store for indexedDB.open.", source: https://streamlabs.com/alert-box/v3/5124DE3E99A09491BA9F (0)
+[0315/132655.670:INFO:CONSOLE(0)] "Uncaught (in promise) UnknownError: Internal error opening backing store for indexedDB.open.", source: https://streamlabs.com/alert-box/v3/5124DE3E99A09491BA9F (0)
+[0315/132655.688:VERBOSE1:script_context.cc(111)] Created context:
+  extension id:           (none)
+  frame:                  0000034D9FC56A48
+  URL:                    
+  context_type:           WEB_PAGE
+  effective extension id: (none)
+  effective context type: WEB_PAGE
+[0315/132655.688:VERBOSE1:script_context.cc(111)] Created context:
+  extension id:           (none)
+  frame:                  0000000000000000
+  URL:                    
+  context_type:           UNSPECIFIED
+  effective extension id: (none)
+  effective context type: UNSPECIFIED
+[0315/132655.688:VERBOSE1:dispatcher.cc(396)] Num tracked contexts: 4
+[0315/132655.698:VERBOSE1:dispatcher.cc(527)] Num tracked contexts: 3
+[0315/132655.789:VERBOSE1:script_context.cc(120)] Destroyed context for extension
+  extension id: 
+  effective extension id: 
+[0315/132655.789:VERBOSE1:script_context.cc(120)] Destroyed context for extension
+  extension id: 
+  effective extension id: 
+[0315/132700.688:VERBOSE1:dhcp_proxy_script_adapter_fetcher_win.cc(262)] Error fetching PAC URL from DHCP: 2
+[0315/132741.539:VERBOSE1:dhcp_proxy_script_adapter_fetcher_win.cc(262)] Error fetching PAC URL from DHCP: 2
+[0315/132942.154:VERBOSE1:dhcp_proxy_script_adapter_fetcher_win.cc(262)] Error fetching PAC URL from DHCP: 2
+[0315/134044.672:VERBOSE1:dhcp_proxy_script_adapter_fetcher_win.cc(262)] Error fetching PAC URL from DHCP: 2
+[0315/134045.673:VERBOSE1:proxy_service.cc(1244)] Failed configuring with PAC script, falling-back to manual proxy servers.
+[0315/134053.674:VERBOSE1:dhcp_proxy_script_adapter_fetcher_win.cc(262)] Error fetching PAC URL from DHCP: 2
+[0315/134125.679:VERBOSE1:dhcp_proxy_script_adapter_fetcher_win.cc(262)] Error fetching PAC URL from DHCP: 2
+[0315/134325.690:VERBOSE1:dhcp_proxy_script_adapter_fetcher_win.cc(262)] Error fetching PAC URL from DHCP: 2
+[0315/134922.129:VERBOSE1:dhcp_proxy_script_adapter_fetcher_win.cc(262)] Error fetching PAC URL from DHCP: 2
+[0315/134923.130:VERBOSE1:proxy_service.cc(1244)] Failed configuring with PAC script, falling-back to manual proxy servers.
+[0315/134925.323:VERBOSE1:dhcp_proxy_script_adapter_fetcher_win.cc(262)] Error fetching PAC URL from DHCP: 2
+[0315/134926.325:VERBOSE1:proxy_service.cc(1244)] Failed configuring with PAC script, falling-back to manual proxy servers.
+[0315/134934.327:VERBOSE1:dhcp_proxy_script_adapter_fetcher_win.cc(262)] Error fetching PAC URL from DHCP: 2
+[0315/135026.387:VERBOSE1:dhcp_proxy_script_adapter_fetcher_win.cc(262)] Error fetching PAC URL from DHCP: 2
+[0315/135159.754:VERBOSE1:dispatcher.cc(527)] Num tracked contexts: 0

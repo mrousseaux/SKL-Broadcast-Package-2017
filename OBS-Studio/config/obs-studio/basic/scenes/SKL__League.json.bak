@@ -77,8 +77,8 @@
         "sync": 0,
         "volume": 0.61412495374679565
     },
-    "current_program_scene": "Game Overlay",
-    "current_scene": "Game Overlay",
+    "current_program_scene": "Full Screen Camera",
+    "current_scene": "Full Screen Camera",
     "current_transition": "Fade",
     "modules": {
         "auto-scene-switcher": {
@@ -203,6 +203,84 @@
         }
     ],
     "sources": [
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Caster Right",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "E:/Broadcast Package 2017/Scoreboard Assistant/output/casters/lower2.txt",
+                "font": {
+                    "face": "Arial",
+                    "flags": 1,
+                    "size": 72,
+                    "style": ""
+                },
+                "read_from_file": true
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Caster Left",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "align": "center",
+                "file": "E:/Broadcast Package 2017/Scoreboard Assistant/output/casters/lower1.txt",
+                "font": {
+                    "face": "Arial",
+                    "flags": 1,
+                    "size": 72,
+                    "style": ""
+                },
+                "read_from_file": true
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Image",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "E:/Broadcast Package 2017/Overlay Images/Camera_Overlay.png"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
         {
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
@@ -899,7 +977,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": true
+                        "visible": false
                     },
                     {
                         "align": 5,
@@ -1049,7 +1127,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": false
+                        "visible": true
                     },
                     {
                         "align": 5,
@@ -1074,7 +1152,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": false
+                        "visible": true
                     },
                     {
                         "align": 5,
@@ -1115,8 +1193,8 @@
                         "crop_top": 0,
                         "name": "twich alerts",
                         "pos": {
-                            "x": 1325.0,
-                            "y": 951.0
+                            "x": 1318.0,
+                            "y": 957.0
                         },
                         "rot": 0.0,
                         "scale": {
@@ -1629,7 +1707,27 @@
             "flags": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Blue Score White": [],
+                "libobs.hide_scene_item.Blue Team Logo": [],
+                "libobs.hide_scene_item.Blue Team Name": [],
+                "libobs.hide_scene_item.Caster Left": [],
+                "libobs.hide_scene_item.Caster Right": [],
+                "libobs.hide_scene_item.Image": [],
+                "libobs.hide_scene_item.Red Score White": [],
+                "libobs.hide_scene_item.Red Team Logo": [],
+                "libobs.hide_scene_item.Red Team Name": [],
+                "libobs.hide_scene_item.SKL Panels": [],
                 "libobs.hide_scene_item.Webcam": [],
+                "libobs.show_scene_item.Blue Score White": [],
+                "libobs.show_scene_item.Blue Team Logo": [],
+                "libobs.show_scene_item.Blue Team Name": [],
+                "libobs.show_scene_item.Caster Left": [],
+                "libobs.show_scene_item.Caster Right": [],
+                "libobs.show_scene_item.Image": [],
+                "libobs.show_scene_item.Red Score White": [],
+                "libobs.show_scene_item.Red Team Logo": [],
+                "libobs.show_scene_item.Red Team Name": [],
+                "libobs.show_scene_item.SKL Panels": [],
                 "libobs.show_scene_item.Webcam": []
             },
             "id": "scene",
@@ -1664,6 +1762,256 @@
                         "scale": {
                             "x": 1.5,
                             "y": 1.5
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Image",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Blue Team Name",
+                        "pos": {
+                            "x": 302.0,
+                            "y": 5.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.42914438247680664,
+                            "y": 0.4305555522441864
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Blue Team Logo",
+                        "pos": {
+                            "x": 649.0,
+                            "y": 2.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.17786560952663422,
+                            "y": 0.17786560952663422
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Red Team Name",
+                        "pos": {
+                            "x": 1377.0,
+                            "y": 5.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.43599998950958252,
+                            "y": 0.4305555522441864
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Red Team Logo",
+                        "pos": {
+                            "x": 1201.0,
+                            "y": 4.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.17391304671764374,
+                            "y": 0.17391304671764374
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Blue Score White",
+                        "pos": {
+                            "x": 754.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Red Score White",
+                        "pos": {
+                            "x": 1109.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "SKL Panels",
+                        "pos": {
+                            "x": 692.0,
+                            "y": 913.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.7354196310043335,
+                            "y": 0.73557692766189575
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Caster Left",
+                        "pos": {
+                            "x": 288.0,
+                            "y": 1030.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.69298243522644043,
+                            "y": 0.69444441795349121
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Caster Right",
+                        "pos": {
+                            "x": 1258.0,
+                            "y": 1027.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.67696630954742432,
+                            "y": 0.68055558204650879
                         },
                         "scale_filter": "disable",
                         "visible": true
