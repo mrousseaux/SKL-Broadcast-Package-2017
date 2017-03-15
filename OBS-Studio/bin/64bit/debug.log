@@ -11792,3 +11792,4 @@ Histogram: interstitial.ssl.good_cert_seen recorded 42 samples, mean = 0.0 (flag
 [0315/134934.327:VERBOSE1:dhcp_proxy_script_adapter_fetcher_win.cc(262)] Error fetching PAC URL from DHCP: 2
 [0315/135026.387:VERBOSE1:dhcp_proxy_script_adapter_fetcher_win.cc(262)] Error fetching PAC URL from DHCP: 2
 [0315/135159.754:VERBOSE1:dispatcher.cc(527)] Num tracked contexts: 0
+[0315/135226.967:VERBOSE1:dhcp_proxy_script_adapter_fetcher_win.cc(262)] Error fetching PAC URL from DHCP: 2

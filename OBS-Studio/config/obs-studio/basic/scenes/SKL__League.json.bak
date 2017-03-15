@@ -77,8 +77,8 @@
         "sync": 0,
         "volume": 0.61412495374679565
     },
-    "current_program_scene": "Full Screen Camera",
-    "current_scene": "Full Screen Camera",
+    "current_program_scene": "Thanks for Watching!",
+    "current_scene": "Thanks for Watching!",
     "current_transition": "Fade",
     "modules": {
         "auto-scene-switcher": {
@@ -190,6 +190,9 @@
             "name": "Starting Soon"
         },
         {
+            "name": "Coming Up Next"
+        },
+        {
             "name": "Full Screen Camera"
         },
         {
@@ -200,9 +203,534 @@
         },
         {
             "name": "Be Right Back"
+        },
+        {
+            "name": "Thanks for Watching!"
         }
     ],
     "sources": [
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Image (2)",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "E:/Broadcast Package 2017/Overlay Images/thanksForWatching_overlay.png"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Blue Score": [],
+                "libobs.hide_scene_item.Blue Team Logo": [],
+                "libobs.hide_scene_item.Image (2)": [],
+                "libobs.hide_scene_item.Looping BG": [],
+                "libobs.hide_scene_item.Now Playing": [],
+                "libobs.hide_scene_item.Red Score": [],
+                "libobs.hide_scene_item.Red Team Logo": [],
+                "libobs.hide_scene_item.Song Info": [],
+                "libobs.show_scene_item.Blue Score": [],
+                "libobs.show_scene_item.Blue Team Logo": [],
+                "libobs.show_scene_item.Image (2)": [],
+                "libobs.show_scene_item.Looping BG": [],
+                "libobs.show_scene_item.Now Playing": [],
+                "libobs.show_scene_item.Red Score": [],
+                "libobs.show_scene_item.Red Team Logo": [],
+                "libobs.show_scene_item.Song Info": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Thanks for Watching!",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Looping BG",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 2.0,
+                            "y": 2.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Blue Team Logo",
+                        "pos": {
+                            "x": 141.0,
+                            "y": 422.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Red Team Logo",
+                        "pos": {
+                            "x": 1499.0,
+                            "y": 434.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Blue Score",
+                        "pos": {
+                            "x": 575.0,
+                            "y": 429.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.6323529481887817,
+                            "y": 1.6357142925262451
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Red Score",
+                        "pos": {
+                            "x": 1231.0,
+                            "y": 429.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.6617647409439087,
+                            "y": 1.6642856597900391
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Song Info",
+                        "pos": {
+                            "x": 814.0,
+                            "y": 828.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Now Playing",
+                        "pos": {
+                            "x": 830.0,
+                            "y": 774.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.50251257419586182,
+                            "y": 0.5
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Image (2)",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Coming Up BG",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "E:/Broadcast Package 2017/Overlay Images/comingUpNext_overlay.png"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Blue Score": [],
+                "libobs.hide_scene_item.Blue Team Logo": [],
+                "libobs.hide_scene_item.Image (2)": [],
+                "libobs.hide_scene_item.Looping BG": [],
+                "libobs.hide_scene_item.Now Playing": [],
+                "libobs.hide_scene_item.Red Score": [],
+                "libobs.hide_scene_item.Red Team Logo": [],
+                "libobs.hide_scene_item.Song Info": [],
+                "libobs.show_scene_item.Blue Score": [],
+                "libobs.show_scene_item.Blue Team Logo": [],
+                "libobs.show_scene_item.Image (2)": [],
+                "libobs.show_scene_item.Looping BG": [],
+                "libobs.show_scene_item.Now Playing": [],
+                "libobs.show_scene_item.Red Score": [],
+                "libobs.show_scene_item.Red Team Logo": [],
+                "libobs.show_scene_item.Song Info": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Coming Up Next",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Looping BG",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 2.0,
+                            "y": 2.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Coming Up BG",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Blue Team Logo",
+                        "pos": {
+                            "x": 141.0,
+                            "y": 422.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Red Team Logo",
+                        "pos": {
+                            "x": 1499.0,
+                            "y": 434.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Blue Score",
+                        "pos": {
+                            "x": 575.0,
+                            "y": 429.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.6323529481887817,
+                            "y": 1.6357142925262451
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Red Score",
+                        "pos": {
+                            "x": 1231.0,
+                            "y": 429.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.6617647409439087,
+                            "y": 1.6642856597900391
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Song Info",
+                        "pos": {
+                            "x": 814.0,
+                            "y": 828.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "name": "Now Playing",
+                        "pos": {
+                            "x": 830.0,
+                            "y": 774.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.50251257419586182,
+                            "y": 0.5
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
         {
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
@@ -219,6 +747,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
+                "align": "center",
                 "file": "E:/Broadcast Package 2017/Scoreboard Assistant/output/casters/lower2.txt",
                 "font": {
                     "face": "Arial",
@@ -1980,7 +2509,7 @@
                         "crop_top": 0,
                         "name": "Caster Left",
                         "pos": {
-                            "x": 288.0,
+                            "x": 300.0,
                             "y": 1030.0
                         },
                         "rot": 0.0,
@@ -2005,8 +2534,8 @@
                         "crop_top": 0,
                         "name": "Caster Right",
                         "pos": {
-                            "x": 1258.0,
-                            "y": 1027.0
+                            "x": 1402.0,
+                            "y": 1031.0
                         },
                         "rot": 0.0,
                         "scale": {
