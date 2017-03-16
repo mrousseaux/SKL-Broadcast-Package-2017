@@ -1,0 +1,210 @@
+13:26:34.313: CPU Name: Intel(R) Core(TM) i7-2600K CPU @ 3.40GHz
+13:26:34.313: CPU Speed: 3392MHz
+13:26:34.313: Physical Cores: 4, Logical Cores: 8
+13:26:34.313: Physical Memory: 16366MB Total, 11412MB Free
+13:26:34.313: Windows Version: 10.0 Build 14393 (revision: 953; 64-bit)
+13:26:34.313: Running as administrator: false
+13:26:34.313: Aero is Enabled (Aero is always on for windows 8 and above)
+13:26:34.316: Portable mode: true
+13:26:34.529: OBS 18.0.1 (64bit, windows)
+13:26:34.529: ---------------------------------
+13:26:34.533: ---------------------------------
+13:26:34.533: audio settings reset:
+13:26:34.533: 	samples per sec: 44100
+13:26:34.533: 	speakers:        2
+13:26:34.649: ---------------------------------
+13:26:34.649: Initializing D3D11..
+13:26:34.649: Available Video Adapters: 
+13:26:34.650: 	Adapter 1: NVIDIA GeForce GTX 750 Ti
+13:26:34.650: 	  Dedicated VRAM: 2114650112
+13:26:34.650: 	  Shared VRAM:    4285851648
+13:26:34.650: 	  output 1: pos={0, 0}, size={1920, 1080}, attached=true
+13:26:34.650: 	  output 2: pos={1920, 0}, size={1600, 900}, attached=true
+13:26:34.651: 	Adapter 2: ATI FirePro V4800 (FireGL) Graphics Adapter
+13:26:34.651: 	  Dedicated VRAM: 1059917824
+13:26:34.651: 	  Shared VRAM:    4026531840
+13:26:34.653: Loading up D3D11 on adapter NVIDIA GeForce GTX 750 Ti (0)
+13:26:34.680: D3D11 loaded sucessfully, feature level used: 45056
+13:26:35.749: ---------------------------------
+13:26:35.749: video settings reset:
+13:26:35.749: 	base resolution:   1920x1080
+13:26:35.749: 	output resolution: 1280x720
+13:26:35.749: 	downscale filter:  Bicubic
+13:26:35.749: 	fps:               30/1
+13:26:35.749: 	format:            NV12
+13:26:35.750: Audio monitoring device:
+13:26:35.750: 	name: Default
+13:26:35.750: 	id: default
+13:26:35.765: ---------------------------------
+13:26:35.916: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/chrome_elf.dll' not found, loading of module failed
+13:26:35.983: [CoreAudio encoder]: Adding CoreAudio AAC encoder
+13:26:36.050: [AMF Encoder] Unable to load 'amfrt64.dll', error code 126.
+13:26:36.726: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/libcef.dll' not found, loading of module failed
+13:26:36.750: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/libEGL.dll' not found, loading of module failed
+13:26:36.816: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/libGLESv2.dll' not found, loading of module failed
+13:26:36.867: Failed to load 'en-US' text for module: 'obs-browser.dll'
+13:26:36.867: [browser_source: 'Version: 1.29.0']
+13:26:37.248: NVENC supported
+13:26:38.613: Couldn't find VLC installation, VLC video source disabled
+13:26:39.218: ---------------------------------
+13:26:39.218:   Loaded Modules:
+13:26:39.218:     win-wasapi.dll
+13:26:39.218:     win-mf.dll
+13:26:39.218:     win-dshow.dll
+13:26:39.218:     win-decklink.dll
+13:26:39.218:     win-capture.dll
+13:26:39.218:     vlc-video.dll
+13:26:39.218:     text-freetype2.dll
+13:26:39.218:     rtmp-services.dll
+13:26:39.218:     obs-x264.dll
+13:26:39.218:     obs-vst.dll
+13:26:39.218:     obs-transitions.dll
+13:26:39.218:     obs-text.dll
+13:26:39.218:     obs-qsv11.dll
+13:26:39.218:     obs-outputs.dll
+13:26:39.218:     obs-filters.dll
+13:26:39.218:     obs-ffmpeg.dll
+13:26:39.218:     obs-browser.dll
+13:26:39.218:     image-source.dll
+13:26:39.218:     frontend-tools.dll
+13:26:39.218:     enc-amf.dll
+13:26:39.218:     coreaudio-encoder.dll
+13:26:39.218: ==== Startup complete ===============================================
+13:26:39.294: Service '' not found
+13:26:39.401: All scene data cleared
+13:26:39.401: ------------------------------------------------
+13:26:39.477: [WASAPISource::WASAPISource] Device '{0.0.0.00000000}.{e91907c9-6ebf-4d0f-beac-3217b5bf132a}' not found.  Waiting for device
+13:26:39.493: WASAPI: Device 'VoiceMeeter Aux Output (VB-Audio VoiceMeeter AUX VAIO)' initialized
+13:26:39.504: WASAPI: Device 'Line In (2- BEHRINGER USB WDM AUDIO 2.8.40)' initialized
+13:26:39.589: adding 92 milliseconds of audio buffering, total audio buffering is now 92 milliseconds
+13:26:42.409: ---------------------------------
+13:26:42.409: [DShow Device: 'Webcam'] settings updated: 
+13:26:42.409: 	video device: Microsoft® LifeCam Cinema(TM)
+13:26:42.409: 	video path: \\?\usb#vid_045e&pid_075d&mi_00#7&17ba1b95&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+13:26:42.409: 	resolution: 1280x720
+13:26:42.409: 	fps: 30.00 (interval: 333333)
+13:26:42.409: 	format: YUY2
+13:26:46.712: warning: Stream #0: not enough frames to estimate rate; consider increasing probesize
+13:26:47.599: [Media Source 'Looping BG']: settings:
+13:26:47.599: 	input:                   E:/Broadcast Package 2017/Videos/genericBG.mp4
+13:26:47.599: 	input_format:            (null)
+13:26:47.599: 	is_looping:              yes
+13:26:47.599: 	is_forcing_scale:        yes
+13:26:47.599: 	is_hw_decoding:          yes
+13:26:47.599: 	is_clear_on_media_end:   yes
+13:26:47.599: 	restart_on_activate:     yes
+13:26:47.625: [Media Source 'Start Video']: settings:
+13:26:47.625: 	input:                   E:/Broadcast Package 2017/Videos/startingSoon.mp4
+13:26:47.625: 	input_format:            (null)
+13:26:47.625: 	is_looping:              yes
+13:26:47.625: 	is_forcing_scale:        yes
+13:26:47.625: 	is_hw_decoding:          yes
+13:26:47.625: 	is_clear_on_media_end:   yes
+13:26:47.625: 	restart_on_activate:     yes
+13:26:48.608: warning: Stream #0: not enough frames to estimate rate; consider increasing probesize
+13:26:49.756: Switched to scene 'Game Overlay'
+13:26:49.775: ------------------------------------------------
+13:26:49.775: Loaded scenes:
+13:26:49.775: - scene 'Starting Soon':
+13:26:49.775:     - source: 'Start Video' (ffmpeg_source)
+13:26:49.775: - scene 'Full Screen Camera':
+13:26:49.775:     - source: 'Webcam' (dshow_input)
+13:26:49.775: - scene 'Pick/Ban':
+13:26:49.775:     - source: 'Pickban' (window_capture)
+13:26:49.775:     - source: 'PickBanOverlay' (image_source)
+13:26:49.775:     - source: 'Blue Team Logo' (image_source)
+13:26:49.775:     - source: 'Red Team Logo' (image_source)
+13:26:49.775:     - source: 'Webcam' (dshow_input)
+13:26:49.775:     - source: 'Sponsor Loop' (slideshow)
+13:26:49.776:     - source: 'Blue Team Name' (text_gdiplus)
+13:26:49.776:     - source: 'Red Team Name' (text_gdiplus)
+13:26:49.776:     - source: 'Blue Score White' (text_gdiplus)
+13:26:49.776:     - source: 'Red Score White' (text_gdiplus)
+13:26:49.776:     - source: 'SKL Panels' (slideshow)
+13:26:49.776: - scene 'Game Overlay':
+13:26:49.776:     - source: 'League Game' (game_capture)
+13:26:49.776:     - source: 'GameDummy' (image_source)
+13:26:49.776:     - source: 'alert' (browser_source)
+13:26:49.776:     - source: 'Main Game Overlay' (image_source)
+13:26:49.776:     - source: 'Blue Team Initials' (text_gdiplus)
+13:26:49.776:     - source: 'Blue Team Logo' (image_source)
+13:26:49.776:     - source: 'Red Team Initials' (text_gdiplus)
+13:26:49.776:     - source: 'Red Team Logo' (image_source)
+13:26:49.776:     - source: 'Blue PP' (browser_source)
+13:26:49.776:     - source: 'Red PP' (browser_source)
+13:26:49.776:     - source: 'Sponsor Loop' (slideshow)
+13:26:49.776:     - source: 'twich alerts' (browser_source)
+13:26:49.776:     - source: 'Blue Score White' (text_gdiplus)
+13:26:49.776:     - source: 'Red Score White' (text_gdiplus)
+13:26:49.776:     - source: 'Stream Times' (image_source)
+13:26:49.776: - scene 'Be Right Back':
+13:26:49.776:     - source: 'Looping BG' (ffmpeg_source)
+13:26:49.776:     - source: 'BRB Overlay' (image_source)
+13:26:49.776:     - source: 'Blue Team Logo' (image_source)
+13:26:49.776:     - source: 'Red Team Logo' (image_source)
+13:26:49.776:     - source: 'Blue Score' (text_gdiplus)
+13:26:49.776:     - source: 'Red Score' (text_gdiplus)
+13:26:49.776:     - source: 'Song Info' (text_gdiplus)
+13:26:49.776:         - filter: 'Scroll' (scroll_filter)
+13:26:49.776:     - source: 'Now Playing' (text_gdiplus)
+13:26:49.776: ------------------------------------------------
+13:51:59.404: User switched to scene 'Full Screen Camera'
+13:51:59.712: ---------------------------------
+13:51:59.712: [DShow Device: 'Webcam'] settings updated: 
+13:51:59.712: 	video device: Microsoft® LifeCam Cinema(TM)
+13:51:59.712: 	video path: \\?\usb#vid_045e&pid_075d&mi_00#7&17ba1b95&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+13:51:59.712: 	resolution: 1280x720
+13:51:59.712: 	fps: 30.00 (interval: 333333)
+13:51:59.712: 	format: YUY2
+13:52:07.220: User added source 'Image' (image_source) to scene 'Full Screen Camera'
+13:52:33.107: User added source 'Blue Team Name' (text_gdiplus) to scene 'Full Screen Camera'
+13:53:17.106: User added source 'Blue Team Logo' (image_source) to scene 'Full Screen Camera'
+13:53:57.586: User added source 'Red Team Name' (text_gdiplus) to scene 'Full Screen Camera'
+13:54:19.633: User added source 'Red Team Logo' (image_source) to scene 'Full Screen Camera'
+13:54:35.058: User added source 'Blue Score' (text_gdiplus) to scene 'Full Screen Camera'
+13:54:39.916: User Removed source 'Blue Score' (text_gdiplus) from scene 'Full Screen Camera'
+13:54:46.626: User added source 'Blue Score White' (text_gdiplus) to scene 'Full Screen Camera'
+13:55:00.433: User added source 'Red Score White' (text_gdiplus) to scene 'Full Screen Camera'
+13:55:42.329: User added source 'SKL Panels' (slideshow) to scene 'Full Screen Camera'
+13:56:21.899: User added source 'Caster Left' (text_gdiplus) to scene 'Full Screen Camera'
+13:57:22.058: User added source 'Caster Right' (text_gdiplus) to scene 'Full Screen Camera'
+14:00:44.082: User switched to scene 'Be Right Back'
+14:17:50.589: User added scene 'Coming Up Next'
+14:17:50.591: User switched to scene 'Coming Up Next'
+14:18:07.332: User switched to scene 'Full Screen Camera'
+14:18:07.332: User Removed scene 'Coming Up Next'
+14:18:07.508: ---------------------------------
+14:18:07.508: [DShow Device: 'Webcam'] settings updated: 
+14:18:07.508: 	video device: Microsoft® LifeCam Cinema(TM)
+14:18:07.508: 	video path: \\?\usb#vid_045e&pid_075d&mi_00#7&17ba1b95&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+14:18:07.508: 	resolution: 1280x720
+14:18:07.508: 	fps: 30.00 (interval: 333333)
+14:18:07.508: 	format: YUY2
+14:18:08.162: User switched to scene 'Be Right Back'
+14:18:15.035: User added source 'Looping BG' (ffmpeg_source) to scene 'Coming Up Next'
+14:18:15.035: User added source 'BRB Overlay' (image_source) to scene 'Coming Up Next'
+14:18:15.035: User added source 'Blue Team Logo' (image_source) to scene 'Coming Up Next'
+14:18:15.035: User added source 'Red Team Logo' (image_source) to scene 'Coming Up Next'
+14:18:15.035: User added source 'Blue Score' (text_gdiplus) to scene 'Coming Up Next'
+14:18:15.035: User added source 'Red Score' (text_gdiplus) to scene 'Coming Up Next'
+14:18:15.036: User added source 'Song Info' (text_gdiplus) to scene 'Coming Up Next'
+14:18:15.036: User added source 'Now Playing' (text_gdiplus) to scene 'Coming Up Next'
+14:18:15.036: User added scene 'Coming Up Next'
+14:18:15.049: Switched to scene 'Coming Up Next'
+14:18:27.698: User Removed source 'BRB Overlay' (image_source) from scene 'Coming Up Next'
+14:18:55.533: User added source 'Image (2)' (image_source) to scene 'Coming Up Next'
+14:19:05.621: Source 'Image (2)' renamed to 'Coming Up BG'
+14:19:10.570: User switched to scene 'Be Right Back'
+14:19:20.555: User added source 'Looping BG' (ffmpeg_source) to scene 'Thanks for Watching!'
+14:19:20.555: User added source 'BRB Overlay' (image_source) to scene 'Thanks for Watching!'
+14:19:20.555: User added source 'Blue Team Logo' (image_source) to scene 'Thanks for Watching!'
+14:19:20.555: User added source 'Red Team Logo' (image_source) to scene 'Thanks for Watching!'
+14:19:20.555: User added source 'Blue Score' (text_gdiplus) to scene 'Thanks for Watching!'
+14:19:20.555: User added source 'Red Score' (text_gdiplus) to scene 'Thanks for Watching!'
+14:19:20.555: User added source 'Song Info' (text_gdiplus) to scene 'Thanks for Watching!'
+14:19:20.555: User added source 'Now Playing' (text_gdiplus) to scene 'Thanks for Watching!'
+14:19:20.555: User added scene 'Thanks for Watching!'
+14:19:20.570: Switched to scene 'Thanks for Watching!'
+14:19:25.776: User Removed source 'BRB Overlay' (image_source) from scene 'Thanks for Watching!'
+14:19:32.430: User added source 'Image (2)' (image_source) to scene 'Thanks for Watching!'
+14:19:40.605: Source 'Image (2)' renamed to 'Thanks For Watching'
